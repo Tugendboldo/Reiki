@@ -163,17 +163,6 @@ function App() {
         
         {/* Content */}
         <div className="max-w-7xl mx-auto">
-          {/* Logo Element */}
-          <div className="text-center mb-8">
-            <div className="relative z-10 inline-block">
-              <img 
-                src="/photo_2025-11-26_20-09-12.jpg" 
-                alt="Erika Natural Healing Logo" 
-                className="w-32 h-32 rounded-2xl shadow-lg object-cover mx-auto"
-              />
-            </div>
-          </div>
-          
           <div className="text-center mb-16">
             <div className="relative z-10 inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-lg">
               <Sparkles className="w-4 h-4" />
