@@ -97,7 +97,7 @@ function App() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/photo_2025-11-26_17-00-03.jpg" 
+                src="/photo_2025-11-26_18-12-23.jpg" 
                 alt="Erika Natural Healing Logo" 
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -270,7 +270,7 @@ function App() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg mx-auto">
                 <img 
-                  src="/photo_2025-11-26_18-15-56.jpg" 
+                  src="/photo_2025-11-26_17-00-03.jpg" 
                   alt="Erika - Certified Reiki Master and Natural Healing Practitioner" 
                   className="w-full h-full object-cover"
                 />
@@ -473,7 +473,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="/photo_2025-11-26_17-00-03.jpg" 
+                  src="/photo_2025-11-26_18-12-23.jpg" 
                   alt="Erika Natural Healing Logo" 
                   className="w-12 h-12 rounded-full object-cover"
                 />
