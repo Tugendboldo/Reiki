@@ -22,116 +22,169 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
   useEffect(() => {
     if (!mapRef.current) return;
 
-    // Initialize map
-    const map = L.map(mapRef.current).setView([51.1657, 10.4515], 6); // Center of Germany as default
+    // Clean up existing map
+    if (mapInstanceRef.current) {
+      mapInstanceRef.current.remove();
+      mapInstanceRef.current = null;
+    }
+
+    // Initialize map with Hannover coordinates as default
+    const hanoverCoords: [number, number] = [52.3759, 9.7320]; // Hannover city center
+    const map = L.map(mapRef.current).setView(hanoverCoords, 13);
     mapInstanceRef.current = map;
 
-    // Add MapBox tile layer (using free tier)
-    L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-      attribution: '© <a href="https://www.mapbox.com/">Mapbox</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-      tileSize: 512,
-      zoomOffset: -1,
-      maxZoom: 18
+    // Add OpenStreetMap tile layer (free and reliable)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
     }).addTo(map);
 
-    // Geocode address using OpenStreetMap Nominatim API
+    // Geocode the specific address
     const geocodeAddress = async () => {
       try {
+        // More specific search query for better results
+        const searchQuery = 'Bronsartstraße 5, 30161 Hannover, Germany';
         const response = await fetch(
-          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1`
+          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(searchQuery)}&limit=1&countrycodes=de&addressdetails=1`
         );
+        
+        if (!response.ok) {
+          throw new Error('Geocoding request failed');
+        }
+        
         const data = await response.json();
+        console.log('Geocoding response:', data);
         
         if (data && data.length > 0) {
           const { lat, lon, display_name } = data[0];
           const latitude = parseFloat(lat);
           const longitude = parseFloat(lon);
           
-          // Set map view to the geocoded location
-          map.setView([latitude, longitude], 15);
+          console.log('Found coordinates:', { latitude, longitude });
           
-          // Add custom marker
+          // Set map view to the geocoded location with higher zoom
+          map.setView([latitude, longitude], 16);
+          
+          // Create custom marker icon
           const customIcon = L.divIcon({
             className: 'custom-marker',
             html: `
               <div style="
                 background: linear-gradient(135deg, #9333ea, #ec4899);
-                width: 30px;
-                height: 30px;
+                width: 32px;
+                height: 32px;
                 border-radius: 50% 50% 50% 0;
                 transform: rotate(-45deg);
                 border: 3px solid white;
-                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.4);
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                position: relative;
               ">
                 <div style="
-                  width: 8px;
-                  height: 8px;
+                  width: 10px;
+                  height: 10px;
                   background: white;
                   border-radius: 50%;
                   transform: rotate(45deg);
                 "></div>
               </div>
             `,
-            iconSize: [30, 30],
-            iconAnchor: [15, 30],
-            popupAnchor: [0, -30]
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
           });
           
+          // Add marker to map
           const marker = L.marker([latitude, longitude], { icon: customIcon }).addTo(map);
           
-          // Add popup with location info
-          marker.bindPopup(`
-            <div style="font-family: system-ui, -apple-system, sans-serif; min-width: 200px;">
-              <h3 style="margin: 0 0 8px 0; color: #9333ea; font-size: 16px; font-weight: 600;">
+          // Create popup content
+          const popupContent = `
+            <div style="font-family: system-ui, -apple-system, sans-serif; min-width: 220px; padding: 4px;">
+              <h3 style="margin: 0 0 8px 0; color: #9333ea; font-size: 18px; font-weight: 600;">
                 Erika Natural Healing
               </h3>
-              <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px; line-height: 1.4;">
-                ${display_name}
+              <p style="margin: 0 0 4px 0; color: #374151; font-size: 14px; font-weight: 500;">
+                Lister Hof-Oase
+              </p>
+              <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 13px; line-height: 1.4;">
+                Bronsartstr. 5 (Backyard building)<br>
+                30161 Hannover, Germany
               </p>
               <div style="display: flex; gap: 8px; margin-top: 12px;">
                 <a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}" 
                    target="_blank" 
+                   rel="noopener noreferrer"
                    style="
                      background: linear-gradient(135deg, #9333ea, #ec4899);
                      color: white;
-                     padding: 6px 12px;
+                     padding: 8px 12px;
                      border-radius: 6px;
                      text-decoration: none;
                      font-size: 12px;
                      font-weight: 500;
+                     display: inline-block;
                    ">
-                  Directions
+                  🧭 Directions
                 </a>
                 <a href="tel:+491609946957" 
                    style="
                      background: #f3f4f6;
                      color: #374151;
-                     padding: 6px 12px;
+                     padding: 8px 12px;
                      border-radius: 6px;
                      text-decoration: none;
                      font-size: 12px;
                      font-weight: 500;
+                     display: inline-block;
                    ">
-                  Call
+                  📞 Call
                 </a>
               </div>
             </div>
-          `);
+          `;
           
-          // Open popup by default
+          marker.bindPopup(popupContent, {
+            maxWidth: 300,
+            className: 'custom-popup'
+          });
+          
+          // Open popup automatically
           marker.openPopup();
+          
+        } else {
+          console.warn('No geocoding results found, using Hannover center');
+          // Fallback: Add marker at Hannover center
+          const fallbackMarker = L.marker(hanoverCoords).addTo(map);
+          fallbackMarker.bindPopup(`
+            <div style="font-family: system-ui, -apple-system, sans-serif;">
+              <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
+              <p style="margin: 0; color: #6b7280; font-size: 14px;">
+                Bronsartstr. 5, 30161 Hannover<br>
+                <small>Exact location being resolved...</small>
+              </p>
+            </div>
+          `);
         }
       } catch (error) {
         console.error('Geocoding error:', error);
-        // Fallback to a general location in Germany if geocoding fails
-        map.setView([51.1657, 10.4515], 6);
+        // Fallback: Add marker at Hannover center
+        const fallbackMarker = L.marker(hanoverCoords).addTo(map);
+        fallbackMarker.bindPopup(`
+          <div style="font-family: system-ui, -apple-system, sans-serif;">
+            <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
+            <p style="margin: 0; color: #6b7280; font-size: 14px;">
+              Lister Hof-Oase<br>
+              Bronsartstr. 5, 30161 Hannover
+            </p>
+          </div>
+        `);
       }
     };
 
-    geocodeAddress();
+    // Add some delay to ensure map is fully initialized
+    setTimeout(geocodeAddress, 100);
 
     // Cleanup function
     return () => {
@@ -145,7 +198,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
   return (
     <div 
       ref={mapRef} 
-      className={`w-full h-full min-h-[300px] rounded-2xl ${className}`}
+      className={`w-full h-full min-h-[300px] rounded-2xl border border-gray-200 ${className}`}
       style={{ zIndex: 1 }}
     />
   );
