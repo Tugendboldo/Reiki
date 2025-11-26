@@ -27,6 +27,10 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
       mapInstanceRef.current = null;
     }
 
+    // Small delay to ensure DOM is ready
+    const initializeMap = () => {
+      if (!mapRef.current) return;
+
     // Initialize map with Hannover coordinates as default
     const hanoverCoords: [number, number] = [52.3759, 9.7320]; // Hannover city center
     const map = L.map(mapRef.current).setView(hanoverCoords, 13);
@@ -41,6 +45,12 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
     // Geocode the specific address and add marker
     const geocodeAndAddMarker = async () => {
       try {
+        // Check if map is still valid
+        if (!mapInstanceRef.current || !mapRef.current) {
+          console.warn('Map instance not available');
+          return;
+        }
+
         // More specific search query for better results
         const searchQuery = 'Bronsartstraße 5, 30161 Hannover, Germany';
         const response = await fetch(
@@ -61,8 +71,14 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
           
           console.log('Found coordinates:', { latitude, longitude });
           
+          // Double-check map is still valid before operations
+          if (!mapInstanceRef.current || !mapRef.current) {
+            console.warn('Map instance lost during geocoding');
+            return;
+          }
+
           // Set map view to the geocoded location with higher zoom
-          map.setView([latitude, longitude], 16);
+          mapInstanceRef.current.setView([latitude, longitude], 16);
           
           // Create custom marker icon
           const customIcon = L.divIcon({
@@ -96,7 +112,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
           });
           
           // Add marker to map
-          const marker = L.marker([latitude, longitude], { icon: customIcon }).addTo(map);
+          const marker = L.marker([latitude, longitude], { icon: customIcon }).addTo(mapInstanceRef.current);
           
           // Create popup content
           const popupContent = `
@@ -154,8 +170,11 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
           
         } else {
           console.warn('No geocoding results found, using Hannover center');
+          // Check map is still valid before fallback
+          if (!mapInstanceRef.current) return;
+
           // Fallback: Add marker at Hannover center
-          const fallbackMarker = L.marker(hanoverCoords).addTo(map);
+          const fallbackMarker = L.marker(hanoverCoords).addTo(mapInstanceRef.current);
           fallbackMarker.bindPopup(`
             <div style="font-family: system-ui, -apple-system, sans-serif;">
               <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
@@ -168,8 +187,11 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
         }
       } catch (error) {
         console.error('Geocoding error:', error);
+        // Check map is still valid before fallback
+        if (!mapInstanceRef.current) return;
+
         // Fallback: Add marker at Hannover center
-        const fallbackMarker = L.marker(hanoverCoords).addTo(map);
+        const fallbackMarker = L.marker(hanoverCoords).addTo(mapInstanceRef.current);
         fallbackMarker.bindPopup(`
           <div style="font-family: system-ui, -apple-system, sans-serif;">
             <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
@@ -184,8 +206,15 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
 
     // Wait for map to be fully ready before adding markers
     map.whenReady(() => {
-      geocodeAndAddMarker();
+      // Add a small delay to ensure everything is properly initialized
+      setTimeout(() => {
+        geocodeAndAddMarker();
+      }, 100);
     });
+    };
+
+    // Initialize map with a small delay to ensure DOM is ready
+    setTimeout(initializeMap, 50);
 
     // Cleanup function
     return () => {
