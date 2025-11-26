@@ -364,25 +364,7 @@ function App() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Google Maps */}
-            <div className="order-2 lg:order-1">
-              <div className="bg-white rounded-3xl p-2 shadow-sm overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8234567890123!2d8.123456789!3d49.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA3JzI0LjQiTiA4wrAwNycyNC40IkU!5e0!3m2!1sen!2sde!4v1234567890123!5m2!1sen!2sde"
-                  width="100%"
-                  height="400"
-                  style={{ border: 0, borderRadius: '1.5rem' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Erika Natural Healing Location"
-                  className="rounded-3xl"
-                ></iframe>
-              </div>
-            </div>
-
-            {/* Contact Information */}
-            <div className="order-1 lg:order-2 space-y-8">
+            <div className="space-y-8">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-purple-600" />
@@ -426,11 +408,8 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-          
-          {/* Contact Form */}
-          <div className="mt-12">
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 max-w-2xl mx-auto">
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">{t.contact.bookAppointment}</h3>
               <form className="space-y-6">
                 <div>
