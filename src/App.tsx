@@ -164,6 +164,17 @@ function App() {
         {/* Content */}
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
+            {/* Large Logo */}
+            <div className="relative z-10 mb-8">
+              <div className="w-32 h-32 mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4">
+                <img 
+                  src="/photo_2025-11-26_18-15-56.jpg" 
+                  alt="Erika Natural Healing Logo" 
+                  className="w-full h-full object-cover rounded-xl"
+                />
+              </div>
+            </div>
+            
             <div className="relative z-10 inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-lg">
               <Sparkles className="w-4 h-4" />
               <span>{t.hero.badge}</span>
