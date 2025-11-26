@@ -505,7 +505,7 @@ function App() {
               <div className="space-y-3 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+49 160 99463957</span>
+                  <span>+49 177 8970969</span>
                 </div>
                 <div className="flex items-start space-x-2">
                   <MapPin className="w-4 h-4 mt-1" />

@@ -127,7 +127,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
                    ">
                   🧭 Directions
                 </a>
-                <a href="tel:+491609946957" 
+                <a href="tel:+491778970969" 
                    style="
                      background: #f3f4f6;
                      color: #374151;
