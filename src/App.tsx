@@ -384,7 +384,7 @@ function App() {
                   <h3 className="text-xl font-semibold mb-2">{t.contact.phone}</h3>
                   <p className="text-gray-600 mb-2">{t.contact.phoneDesc}</p>
                   <a href="tel:+491609946957" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
-                    +49 160 99463957
+                    +49 177 8970969
                   </a>
                 </div>
               </div>
