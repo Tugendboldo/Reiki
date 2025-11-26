@@ -482,9 +482,9 @@ function App() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="/photo_2025-11-26_18-16-00.jpg" 
+                  src="/Logo.JPG" 
                   alt="Erika Natural Healing Logo" 
-                  className="w-16 h-16 object-cover"
+                  className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
                   <h3 className="text-xl font-bold">Erika Natural Healing</h3>
