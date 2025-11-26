@@ -268,7 +268,7 @@ function App() {
             </div>
             
             <div className="relative">
-              <div className="w-full h-96 rounded-3xl overflow-hidden shadow-lg">
+              <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg mx-auto">
                 <img 
                   src="/photo_2025-11-26_17-00-03.jpg" 
                   alt="Erika - Certified Reiki Master and Natural Healing Practitioner" 
