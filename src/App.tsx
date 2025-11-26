@@ -99,7 +99,7 @@ function App() {
               <img 
                 src="/photo_2025-11-26_18-16-00.jpg" 
                 alt="Erika Natural Healing Logo" 
-               className="w-12 h-12 object-cover"
+                className="w-12 h-12 rounded-full object-cover"
               />
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
