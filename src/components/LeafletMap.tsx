@@ -39,8 +39,8 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
       maxZoom: 19
     }).addTo(map);
 
-    // Geocode the specific address
-    const geocodeAddress = async () => {
+    // Geocode the specific address and add marker
+    const geocodeAndAddMarker = async () => {
       try {
         // More specific search query for better results
         const searchQuery = 'Bronsartstraße 5, 30161 Hannover, Germany';
@@ -183,8 +183,10 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
       }
     };
 
-    // Add some delay to ensure map is fully initialized
-    setTimeout(geocodeAddress, 100);
+    // Wait for map to be fully ready before adding markers
+    map.whenReady(() => {
+      geocodeAndAddMarker();
+    });
 
     // Cleanup function
     return () => {
