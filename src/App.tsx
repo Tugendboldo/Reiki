@@ -475,6 +475,7 @@ function App() {
               </form>
             </div>
           </div>
+        </div>
       </section>
 
       {/* Footer */}
