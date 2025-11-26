@@ -116,7 +116,7 @@ function App() {
               <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.services}</a>
               <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.contact}</a>
               <LanguageSelector 
-                address="Musterstraße 123, 12345 Musterstadt, Deutschland"
+                currentLanguage={currentLanguage}
                 onLanguageChange={changeLanguage} 
               />
             </div>
