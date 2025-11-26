@@ -193,28 +193,28 @@ function App() {
           
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-8 mt-20">
-            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white">
+            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-64 h-64 mx-auto flex flex-col justify-center">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{t.features.holisticHealing.title}</h3>
-              <p className="text-gray-600">{t.features.holisticHealing.description}</p>
+              <p className="text-gray-600 text-sm">{t.features.holisticHealing.description}</p>
             </div>
             
-            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white">
+            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-64 h-64 mx-auto flex flex-col justify-center">
               <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Sparkles className="w-8 h-8 text-pink-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{t.features.crystalReiki.title}</h3>
-              <p className="text-gray-600">{t.features.crystalReiki.description}</p>
+              <p className="text-gray-600 text-sm">{t.features.crystalReiki.description}</p>
             </div>
             
-            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white">
+            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-64 h-64 mx-auto flex flex-col justify-center">
               <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-8 h-8 text-indigo-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{t.features.personalCare.title}</h3>
-              <p className="text-gray-600">{t.features.personalCare.description}</p>
+              <p className="text-gray-600 text-sm">{t.features.personalCare.description}</p>
             </div>
           </div>
         </div>
