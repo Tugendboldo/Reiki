@@ -166,11 +166,11 @@ function App() {
           <div className="text-center mb-16">
             {/* Large Logo */}
             <div className="relative z-10 mb-8">
-              <div className="w-32 h-32 mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4">
+              <div className="w-48 h-48 mx-auto">
                 <img 
                   src="/photo_2025-11-26_18-15-56.jpg" 
                   alt="Erika Natural Healing Logo" 
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
             </div>
