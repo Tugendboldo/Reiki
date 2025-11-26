@@ -97,9 +97,9 @@ function App() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/photo_2025-11-26_18-16-00.jpg"
+                src="/photo_2025-11-26_18-16-00.jpg" 
                 alt="Erika Natural Healing Logo" 
-                className="w-12 h-12 object-contain"
+                className="w-12 h-12 rounded-full object-cover"
               />
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
