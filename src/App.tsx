@@ -97,7 +97,7 @@ function App() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/photo_2025-11-26_18-12-23.jpg" 
+                src="/Logo mit Text.jpg" 
                 alt="Erika Natural Healing Logo" 
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -167,7 +167,7 @@ function App() {
             {/* Large Logo Element */}
             <div className="relative z-10 mb-8">
               <img 
-                src="/photo_2025-11-26_18-12-23.jpg" 
+                src="/Logo mit Text.jpg" 
                 alt="Erika Natural Healing - Tree of Life Logo" 
                 className="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl border-4 border-white/80 p-4"
               />
