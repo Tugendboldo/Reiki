@@ -268,16 +268,12 @@ function App() {
             </div>
             
             <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-purple-200 to-pink-200 rounded-3xl flex items-center justify-center">
-                <div className="text-center">
-                  <img 
-                    src="/Logo.JPG" 
-                    alt="Erika Natural Healing Logo" 
-                    className="w-32 h-32 rounded-full mx-auto mb-4 object-cover shadow-lg"
-                  />
-                  <p className="text-gray-700 font-medium">Erika</p>
-                  <p className="text-gray-600">{t.about.certifiedReikiMaster}</p>
-                </div>
+              <div className="w-full h-96 rounded-3xl overflow-hidden shadow-lg">
+                <img 
+                  src="/photo_2025-11-26_17-00-03.jpg" 
+                  alt="Erika - Certified Reiki Master and Natural Healing Practitioner" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
