@@ -169,7 +169,7 @@ function App() {
               <img 
                 src="/photo_2025-11-26_18-15-56.jpg" 
                 alt="Erika Natural Healing - Tree of Life Logo" 
-                className="w-40 h-40 mx-auto rounded-full object-cover shadow-2xl border-4 border-white/80"
+                className="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl border-4 border-white/80 p-4"
               />
             </div>
             
