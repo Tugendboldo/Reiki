@@ -213,8 +213,8 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
     });
     };
 
-    // Initialize map with a small delay to ensure DOM is ready
-    setTimeout(initializeMap, 50);
+    // Initialize map directly - useEffect ensures DOM is ready
+    initializeMap();
 
     // Cleanup function
     return () => {
