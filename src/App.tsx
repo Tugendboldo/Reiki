@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Phone, MapPin, Clock, Heart, Sparkles, Menu, X, Star, User, Calendar } from 'lucide-react';
 import { BioenergetischeMassage, Reiki, Kristalltherapie, Fortbildungskurse, MakrameeWorkshops } from './components/ServicePages';
 import { LanguageSelector } from './components/LanguageSelector';
+import { LeafletMap } from './components/LeafletMap';
 import { useLanguage } from './hooks/useLanguage';
 import { translations } from './data/translations';
 
@@ -364,6 +365,16 @@ function App() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
+            <div>
+              <div className="bg-white rounded-3xl p-6 shadow-sm mb-8">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">Find Us</h3>
+                <LeafletMap 
+                  address="Musterstraße 123, 12345 Musterstadt, Deutschland"
+                  className="h-64"
+                />
+              </div>
+            </div>
+            
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -408,7 +419,9 @@ function App() {
                 </div>
               </div>
             </div>
-
+          </div>
+          
+          <div className="mt-12">
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">{t.contact.bookAppointment}</h3>
               <form className="space-y-6">
