@@ -1,137 +1,114 @@
-import { Translations, Language } from '../types/translations';
+export type Language = 'de' | 'en' | 'es';
 
-export const translations: Record<Language, Translations> = {
+export const translations = {
   de: {
-    // Navigation
     nav: {
       home: 'Startseite',
       about: 'Über mich',
       services: 'Leistungen',
       contact: 'Kontakt'
     },
-    
-    // Hero Section
     hero: {
       badge: 'Zertifizierte Reiki-Meisterin',
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Entdecken Sie die heilende Kraft von Reiki, bioenergetischen Massagen und Kristalltherapie. Ich begleite Sie auf Ihrem Weg zu innerer Balance, Entspannung und ganzheitlichem Wohlbefinden.',
-      bookAppointment: 'Termin vereinbaren',
+      description: 'Entdecken Sie die transformative Kraft von Reiki, bioenergetischer Massage und Kristalltherapie. Ihre Reise zu ganzheitlicher Heilung und innerem Frieden beginnt hier.',
+      bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
     },
-    
-    // Features
     features: {
       holisticHealing: {
         title: 'Ganzheitliche Heilung',
-        description: 'Körper, Geist und Seele in Einklang bringen durch bewährte Heilmethoden'
+        description: 'Behandlung von Körper, Geist und Seele für vollständiges Wohlbefinden'
       },
       crystalReiki: {
-        title: 'Kristall-Reiki',
-        description: 'Kombination aus Reiki-Energie und der heilenden Kraft von Kristallen'
+        title: 'Kristall & Reiki',
+        description: 'Kraftvolle Kombination aus Kristallenergie und Reiki-Heilung'
       },
       personalCare: {
         title: 'Persönliche Betreuung',
-        description: 'Individuelle Behandlungen, die auf Ihre spezifischen Bedürfnisse abgestimmt sind'
+        description: 'Individuelle Behandlungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind'
       }
     },
-    
-    // About Section
     about: {
-      badge: 'Über mich',
-      title: 'Ihre ',
-      titleHighlight: 'Reiki-Meisterin',
-      description1: 'Mit jahrelanger Erfahrung in der Energiearbeit und einer tiefen Leidenschaft für ganzheitliche Heilung begleite ich Menschen auf ihrem Weg zu mehr Wohlbefinden und innerer Balance.',
-      description2: 'Meine Ausbildungen in Reiki, bioenergetischer Massage und Kristalltherapie ermöglichen es mir, individuelle Behandlungskonzepte zu entwickeln, die Körper, Geist und Seele harmonisieren.',
+      badge: 'Über Erika',
+      title: 'Ihre Reise zu ',
+      titleHighlight: 'Heilung & Balance',
+      description1: 'Als zertifizierte Reiki-Meisterin und Expertin für ganzheitliche Heilung bringe ich über 10 Jahre Erfahrung in der Energiearbeit mit. Meine Leidenschaft liegt darin, Menschen dabei zu helfen, ihre natürliche Heilkraft zu aktivieren.',
+      description2: 'Durch die Kombination traditioneller Reiki-Techniken mit moderner Kristalltherapie und bioenergetischer Massage schaffe ich einen sicheren Raum für Transformation und Heilung.',
       certifiedTraining: 'Zertifizierte Ausbildung',
       reikiMasterCert: 'Reiki-Meister Zertifikat',
       experience: 'Langjährige Erfahrung',
-      holisticHealing: 'Ganzheitliche Heilmethoden',
+      holisticHealing: 'Ganzheitliche Heilung',
       bookPersonalAppointment: 'Persönlichen Termin buchen',
       certifiedReikiMaster: 'Zertifizierte Reiki-Meisterin'
     },
-    
-    // Services Section
     services: {
-      badge: 'Meine Leistungen',
+      badge: 'Unsere Leistungen',
       title: 'Heilende ',
       titleHighlight: 'Behandlungen',
-      description: 'Entdecken Sie mein vielfältiges Angebot an ganzheitlichen Heilmethoden, die Ihnen zu mehr Wohlbefinden und innerer Balance verhelfen.',
+      description: 'Entdecken Sie unser umfassendes Angebot an ganzheitlichen Heilbehandlungen, die Körper, Geist und Seele in Einklang bringen.',
       learnMore: 'Mehr erfahren',
       personalConsultation: 'Persönliche Beratung',
       personalAppointments: 'Individuelle Termine',
       personalAppointmentsDesc: 'Alle Behandlungen werden individuell auf Ihre Bedürfnisse abgestimmt.',
       personalAppointmentsNote: 'Termine nach Vereinbarung',
       flexiblePackages: 'Flexible Pakete',
-      flexiblePackagesDesc: 'Verschiedene Behandlungspakete für optimale Ergebnisse.',
-      flexiblePackagesNote: 'Preise auf Anfrage'
+      flexiblePackagesDesc: 'Kombinieren Sie verschiedene Behandlungen für optimale Ergebnisse.',
+      flexiblePackagesNote: 'Individuelle Preisgestaltung'
     },
-    
-    // Service Details
     serviceDetails: {
       bioenergetischeMassage: {
         title: 'Bioenergetische Massage',
-        subtitle: 'Ganzheitliche Entspannung für Körper und Seele',
-        description1: 'Eine bioenergetische Massage ist eine Kombination aus sanfter Ölmassage und Energiearbeit. Es findet ein Chakra- und Aura-Ausgleich sowie eine Stimulierung von Reflexzonen und Meridianbahnen statt. Zudem wird die Muskulatur besser durchblutet, im Bindegewebe lösen sich Giftstoffe und die Lymphe wird aktiviert.',
-        description2: 'Die Massage wirkt sich günstig auf Kreislauf, Nerven, Atmung, Verdauung, Harnwege, Bindegewebe sowie das Immun- und Hormonsystem aus.',
+        subtitle: 'Energiefluss und Entspannung',
+        description1: 'Die bioenergetische Massage ist eine ganzheitliche Behandlungsmethode, die körperliche Berührung mit energetischer Arbeit verbindet.',
+        description2: 'Diese sanfte, aber tiefgreifende Technik löst Blockaden und fördert den natürlichen Energiefluss im Körper.',
+        whatIsIt: 'Was ist bioenergetische Massage?',
+        whatIsItDesc: 'Die bioenergetische Massage ist eine einzigartige Heilmethode, die die Prinzipien der traditionellen Massage mit modernen Erkenntnissen über Bioenergie verbindet.',
+        principleDesc: 'Das Grundprinzip basiert auf der Annahme, dass unser Körper von Energiebahnen durchzogen ist, ähnlich den Meridianen in der traditionellen chinesischen Medizin.',
+        techniqueDesc: 'Durch spezielle Massagetechniken, sanfte Berührungen und energetische Übertragung werden Blockaden gelöst und der natürliche Energiefluss wiederhergestellt.',
+        meridianDesc: 'Die Behandlung erfolgt entlang der Energiebahnen und an wichtigen Energiepunkten des Körpers, wodurch sowohl körperliche als auch emotionale Spannungen gelöst werden.',
         treatmentTypes: 'Behandlungsarten',
-        fullBodyWithHead: 'Ganzkörpermassage mit Kopf',
-        backAndHead: 'Rücken- und Kopfmassage',
-        frontAndHead: 'Vorderseite mit Kopf',
-        effectsAndBenefits: 'Wirkung und Vorteile',
+        fullBodyWithHead: 'Ganzkörper mit Kopf',
+        backAndHead: 'Rücken und Kopf',
+        frontAndHead: 'Vorderseite und Kopf',
+        effectsAndBenefits: 'Wirkungen und Vorteile',
         energyFlow: 'Energiefluss',
-        energyFlowDesc: 'Harmonisierung der Chakren und Aktivierung der Meridiane',
+        energyFlowDesc: 'Aktivierung und Harmonisierung der Körperenergie',
         relaxation: 'Tiefe Entspannung',
-        relaxationDesc: 'Lösung von Verspannungen und Stress',
+        relaxationDesc: 'Lösung von körperlichen und emotionalen Spannungen',
         regeneration: 'Regeneration',
-        regenerationDesc: 'Stärkung des Immunsystems und der Selbstheilungskräfte',
+        regenerationDesc: 'Förderung der natürlichen Selbstheilungskräfte',
+        physicalBenefits: 'Körperliche Vorteile',
+        physicalBenefitsList: [
+          'Verbesserung der Durchblutung und des Lymphflusses',
+          'Lösung von Muskelverspannungen und Verklebungen',
+          'Schmerzlinderung bei chronischen Beschwerden',
+          'Stärkung des Immunsystems',
+          'Verbesserung der Schlafqualität',
+          'Erhöhung der Beweglichkeit und Flexibilität'
+        ],
         suitableFor: 'Geeignet für',
         suitableForList: [
-          'Steigerung der Leistungsfähigkeit im Beruf und Sport',
-          'Bei Nervosität, Schlafstörungen, Zähneknirschen und Burn Out',
-          'Bei Schmerzen und Verspannungen',
-          'Bei seelischen Krisen wie Neurosen, Depressionen, Wut und Ärger',
-          'Ein Weg zur inneren Ruhe und Stabilität',
-          'Harmonisierend auf das Herz-Kreislauf-System',
-          'Festigt das Bindegewebe',
-          'Nach Bandscheibenoperationen und Reha',
-          'Bei Menstruations- und Wechseljahrbeschwerden',
-          'Für einen freien und klaren Kopf',
-          'Löst Kopfschmerzen und Migräne',
-          'Bei Restless Legs Syndrom und schweren müden Beinen',
-          'Steigert Wohlbefinden und Ausgeglichenheit'
-        ],
-        pricing: 'Preise',
-        duration60: '60 Minuten - 60€',
-        duration90: '90 Minuten - 79€',
-        treatmentNote: 'Eine Behandlung dauert in der Regel 60 Minuten, plus ca. 15-20 Minuten Vorbereitung und ca. 10 Minuten Aufräumen.',
-        physicalBenefits: 'Physische Vorteile',
-        physicalBenefitsList: [
-          'Hilft bei allen Verdauungsprozessen der Aufnahme und Ausscheidung',
-          'Hilft bei der Entwässerung des Lymphsystems und verbessert die Blutzirkulation',
-          'Verbessert die Schlafqualität',
-          'Reduziert und beseitigt körperliche und geistige Erschöpfung',
-          'Reduziert körperliche, geistige und emotionale Spannungen',
-          'Verbessert psychosomatische Störungen',
-          'Stimulation des Immunsystems, die dazu führt'
-        ],
-        whatIsIt: 'Was ist es?',
-        whatIsItDesc: 'Die bioenergetische Massage basiert auf der Verschmelzung sanfter manueller Techniken und energetischer Techniken, die darauf abzielen, gleichzeitig unsere körperlichen und emotionalen Probleme zu lösen, basierend auf dem Prinzip, dass ein ungelöstes emotionales Problem auch ein Muskel- oder Verhaltensproblem verursachen kann.',
-        principleDesc: 'Gleichzeitig basiert es auf dem Prinzip, dass ein ungelöstes emotionales Problem auch ein Muskel- oder Verhaltensproblem verursachen kann.',
-        techniqueDesc: 'Bei dieser Technik werden sanfte Ölmassagen durchgeführt.',
-        meridianDesc: 'Insbesondere durch die Kanäle, die als Energie gelten (Meridiane).'
+          'Menschen mit chronischen Schmerzen',
+          'Personen mit Stress und Burnout-Symptomen',
+          'Bei Schlafstörungen und Unruhe',
+          'Zur Unterstützung bei emotionalen Belastungen',
+          'Für mehr Vitalität und Lebensenergie',
+          'Als präventive Gesundheitsvorsorge'
+        ]
       },
       reiki: {
-        title: 'Reiki',
-        subtitle: 'Universelle Lebensenergie für Heilung und Balance',
-        description1: 'Reiki ist eine japanische Heilmethode, die auf der Übertragung universeller Lebensenergie basiert. Durch sanfte Handauflage oder Fernbehandlung wird der natürliche Energiefluss im Körper harmonisiert und die Selbstheilungskräfte aktiviert.',
-        description2: 'Diese ganzheitliche Methode wirkt auf körperlicher, emotionaler und geistiger Ebene und bringt tiefe Entspannung und inneren Frieden.',
+        title: 'Reiki Heilbehandlung',
+        subtitle: 'Universelle Lebensenergie',
+        description1: 'Reiki ist eine japanische Heilkunst, die universelle Lebensenergie zur Förderung von Heilung und Wohlbefinden nutzt.',
+        description2: 'Diese sanfte, nicht-invasive Methode aktiviert die natürlichen Selbstheilungskräfte des Körpers.',
         treatmentForms: 'Behandlungsformen',
         directReiki: 'Direktes Reiki',
         distanceReiki: 'Fernreiki',
-        crystalReikiCombo: 'Kristall-Reiki Kombination',
-        reikiPrinciples: 'Die fünf Reiki-Lebensregeln',
-        principlesIntro: 'Die Reiki-Prinzipien nach Dr. Mikao Usui:',
+        crystalReikiCombo: 'Reiki mit Kristallen',
+        reikiPrinciples: 'Die fünf Reiki-Prinzipien',
+        principlesIntro: 'Die Grundlage der Reiki-Praxis basiert auf fünf universellen Prinzipien:',
         principles: [
           'Gerade heute ärgere dich nicht',
           'Gerade heute sorge dich nicht',
@@ -140,43 +117,43 @@ export const translations: Record<Language, Translations> = {
           'Gerade heute sei freundlich zu allen Lebewesen'
         ],
         directTreatment: 'Direkte Behandlung',
-        directTreatmentDesc: 'Bei der direkten Reiki-Behandlung legen sich die Klienten bekleidet auf eine Liege. Durch sanfte Handauflage an verschiedenen Körperstellen wird die Energie übertragen.',
+        directTreatmentDesc: 'Bei der direkten Reiki-Behandlung legen wir die Hände auf oder über verschiedene Körperstellen.',
         directTreatmentBenefits: [
-          'Tiefe Entspannung und Stressabbau',
-          'Aktivierung der Selbstheilungskräfte',
-          'Harmonisierung der Chakren',
-          'Lösung von Energieblockaden'
+          'Intensive Energieübertragung',
+          'Persönlicher Kontakt und Vertrauen',
+          'Sofortige Entspannung',
+          'Individuelle Anpassung'
         ],
         distanceTreatment: 'Fernbehandlung',
-        distanceTreatmentDesc: 'Reiki kann auch über die Ferne übertragen werden. Zeit und Raum spielen bei der Energieübertragung keine Rolle.',
+        distanceTreatmentDesc: 'Reiki-Energie kennt keine räumlichen Grenzen und kann auch über die Ferne übertragen werden.',
         distanceTreatmentBenefits: [
-          'Behandlung von jedem Ort aus möglich',
-          'Ideal für Menschen mit eingeschränkter Mobilität',
-          'Energieübertragung zu vereinbarten Zeiten',
-          'Gleiche Wirksamkeit wie direkte Behandlung'
+          'Flexibilität und Komfort',
+          'Gleiche Wirksamkeit wie direkte Behandlung',
+          'Ideal für regelmäßige Unterstützung',
+          'Keine Anfahrtswege nötig'
         ],
         reikiEffects: 'Reiki-Wirkungen',
         physicalLevel: 'Körperliche Ebene',
         physicalBenefits: [
           'Schmerzlinderung',
-          'Verbesserung der Durchblutung',
+          'Verbesserung der Schlafqualität',
           'Stärkung des Immunsystems',
-          'Beschleunigung von Heilungsprozessen'
+          'Beschleunigung der Heilung'
         ],
         emotionalLevel: 'Emotionale Ebene',
         emotionalBenefits: [
-          'Abbau von Stress und Ängsten',
+          'Stressabbau und Entspannung',
           'Emotionale Balance',
-          'Mehr Gelassenheit',
-          'Innerer Frieden'
+          'Klarheit und innere Ruhe',
+          'Lösung von Blockaden'
         ]
       },
       kristalltherapie: {
         title: 'Kristalltherapie',
-        subtitle: 'Heilung durch die Kraft der Kristalle',
-        description1: 'Die Kristalltherapie nutzt die natürlichen Schwingungen und Energien von Heilsteinen, um Körper, Geist und Seele in Balance zu bringen. Jeder Kristall besitzt einzigartige Eigenschaften und Schwingungsfrequenzen.',
-        description2: 'Durch gezieltes Auflegen der Steine auf Chakren oder Energiepunkte werden Blockaden gelöst und der natürliche Energiefluss wiederhergestellt.',
-        popularCrystals: 'Beliebte Kristalle',
+        subtitle: 'Heilende Kristallenergie',
+        description1: 'Kristalle sind kraftvolle Werkzeuge der Natur, die seit Jahrtausenden für Heilung und spirituelle Entwicklung verwendet werden.',
+        description2: 'Jeder Kristall besitzt eine einzigartige Schwingung, die harmonisierend auf unsere Energiezentren wirkt.',
+        popularCrystals: 'Beliebte Heilkristalle',
         amethyst: 'Amethyst',
         amethystDesc: 'Beruhigung und spirituelle Klarheit',
         roseQuartz: 'Rosenquarz',
@@ -185,15 +162,15 @@ export const translations: Record<Language, Translations> = {
         clearQuartzDesc: 'Verstärkung und Reinigung',
         treatmentProcess: 'Behandlungsablauf',
         consultation: 'Beratung',
-        consultationDesc: 'Analyse der Bedürfnisse',
+        consultationDesc: 'Auswahl der passenden Kristalle',
         placement: 'Platzierung',
-        placementDesc: 'Auflegen der Kristalle',
-        reikiStep: 'Reiki-Energie',
-        reikiStepDesc: 'Energieübertragung',
+        placementDesc: 'Kristalle auf Energiepunkte legen',
+        reikiStep: 'Reiki-Übertragung',
+        reikiStepDesc: 'Kombination mit Reiki-Energie',
         integration: 'Integration',
-        integrationDesc: 'Nachbesprechung',
+        integrationDesc: 'Nachbesprechung und Empfehlungen',
         chakraHealing: 'Chakra-Heilung',
-        chakraHealingDesc: 'Spezielle Kristalle werden auf die sieben Hauptchakren gelegt, um diese zu harmonisieren und zu aktivieren.',
+        chakraHealingDesc: 'Kristalle werden gezielt zur Harmonisierung der sieben Hauptchakras eingesetzt.',
         chakraList: [
           'Wurzelchakra - Erdung und Stabilität',
           'Sakralchakra - Kreativität und Emotionen',
@@ -204,41 +181,38 @@ export const translations: Record<Language, Translations> = {
           'Kronenchakra - Spiritualität'
         ],
         crystalMeditation: 'Kristall-Meditation',
-        crystalMeditationDesc: 'Geführte Meditationen mit Kristallen verstärken die heilende Wirkung und fördern tiefe Entspannung.',
+        crystalMeditationDesc: 'Geführte Meditationen mit Kristallen vertiefen die Heilwirkung.',
         crystalMeditationBenefits: [
-          'Vertiefte Meditation',
-          'Erhöhte Schwingung',
-          'Klarheit des Geistes',
-          'Spirituelle Verbindung'
+          'Verstärkte Meditation',
+          'Klarheit und Fokus',
+          'Emotionale Heilung',
+          'Spirituelle Entwicklung'
         ],
         applications: 'Anwendungsbereiche',
         physical: 'Körperlich',
         physicalBenefits: [
           'Schmerzlinderung',
-          'Energetisierung',
-          'Entgiftung',
-          'Immunstärkung'
+          'Energetische Reinigung',
+          'Vitalisierung'
         ],
         emotional: 'Emotional',
         emotionalBenefits: [
           'Stressabbau',
-          'Emotionale Heilung',
-          'Selbstvertrauen',
-          'Innere Ruhe'
+          'Emotionale Balance',
+          'Selbstvertrauen'
         ],
         spiritual: 'Spirituell',
         spiritualBenefits: [
           'Bewusstseinserweiterung',
           'Intuitionsstärkung',
-          'Spirituelles Wachstum',
-          'Energetische Reinigung'
+          'Spirituelles Wachstum'
         ]
       },
       fortbildungskurse: {
         title: 'Fortbildungskurse',
-        subtitle: 'Lernen Sie die Kunst der Energiearbeit',
-        description1: 'Entdecken Sie die faszinierende Welt der Energiearbeit und lernen Sie, selbst zu heilen. Meine Kurse vermitteln fundiertes Wissen und praktische Fähigkeiten in Reiki und Kristalltherapie.',
-        description2: 'Ob Anfänger oder Fortgeschrittene - ich begleite Sie auf Ihrem Weg zum zertifizierten Energiearbeiter mit persönlicher Betreuung und praxisnahem Unterricht.',
+        subtitle: 'Lernen Sie selbst zu heilen',
+        description1: 'Entdecken Sie die Kunst der Energiearbeit und lernen Sie, Reiki und Kristalltherapie selbst anzuwenden.',
+        description2: 'Unsere Kurse sind für Anfänger und Fortgeschrittene geeignet und vermitteln sowohl theoretisches Wissen als auch praktische Fähigkeiten.',
         courseFormats: 'Kursformate',
         weekendIntensive: 'Wochenend-Intensivkurse',
         individualLessons: 'Einzelunterricht',
@@ -246,39 +220,38 @@ export const translations: Record<Language, Translations> = {
         availableCourses: 'Verfügbare Kurse',
         reikiGrade1: {
           title: 'Reiki 1. Grad',
-          subtitle: 'Grundlagen der Reiki-Energie',
+          subtitle: 'Grundlagen der Reiki-Heilung',
           contents: 'Kursinhalte',
           contentsList: [
             'Geschichte und Philosophie des Reiki',
-            'Die fünf Reiki-Lebensregeln',
-            'Erste Einweihung und Energieübertragung',
+            'Die fünf Reiki-Prinzipien',
             'Grundlegende Handpositionen',
             'Selbstbehandlung mit Reiki',
-            'Behandlung von Familie und Freunden'
+            'Behandlung anderer Personen'
           ],
           details: 'Kursdetails',
           detailsList: [
             'Dauer: 2 Tage (16 Stunden)',
-            'Inklusive Skript und Zertifikat',
-            'Praktische Übungen',
-            'Lebenslange Nachbetreuung'
+            'Einweihung in den 1. Reiki-Grad',
+            'Umfangreiches Kursmaterial',
+            'Zertifikat nach Abschluss',
+            'Lebenslange Unterstützung'
           ]
         },
         reikiGrade2: {
           title: 'Reiki 2. Grad',
-          subtitle: 'Mentale Heilung und Fernbehandlung',
-          contents: 'Erweiterte Techniken',
+          subtitle: 'Erweiterte Reiki-Techniken',
+          contents: 'Erweiterte Inhalte',
           contentsList: [
-            'Die drei heiligen Reiki-Symbole',
+            'Die drei Reiki-Symbole',
+            'Fernheilung und Fernreiki',
             'Mentale und emotionale Heilung',
-            'Fernreiki-Techniken',
             'Vergangenheits- und Zukunftsheilung',
-            'Chakra-Ausgleich',
-            'Professionelle Behandlungstechniken'
+            'Verstärkung der Reiki-Kraft'
           ],
           requirements: 'Voraussetzungen',
           requirementsList: [
-            'Reiki 1. Grad abgeschlossen',
+            'Abgeschlossener Reiki 1. Grad',
             'Mindestens 3 Monate Praxis',
             'Regelmäßige Selbstbehandlung',
             'Bereitschaft zur Vertiefung'
@@ -286,45 +259,45 @@ export const translations: Record<Language, Translations> = {
         },
         crystalTherapy: {
           title: 'Kristalltherapie-Ausbildung',
-          subtitle: 'Die Heilkraft der Steine verstehen und anwenden',
+          subtitle: 'Die Kraft der Heilsteine',
           contents: 'Ausbildungsinhalte',
           contentsList: [
-            'Grundlagen der Kristallheilkunde',
-            'Eigenschaften verschiedener Heilsteine',
+            'Eigenschaften verschiedener Kristalle',
             'Chakra-Arbeit mit Kristallen',
+            'Kristall-Layouts und -Grids',
             'Reinigung und Programmierung',
-            'Behandlungstechniken',
-            'Kristall-Meditation'
+            'Kombination mit Reiki'
           ],
-          included: 'Im Preis enthalten',
+          included: 'Im Kurs enthalten',
           includedList: [
-            'Umfangreiches Skript',
             'Starter-Set mit 12 Heilsteinen',
+            'Ausführliches Handbuch',
             'Praktische Übungen',
-            'Zertifikat nach Abschluss'
+            'Zertifikat',
+            'Nachbetreuung'
           ]
         },
         whyLearnWithMe: 'Warum bei mir lernen?',
         experienceCompetence: 'Erfahrung & Kompetenz',
         experienceList: [
-          'Über 10 Jahre Erfahrung in der Energiearbeit',
+          'Über 10 Jahre Praxiserfahrung',
           'Zertifizierte Reiki-Meisterin',
-          'Kontinuierliche Weiterbildung',
-          'Hunderte zufriedene Schüler'
+          'Hunderte zufriedene Schüler',
+          'Kontinuierliche Weiterbildung'
         ],
         personalSupport: 'Persönliche Betreuung',
         supportList: [
-          'Kleine Kursgruppen für intensive Betreuung',
-          'Individuelle Lerngeschwindigkeit',
-          'Lebenslange Nachbetreuung',
+          'Kleine Kursgruppen',
+          'Individuelle Betreuung',
+          'Lebenslange Unterstützung',
           'Regelmäßige Übungsgruppen'
         ]
       },
       makrameeWorkshops: {
-        title: 'Makramee Workshops',
-        subtitle: 'Kreative Entspannung durch Knüpfkunst',
-        description1: 'Entdecken Sie die meditative Kunst des Makramee-Knüpfens. In meinen Workshops lernen Sie, wunderschöne Wandbehänge, Pflanzenampeln und Schmuck zu kreieren, während Sie gleichzeitig zur Ruhe kommen.',
-        description2: 'Makramee ist nicht nur ein kreatives Hobby, sondern auch eine Form der bewegten Meditation, die Stress abbaut und die Konzentration fördert.',
+        title: 'Makramee-Workshops',
+        subtitle: 'Kreative Entspannung',
+        description1: 'Entdecken Sie die meditative Kunst des Makramee-Knotens und schaffen Sie wunderschöne, handgefertigte Kunstwerke.',
+        description2: 'Unsere Workshops verbinden Kreativität mit Entspannung und bieten eine perfekte Auszeit vom Alltag.',
         highlights: 'Workshop-Highlights',
         relaxingAtmosphere: 'Entspannte Atmosphäre',
         allMaterialsIncluded: 'Alle Materialien inklusive',
@@ -336,31 +309,31 @@ export const translations: Record<Language, Translations> = {
           whatYouLearn: 'Was Sie lernen',
           learnList: [
             'Grundknoten des Makramee',
-            'Symmetrische Muster erstellen',
-            'Fransen und Verzierungen',
-            'Aufhängung und Finishing'
+            'Verschiedene Knotentechniken',
+            'Design und Komposition',
+            'Finishing-Techniken'
           ],
           yourProject: 'Ihr Projekt',
           projectList: [
-            'Wandbehang 40x60 cm',
+            'Wandbehang 40x60cm',
             'Natürliche Baumwollkordel',
             'Holzstab als Aufhängung',
-            'Individuelles Design'
+            'Individuelle Gestaltung'
           ]
         },
         plantHanger: {
           title: 'Pflanzenampel Workshop',
-          subtitle: 'Grüne Oase zum Aufhängen',
+          subtitle: 'Grüne Dekoration selbst gemacht',
           features: 'Besonderheiten',
           featuresList: [
-            'Verschiedene Topfgrößen möglich',
-            'Stabile Knüpftechnik',
-            'Verstellbare Länge',
-            'Wetterfest für Balkon geeignet'
+            'Funktional und dekorativ',
+            'Für verschiedene Topfgrößen',
+            'Stabile Knotentechnik',
+            'Moderne Designs'
           ],
           included: 'Inklusive',
           includedList: [
-            'Hochwertiges Makramee-Garn',
+            'Hochwertige Makramee-Kordel',
             'Metallring zur Aufhängung',
             'Übertopf nach Wahl',
             'Pflegeanleitung'
@@ -368,24 +341,24 @@ export const translations: Record<Language, Translations> = {
         },
         jewelry: {
           title: 'Makramee-Schmuck Workshop',
-          subtitle: 'Einzigartige Accessoires selbst gemacht',
+          subtitle: 'Einzigartige Accessoires',
           projects: 'Projekte',
           projectsList: [
             'Armbänder mit Perlen',
             'Halsketten mit Anhängern',
-            'Ohrringe im Boho-Stil',
-            'Ringe und Fußkettchen'
+            'Ohrringe (Fortgeschrittene)',
+            'Schlüsselanhänger'
           ],
           materials: 'Materialien',
           materialsList: [
             'Gewachste Baumwollkordel',
             'Naturperlen und Edelsteine',
             'Metallverschlüsse',
-            'Schmuckzubehör'
+            'Werkzeuge und Zubehör'
           ]
         },
         meditativeEffect: 'Meditativer Effekt',
-        meditativeEffectDesc: 'Das rhythmische Knüpfen wirkt beruhigend auf Geist und Seele. Viele Teilnehmer beschreiben es als "Meditation in Bewegung".',
+        meditativeEffectDesc: 'Das rhythmische Knoten wirkt beruhigend und meditativ auf Geist und Seele.',
         meditativeEffectList: [
           'Stressabbau durch repetitive Bewegungen',
           'Förderung der Konzentration',
@@ -393,50 +366,49 @@ export const translations: Record<Language, Translations> = {
           'Kreative Selbstverwirklichung'
         ],
         suitableFor: 'Geeignet für',
-        suitableForDesc: 'Meine Workshops sind für alle Altersgruppen und Erfahrungslevel geeignet. Vorkenntnisse sind nicht erforderlich.',
+        suitableForDesc: 'Unsere Workshops sind für alle Altersgruppen und Erfahrungslevel geeignet.',
         suitableForList: [
-          'Anfänger ohne Vorerfahrung',
-          'Fortgeschrittene zur Vertiefung',
-          'Stressgeplagte zur Entspannung',
-          'Kreative Menschen jeden Alters'
+          'Absolute Anfänger',
+          'Kreative Menschen jeden Alters',
+          'Als Gruppenaktivität',
+          'Zur Entspannung und Entschleunigung'
         ],
         workshopInfo: 'Workshop-Informationen',
         schedule: 'Termine',
         scheduleList: [
           'Samstags 10:00-16:00 Uhr',
-          'Sonntags 10:00-14:00 Uhr',
+          'Sonntags 10:00-16:00 Uhr',
           'Abendworkshops nach Vereinbarung'
         ],
         included: 'Inklusive',
         includedList: [
           'Alle Materialien',
-          'Werkzeuge und Zubehör',
+          'Werkzeuge und Hilfsmittel',
           'Getränke und Snacks',
-          'Anleitung zum Mitnehmen'
+          'Ausführliche Anleitung'
         ],
         special: 'Besonderes',
         specialList: [
           'Entspannte Atmosphäre',
           'Persönliche Betreuung',
-          'Individuelle Projekte möglich',
-          'Nachbetreuung bei Fragen'
+          'Nachbetreuung bei Fragen',
+          'Aufbau-Workshops verfügbar'
         ]
       }
     },
-    
-    // Contact Section
     contact: {
       badge: 'Kontakt',
       title: 'Bereit für Ihre ',
       titleHighlight: 'Heilungsreise?',
-      description: 'Kontaktieren Sie mich für ein persönliches Beratungsgespräch oder um einen Termin zu vereinbaren. Ich freue mich darauf, Sie kennenzulernen.',
+      description: 'Kontaktieren Sie mich für ein persönliches Beratungsgespräch oder buchen Sie direkt Ihren Wunschtermin.',
       phone: 'Telefon',
       phoneDesc: 'Rufen Sie mich gerne an für eine persönliche Beratung',
       location: 'Standort',
-      locationDesc: 'Besuchen Sie mich in meiner Praxis',
+      locationDesc: 'Besuchen Sie mich in meiner Praxis in Hannover',
       address: [
-        'Lister Hof-Oase Bronsartstr. 5',
-        'Hinterhofgebäude',
+        'Lister Hof-Oase',
+        'Bronsartstr. 5',
+        'Hinterhaus',
         '30161 Hannover'
       ],
       hours: 'Öffnungszeiten',
@@ -453,170 +425,144 @@ export const translations: Record<Language, Translations> = {
       telephonePlaceholder: 'Ihre Telefonnummer',
       desiredTreatment: 'Gewünschte Behandlung',
       treatmentOptions: [
-        'Bioenergetische Massage',
+        'Bitte wählen...',
         'Reiki-Behandlung',
+        'Bioenergetische Massage',
         'Kristalltherapie',
+        'Kombinationsbehandlung',
         'Fortbildungskurs',
-        'Makramee Workshop',
+        'Makramee-Workshop',
         'Beratungsgespräch'
       ],
       message: 'Nachricht',
       messagePlaceholder: 'Beschreiben Sie Ihre Wünsche oder Fragen...',
       sendInquiry: 'Anfrage senden'
     },
-    
-    // Footer
     footer: {
-      description: 'Ihr Weg zu ganzheitlichem Wohlbefinden durch bewährte Heilmethoden und persönliche Betreuung.',
+      description: 'Ihre vertrauensvolle Partnerin für ganzheitliche Heilung und spirituelle Entwicklung in Hannover.',
       services: 'Leistungen',
       servicesList: [
-        'Bioenergetische Massage',
         'Reiki-Behandlungen',
+        'Bioenergetische Massage',
         'Kristalltherapie',
         'Fortbildungskurse',
-        'Makramee Workshops'
+        'Makramee-Workshops'
       ],
       contact: 'Kontakt',
       copyright: '© 2024 Erika Natural Healing. Alle Rechte vorbehalten.'
     },
-    
-    // Common
     common: {
       backToServices: '← Zurück zu den Leistungen'
     }
   },
-  
   en: {
-    // Navigation
     nav: {
       home: 'Home',
       about: 'About',
       services: 'Services',
       contact: 'Contact'
     },
-    
-    // Hero Section
     hero: {
       badge: 'Certified Reiki Master',
       title: 'Welcome to ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Discover the healing power of Reiki, bioenergetic massages, and crystal therapy. I guide you on your journey to inner balance, relaxation, and holistic well-being.',
+      description: 'Discover the transformative power of Reiki, bioenergetic massage, and crystal therapy. Your journey to holistic healing and inner peace begins here.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
-    
-    // Features
     features: {
       holisticHealing: {
         title: 'Holistic Healing',
-        description: 'Bringing body, mind, and soul into harmony through proven healing methods'
+        description: 'Treatment of body, mind, and soul for complete well-being'
       },
       crystalReiki: {
-        title: 'Crystal Reiki',
-        description: 'Combination of Reiki energy and the healing power of crystals'
+        title: 'Crystal & Reiki',
+        description: 'Powerful combination of crystal energy and Reiki healing'
       },
       personalCare: {
         title: 'Personal Care',
-        description: 'Individual treatments tailored to your specific needs'
+        description: 'Individual treatments tailored to your unique needs'
       }
     },
-    
-    // About Section
     about: {
-      badge: 'About Me',
-      title: 'Your ',
-      titleHighlight: 'Reiki Master',
-      description1: 'With years of experience in energy work and a deep passion for holistic healing, I guide people on their path to greater well-being and inner balance.',
-      description2: 'My training in Reiki, bioenergetic massage, and crystal therapy enables me to develop individual treatment concepts that harmonize body, mind, and soul.',
+      badge: 'About Erika',
+      title: 'Your Journey to ',
+      titleHighlight: 'Healing & Balance',
+      description1: 'As a certified Reiki Master and expert in holistic healing, I bring over 10 years of experience in energy work. My passion lies in helping people activate their natural healing power.',
+      description2: 'By combining traditional Reiki techniques with modern crystal therapy and bioenergetic massage, I create a safe space for transformation and healing.',
       certifiedTraining: 'Certified Training',
       reikiMasterCert: 'Reiki Master Certificate',
       experience: 'Years of Experience',
-      holisticHealing: 'Holistic Healing Methods',
+      holisticHealing: 'Holistic Healing',
       bookPersonalAppointment: 'Book Personal Appointment',
       certifiedReikiMaster: 'Certified Reiki Master'
     },
-    
-    // Services Section
     services: {
-      badge: 'My Services',
+      badge: 'Our Services',
       title: 'Healing ',
       titleHighlight: 'Treatments',
-      description: 'Discover my diverse range of holistic healing methods that help you achieve greater well-being and inner balance.',
+      description: 'Discover our comprehensive range of holistic healing treatments that bring body, mind, and soul into harmony.',
       learnMore: 'Learn More',
       personalConsultation: 'Personal Consultation',
       personalAppointments: 'Individual Appointments',
       personalAppointmentsDesc: 'All treatments are individually tailored to your needs.',
       personalAppointmentsNote: 'Appointments by arrangement',
       flexiblePackages: 'Flexible Packages',
-      flexiblePackagesDesc: 'Various treatment packages for optimal results.',
-      flexiblePackagesNote: 'Prices on request'
+      flexiblePackagesDesc: 'Combine different treatments for optimal results.',
+      flexiblePackagesNote: 'Individual pricing'
     },
-    
-    // Service Details
     serviceDetails: {
       bioenergetischeMassage: {
         title: 'Bioenergetic Massage',
-        subtitle: 'Holistic relaxation for body and soul',
-        description1: 'A bioenergetic massage is a combination of gentle oil massage and energy work. It includes chakra and aura balancing as well as stimulation of reflex zones and meridian pathways. Additionally, muscle circulation is improved, toxins are released from connective tissue, and lymph is activated.',
-        description2: 'The massage has beneficial effects on circulation, nerves, breathing, digestion, urinary tract, connective tissue, as well as the immune and hormonal systems.',
+        subtitle: 'Energy Flow and Relaxation',
+        description1: 'Bioenergetic massage is a holistic treatment method that combines physical touch with energetic work.',
+        description2: 'This gentle yet profound technique releases blockages and promotes natural energy flow in the body.',
+        whatIsIt: 'What is bioenergetic massage?',
+        whatIsItDesc: 'Bioenergetic massage is a unique healing method that combines the principles of traditional massage with modern insights about bioenergy.',
+        principleDesc: 'The basic principle is based on the assumption that our body is traversed by energy pathways, similar to the meridians in traditional Chinese medicine.',
+        techniqueDesc: 'Through special massage techniques, gentle touches and energetic transmission, blockages are released and the natural energy flow is restored.',
+        meridianDesc: 'The treatment is performed along the energy pathways and at important energy points of the body, thereby releasing both physical and emotional tensions.',
         treatmentTypes: 'Treatment Types',
-        fullBodyWithHead: 'Full body massage with head',
-        backAndHead: 'Back and head massage',
-        frontAndHead: 'Front with head',
+        fullBodyWithHead: 'Full Body with Head',
+        backAndHead: 'Back and Head',
+        frontAndHead: 'Front and Head',
         effectsAndBenefits: 'Effects and Benefits',
         energyFlow: 'Energy Flow',
-        energyFlowDesc: 'Harmonization of chakras and activation of meridians',
+        energyFlowDesc: 'Activation and harmonization of body energy',
         relaxation: 'Deep Relaxation',
-        relaxationDesc: 'Release of tension and stress',
+        relaxationDesc: 'Release of physical and emotional tensions',
         regeneration: 'Regeneration',
-        regenerationDesc: 'Strengthening of immune system and self-healing powers',
-        suitableFor: 'Suitable For',
-        suitableForList: [
-          'Increasing performance capacity in work and sports',
-          'For nervousness, sleep disorders, teeth grinding, and burnout',
-          'For pain and tension',
-          'For emotional crises like neuroses, depression, anger, and rage',
-          'A path to inner peace and stability',
-          'Harmonizing effect on the cardiovascular system',
-          'Strengthens connective tissue',
-          'After disc operations and rehabilitation',
-          'For menstrual and menopausal complaints',
-          'For a free and clear head',
-          'Relieves headaches and migraines',
-          'For Restless Legs Syndrome and heavy tired legs',
-          'Increases well-being and balance'
-        ],
-        pricing: 'Pricing',
-        duration60: '60 minutes - 60€',
-        duration90: '90 minutes - 79€',
-        treatmentNote: 'A treatment usually lasts 60 minutes, plus about 15-20 minutes preparation and about 10 minutes cleanup.',
+        regenerationDesc: 'Promotion of natural self-healing powers',
         physicalBenefits: 'Physical Benefits',
         physicalBenefitsList: [
-          'Helps with all digestive processes of absorption and elimination',
-          'Helps with lymphatic system drainage and improves blood circulation',
-          'Improves sleep quality',
-          'Reduces and eliminates physical and mental exhaustion',
-          'Reduces physical, mental, and emotional tension',
-          'Improves psychosomatic disorders',
-          'Stimulation of the immune system'
+          'Improvement of circulation and lymph flow',
+          'Release of muscle tension and adhesions',
+          'Pain relief for chronic complaints',
+          'Strengthening of the immune system',
+          'Improvement of sleep quality',
+          'Increased mobility and flexibility'
         ],
-        whatIsIt: 'What is it?',
-        whatIsItDesc: 'Bioenergetic massage is based on the fusion of gentle manual techniques and energetic techniques that aim to simultaneously solve our physical and emotional problems, based on the principle that an unresolved emotional problem can also cause a muscle or behavioral problem.',
-        principleDesc: 'At the same time, it is based on the principle that an unresolved emotional problem can also cause a muscle or behavioral problem.',
-        techniqueDesc: 'In this technique, gentle oil massages are performed.',
-        meridianDesc: 'Especially through the channels that are considered energy (meridians).'
+        suitableFor: 'Suitable For',
+        suitableForList: [
+          'People with chronic pain',
+          'Persons with stress and burnout symptoms',
+          'For sleep disorders and restlessness',
+          'To support emotional stress',
+          'For more vitality and life energy',
+          'As preventive health care'
+        ]
       },
       reiki: {
-        title: 'Reiki',
-        subtitle: 'Universal life energy for healing and balance',
-        description1: 'Reiki is a Japanese healing method based on the transmission of universal life energy. Through gentle laying on of hands or distance healing, the natural energy flow in the body is harmonized and self-healing powers are activated.',
-        description2: 'This holistic method works on physical, emotional, and mental levels, bringing deep relaxation and inner peace.',
+        title: 'Reiki Healing Treatment',
+        subtitle: 'Universal Life Energy',
+        description1: 'Reiki is a Japanese healing art that uses universal life energy to promote healing and well-being.',
+        description2: 'This gentle, non-invasive method activates the body\'s natural self-healing powers.',
         treatmentForms: 'Treatment Forms',
         directReiki: 'Direct Reiki',
         distanceReiki: 'Distance Reiki',
-        crystalReikiCombo: 'Crystal-Reiki Combination',
-        reikiPrinciples: 'The Five Reiki Life Rules',
-        principlesIntro: 'The Reiki principles according to Dr. Mikao Usui:',
+        crystalReikiCombo: 'Reiki with Crystals',
+        reikiPrinciples: 'The Five Reiki Principles',
+        principlesIntro: 'The foundation of Reiki practice is based on five universal principles:',
         principles: [
           'Just for today, do not anger',
           'Just for today, do not worry',
@@ -625,43 +571,43 @@ export const translations: Record<Language, Translations> = {
           'Just for today, be kind to all living beings'
         ],
         directTreatment: 'Direct Treatment',
-        directTreatmentDesc: 'In direct Reiki treatment, clients lie clothed on a treatment table. Energy is transmitted through gentle laying on of hands at various body positions.',
+        directTreatmentDesc: 'In direct Reiki treatment, we place hands on or over various parts of the body.',
         directTreatmentBenefits: [
-          'Deep relaxation and stress reduction',
-          'Activation of self-healing powers',
-          'Harmonization of chakras',
-          'Release of energy blockages'
+          'Intensive energy transmission',
+          'Personal contact and trust',
+          'Immediate relaxation',
+          'Individual adaptation'
         ],
         distanceTreatment: 'Distance Treatment',
-        distanceTreatmentDesc: 'Reiki can also be transmitted over distance. Time and space play no role in energy transmission.',
+        distanceTreatmentDesc: 'Reiki energy knows no spatial boundaries and can also be transmitted over distance.',
         distanceTreatmentBenefits: [
-          'Treatment possible from any location',
-          'Ideal for people with limited mobility',
-          'Energy transmission at agreed times',
-          'Same effectiveness as direct treatment'
+          'Flexibility and comfort',
+          'Same effectiveness as direct treatment',
+          'Ideal for regular support',
+          'No travel required'
         ],
         reikiEffects: 'Reiki Effects',
         physicalLevel: 'Physical Level',
         physicalBenefits: [
           'Pain relief',
-          'Improved circulation',
+          'Improvement of sleep quality',
           'Strengthening of immune system',
-          'Acceleration of healing processes'
+          'Acceleration of healing'
         ],
         emotionalLevel: 'Emotional Level',
         emotionalBenefits: [
-          'Reduction of stress and anxiety',
+          'Stress reduction and relaxation',
           'Emotional balance',
-          'More serenity',
-          'Inner peace'
+          'Clarity and inner peace',
+          'Release of blockages'
         ]
       },
       kristalltherapie: {
         title: 'Crystal Therapy',
-        subtitle: 'Healing through the power of crystals',
-        description1: 'Crystal therapy uses the natural vibrations and energies of healing stones to bring body, mind, and soul into balance. Each crystal possesses unique properties and vibrational frequencies.',
-        description2: 'Through targeted placement of stones on chakras or energy points, blockages are released and natural energy flow is restored.',
-        popularCrystals: 'Popular Crystals',
+        subtitle: 'Healing Crystal Energy',
+        description1: 'Crystals are powerful tools of nature that have been used for healing and spiritual development for thousands of years.',
+        description2: 'Each crystal possesses a unique vibration that works harmoniously on our energy centers.',
+        popularCrystals: 'Popular Healing Crystals',
         amethyst: 'Amethyst',
         amethystDesc: 'Calming and spiritual clarity',
         roseQuartz: 'Rose Quartz',
@@ -670,15 +616,15 @@ export const translations: Record<Language, Translations> = {
         clearQuartzDesc: 'Amplification and purification',
         treatmentProcess: 'Treatment Process',
         consultation: 'Consultation',
-        consultationDesc: 'Analysis of needs',
+        consultationDesc: 'Selection of suitable crystals',
         placement: 'Placement',
-        placementDesc: 'Laying of crystals',
-        reikiStep: 'Reiki Energy',
-        reikiStepDesc: 'Energy transmission',
+        placementDesc: 'Placing crystals on energy points',
+        reikiStep: 'Reiki Transmission',
+        reikiStepDesc: 'Combination with Reiki energy',
         integration: 'Integration',
-        integrationDesc: 'Follow-up discussion',
+        integrationDesc: 'Follow-up discussion and recommendations',
         chakraHealing: 'Chakra Healing',
-        chakraHealingDesc: 'Special crystals are placed on the seven main chakras to harmonize and activate them.',
+        chakraHealingDesc: 'Crystals are specifically used to harmonize the seven main chakras.',
         chakraList: [
           'Root Chakra - Grounding and stability',
           'Sacral Chakra - Creativity and emotions',
@@ -689,145 +635,141 @@ export const translations: Record<Language, Translations> = {
           'Crown Chakra - Spirituality'
         ],
         crystalMeditation: 'Crystal Meditation',
-        crystalMeditationDesc: 'Guided meditations with crystals enhance the healing effect and promote deep relaxation.',
+        crystalMeditationDesc: 'Guided meditations with crystals deepen the healing effect.',
         crystalMeditationBenefits: [
-          'Deepened meditation',
-          'Elevated vibration',
-          'Mental clarity',
-          'Spiritual connection'
+          'Enhanced meditation',
+          'Clarity and focus',
+          'Emotional healing',
+          'Spiritual development'
         ],
         applications: 'Applications',
         physical: 'Physical',
         physicalBenefits: [
           'Pain relief',
-          'Energizing',
-          'Detoxification',
-          'Immune strengthening'
+          'Energetic cleansing',
+          'Vitalization'
         ],
         emotional: 'Emotional',
         emotionalBenefits: [
           'Stress reduction',
-          'Emotional healing',
-          'Self-confidence',
-          'Inner peace'
+          'Emotional balance',
+          'Self-confidence'
         ],
         spiritual: 'Spiritual',
         spiritualBenefits: [
           'Consciousness expansion',
           'Intuition strengthening',
-          'Spiritual growth',
-          'Energetic cleansing'
+          'Spiritual growth'
         ]
       },
       fortbildungskurse: {
         title: 'Training Courses',
-        subtitle: 'Learn the art of energy work',
-        description1: 'Discover the fascinating world of energy work and learn to heal yourself. My courses provide comprehensive knowledge and practical skills in Reiki and crystal therapy.',
-        description2: 'Whether beginner or advanced - I accompany you on your path to certified energy worker with personal support and practical instruction.',
+        subtitle: 'Learn to Heal Yourself',
+        description1: 'Discover the art of energy work and learn to apply Reiki and crystal therapy yourself.',
+        description2: 'Our courses are suitable for beginners and advanced students and convey both theoretical knowledge and practical skills.',
         courseFormats: 'Course Formats',
-        weekendIntensive: 'Weekend intensive courses',
-        individualLessons: 'Individual instruction',
-        smallGroups: 'Small groups (max. 6 people)',
+        weekendIntensive: 'Weekend Intensive Courses',
+        individualLessons: 'Individual Lessons',
+        smallGroups: 'Small Groups (max. 6 people)',
         availableCourses: 'Available Courses',
         reikiGrade1: {
           title: 'Reiki 1st Degree',
-          subtitle: 'Basics of Reiki energy',
+          subtitle: 'Basics of Reiki Healing',
           contents: 'Course Contents',
           contentsList: [
             'History and philosophy of Reiki',
-            'The five Reiki life rules',
-            'First attunement and energy transmission',
+            'The five Reiki principles',
             'Basic hand positions',
             'Self-treatment with Reiki',
-            'Treatment of family and friends'
+            'Treatment of other people'
           ],
           details: 'Course Details',
           detailsList: [
             'Duration: 2 days (16 hours)',
-            'Including manual and certificate',
-            'Practical exercises',
-            'Lifetime follow-up support'
+            'Initiation into 1st Reiki degree',
+            'Comprehensive course material',
+            'Certificate upon completion',
+            'Lifelong support'
           ]
         },
         reikiGrade2: {
           title: 'Reiki 2nd Degree',
-          subtitle: 'Mental healing and distance treatment',
-          contents: 'Advanced Techniques',
+          subtitle: 'Advanced Reiki Techniques',
+          contents: 'Advanced Contents',
           contentsList: [
-            'The three sacred Reiki symbols',
+            'The three Reiki symbols',
+            'Distance healing and distance Reiki',
             'Mental and emotional healing',
-            'Distance Reiki techniques',
             'Past and future healing',
-            'Chakra balancing',
-            'Professional treatment techniques'
+            'Strengthening Reiki power'
           ],
           requirements: 'Requirements',
           requirementsList: [
-            'Reiki 1st degree completed',
-            'At least 3 months practice',
+            'Completed Reiki 1st degree',
+            'At least 3 months of practice',
             'Regular self-treatment',
             'Willingness to deepen'
           ]
         },
         crystalTherapy: {
           title: 'Crystal Therapy Training',
-          subtitle: 'Understanding and applying the healing power of stones',
+          subtitle: 'The Power of Healing Stones',
           contents: 'Training Contents',
           contentsList: [
-            'Basics of crystal healing',
-            'Properties of various healing stones',
+            'Properties of various crystals',
             'Chakra work with crystals',
+            'Crystal layouts and grids',
             'Cleansing and programming',
-            'Treatment techniques',
-            'Crystal meditation'
+            'Combination with Reiki'
           ],
-          included: 'Included in Price',
+          included: 'Included in Course',
           includedList: [
-            'Comprehensive manual',
             'Starter set with 12 healing stones',
+            'Detailed handbook',
             'Practical exercises',
-            'Certificate upon completion'
+            'Certificate',
+            'Follow-up care'
           ]
         },
-        whyLearnWithMe: 'Why Learn With Me?',
+        whyLearnWithMe: 'Why Learn with Me?',
         experienceCompetence: 'Experience & Competence',
         experienceList: [
-          'Over 10 years experience in energy work',
+          'Over 10 years of practical experience',
           'Certified Reiki Master',
-          'Continuous education',
-          'Hundreds of satisfied students'
+          'Hundreds of satisfied students',
+          'Continuous education'
         ],
         personalSupport: 'Personal Support',
         supportList: [
-          'Small course groups for intensive support',
-          'Individual learning pace',
-          'Lifetime follow-up support',
+          'Small course groups',
+          'Individual care',
+          'Lifelong support',
           'Regular practice groups'
         ]
       },
       makrameeWorkshops: {
-        title: 'Macrame Workshops',
-        subtitle: 'Creative relaxation through knotting art',
-        description1: 'Discover the meditative art of macrame knotting. In my workshops, you learn to create beautiful wall hangings, plant hangers, and jewelry while finding peace at the same time.',
-        description2: 'Macrame is not only a creative hobby but also a form of moving meditation that reduces stress and promotes concentration.',
+        title: 'Macramé Workshops',
+        subtitle: 'Creative Relaxation',
+        description1: 'Discover the meditative art of macramé knotting and create beautiful, handcrafted artworks.',
+        description2: 'Our workshops combine creativity with relaxation and offer a perfect break from everyday life.',
         highlights: 'Workshop Highlights',
-        relaxingAtmosphere: 'Relaxed atmosphere',
-        allMaterialsIncluded: 'All materials included',
-        smallGroups: 'Small groups (max. 8 people)',
+        relaxingAtmosphere: 'Relaxing Atmosphere',
+        allMaterialsIncluded: 'All Materials Included',
+        smallGroups: 'Small Groups (max. 8 people)',
         workshopOffers: 'Workshop Offers',
         wallHanging: {
           title: 'Wall Hanging Workshop',
-          subtitle: 'Your first macrame artwork',
+          subtitle: 'Your First Macramé Artwork',
           whatYouLearn: 'What You Learn',
           learnList: [
-            'Basic macrame knots',
-            'Creating symmetrical patterns',
-            'Fringes and decorations',
-            'Hanging and finishing'
+            'Basic macramé knots',
+            'Various knotting techniques',
+            'Design and composition',
+            'Finishing techniques'
           ],
           yourProject: 'Your Project',
           projectList: [
-            'Wall hanging 40x60 cm',
+            'Wall hanging 40x60cm',
             'Natural cotton cord',
             'Wooden rod for hanging',
             'Individual design'
@@ -835,42 +777,42 @@ export const translations: Record<Language, Translations> = {
         },
         plantHanger: {
           title: 'Plant Hanger Workshop',
-          subtitle: 'Green oasis to hang',
-          features: 'Special Features',
+          subtitle: 'Green Decoration Self-Made',
+          features: 'Features',
           featuresList: [
-            'Various pot sizes possible',
+            'Functional and decorative',
+            'For various pot sizes',
             'Stable knotting technique',
-            'Adjustable length',
-            'Weather-resistant for balcony use'
+            'Modern designs'
           ],
           included: 'Included',
           includedList: [
-            'High-quality macrame yarn',
+            'High-quality macramé cord',
             'Metal ring for hanging',
             'Planter of choice',
             'Care instructions'
           ]
         },
         jewelry: {
-          title: 'Macrame Jewelry Workshop',
-          subtitle: 'Unique accessories handmade',
+          title: 'Macramé Jewelry Workshop',
+          subtitle: 'Unique Accessories',
           projects: 'Projects',
           projectsList: [
             'Bracelets with beads',
             'Necklaces with pendants',
-            'Boho-style earrings',
-            'Rings and anklets'
+            'Earrings (Advanced)',
+            'Keychains'
           ],
           materials: 'Materials',
           materialsList: [
             'Waxed cotton cord',
             'Natural beads and gemstones',
             'Metal clasps',
-            'Jewelry accessories'
+            'Tools and accessories'
           ]
         },
         meditativeEffect: 'Meditative Effect',
-        meditativeEffectDesc: 'The rhythmic knotting has a calming effect on mind and soul. Many participants describe it as "meditation in motion".',
+        meditativeEffectDesc: 'The rhythmic knotting has a calming and meditative effect on mind and soul.',
         meditativeEffectList: [
           'Stress reduction through repetitive movements',
           'Promotion of concentration',
@@ -878,58 +820,57 @@ export const translations: Record<Language, Translations> = {
           'Creative self-realization'
         ],
         suitableFor: 'Suitable For',
-        suitableForDesc: 'My workshops are suitable for all age groups and experience levels. No prior knowledge required.',
+        suitableForDesc: 'Our workshops are suitable for all age groups and experience levels.',
         suitableForList: [
-          'Beginners without prior experience',
-          'Advanced for deepening',
-          'Stressed people for relaxation',
-          'Creative people of all ages'
+          'Absolute beginners',
+          'Creative people of all ages',
+          'As group activity',
+          'For relaxation and deceleration'
         ],
         workshopInfo: 'Workshop Information',
         schedule: 'Schedule',
         scheduleList: [
           'Saturdays 10:00-16:00',
-          'Sundays 10:00-14:00',
+          'Sundays 10:00-16:00',
           'Evening workshops by arrangement'
         ],
         included: 'Included',
         includedList: [
           'All materials',
-          'Tools and accessories',
+          'Tools and aids',
           'Drinks and snacks',
-          'Instructions to take home'
+          'Detailed instructions'
         ],
         special: 'Special',
         specialList: [
           'Relaxed atmosphere',
-          'Personal support',
-          'Individual projects possible',
-          'Follow-up support for questions'
+          'Personal care',
+          'Follow-up support for questions',
+          'Advanced workshops available'
         ]
       }
     },
-    
-    // Contact Section
     contact: {
       badge: 'Contact',
       title: 'Ready for Your ',
       titleHighlight: 'Healing Journey?',
-      description: 'Contact me for a personal consultation or to schedule an appointment. I look forward to meeting you.',
+      description: 'Contact me for a personal consultation or book your desired appointment directly.',
       phone: 'Phone',
       phoneDesc: 'Feel free to call me for personal consultation',
       location: 'Location',
-      locationDesc: 'Visit me at my practice',
+      locationDesc: 'Visit me at my practice in Hannover',
       address: [
-        'Lister Hof-Oase Bronsartstr. 5',
+        'Lister Hof-Oase',
+        'Bronsartstr. 5',
         'Backyard building',
         '30161 Hannover'
       ],
-      hours: 'Hours',
+      hours: 'Opening Hours',
       hoursDesc: 'Appointments by arrangement',
       schedule: [
         'Monday - Friday: 9:00 - 18:00',
         'Saturday: 10:00 - 16:00',
-        'Sunday: By arrangement'
+        'Sunday: By appointment'
       ],
       bookAppointment: 'Book Appointment',
       name: 'Name',
@@ -938,170 +879,144 @@ export const translations: Record<Language, Translations> = {
       telephonePlaceholder: 'Your phone number',
       desiredTreatment: 'Desired Treatment',
       treatmentOptions: [
-        'Bioenergetic Massage',
+        'Please select...',
         'Reiki Treatment',
+        'Bioenergetic Massage',
         'Crystal Therapy',
+        'Combination Treatment',
         'Training Course',
-        'Macrame Workshop',
+        'Macramé Workshop',
         'Consultation'
       ],
       message: 'Message',
       messagePlaceholder: 'Describe your wishes or questions...',
       sendInquiry: 'Send Inquiry'
     },
-    
-    // Footer
     footer: {
-      description: 'Your path to holistic well-being through proven healing methods and personal care.',
+      description: 'Your trusted partner for holistic healing and spiritual development in Hannover.',
       services: 'Services',
       servicesList: [
-        'Bioenergetic Massage',
         'Reiki Treatments',
+        'Bioenergetic Massage',
         'Crystal Therapy',
         'Training Courses',
-        'Macrame Workshops'
+        'Macramé Workshops'
       ],
       contact: 'Contact',
       copyright: '© 2024 Erika Natural Healing. All rights reserved.'
     },
-    
-    // Common
     common: {
       backToServices: '← Back to Services'
     }
   },
-  
   es: {
-    // Navigation
     nav: {
       home: 'Inicio',
       about: 'Acerca de',
       services: 'Servicios',
       contact: 'Contacto'
     },
-    
-    // Hero Section
     hero: {
       badge: 'Maestra Reiki Certificada',
       title: 'Bienvenido a ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Descubre el poder sanador del Reiki, masajes bioenergéticos y terapia con cristales. Te guío en tu camino hacia el equilibrio interior, la relajación y el bienestar holístico.',
+      description: 'Descubre el poder transformador del Reiki, masaje bioenergético y terapia con cristales. Tu viaje hacia la sanación holística y la paz interior comienza aquí.',
       bookAppointment: 'Reservar Cita',
       discoverServices: 'Descubrir Servicios'
     },
-    
-    // Features
     features: {
       holisticHealing: {
         title: 'Sanación Holística',
-        description: 'Armonizando cuerpo, mente y alma a través de métodos de sanación probados'
+        description: 'Tratamiento de cuerpo, mente y alma para el bienestar completo'
       },
       crystalReiki: {
-        title: 'Reiki con Cristales',
-        description: 'Combinación de energía Reiki y el poder sanador de los cristales'
+        title: 'Cristal y Reiki',
+        description: 'Poderosa combinación de energía cristalina y sanación Reiki'
       },
       personalCare: {
-        title: 'Atención Personal',
-        description: 'Tratamientos individuales adaptados a sus necesidades específicas'
+        title: 'Cuidado Personal',
+        description: 'Tratamientos individuales adaptados a tus necesidades únicas'
       }
     },
-    
-    // About Section
     about: {
-      badge: 'Acerca de Mí',
-      title: 'Su ',
-      titleHighlight: 'Maestra Reiki',
-      description1: 'Con años de experiencia en trabajo energético y una profunda pasión por la sanación holística, guío a las personas en su camino hacia un mayor bienestar y equilibrio interior.',
-      description2: 'Mi formación en Reiki, masaje bioenergético y terapia con cristales me permite desarrollar conceptos de tratamiento individuales que armonizan cuerpo, mente y alma.',
+      badge: 'Acerca de Erika',
+      title: 'Tu Viaje hacia la ',
+      titleHighlight: 'Sanación y Equilibrio',
+      description1: 'Como Maestra Reiki certificada y experta en sanación holística, aporto más de 10 años de experiencia en trabajo energético. Mi pasión radica en ayudar a las personas a activar su poder natural de sanación.',
+      description2: 'Combinando técnicas tradicionales de Reiki con terapia moderna de cristales y masaje bioenergético, creo un espacio seguro para la transformación y sanación.',
       certifiedTraining: 'Formación Certificada',
       reikiMasterCert: 'Certificado de Maestra Reiki',
       experience: 'Años de Experiencia',
-      holisticHealing: 'Métodos de Sanación Holística',
+      holisticHealing: 'Sanación Holística',
       bookPersonalAppointment: 'Reservar Cita Personal',
       certifiedReikiMaster: 'Maestra Reiki Certificada'
     },
-    
-    // Services Section
     services: {
-      badge: 'Mis Servicios',
-      title: 'Tratamientos ',
-      titleHighlight: 'Sanadores',
-      description: 'Descubre mi amplia gama de métodos de sanación holística que te ayudan a lograr mayor bienestar y equilibrio interior.',
+      badge: 'Nuestros Servicios',
+      title: 'Tratamientos de ',
+      titleHighlight: 'Sanación',
+      description: 'Descubre nuestra gama completa de tratamientos de sanación holística que armonizan cuerpo, mente y alma.',
       learnMore: 'Saber Más',
       personalConsultation: 'Consulta Personal',
       personalAppointments: 'Citas Individuales',
-      personalAppointmentsDesc: 'Todos los tratamientos se adaptan individualmente a sus necesidades.',
+      personalAppointmentsDesc: 'Todos los tratamientos se adaptan individualmente a tus necesidades.',
       personalAppointmentsNote: 'Citas con cita previa',
       flexiblePackages: 'Paquetes Flexibles',
-      flexiblePackagesDesc: 'Varios paquetes de tratamiento para resultados óptimos.',
-      flexiblePackagesNote: 'Precios bajo consulta'
+      flexiblePackagesDesc: 'Combina diferentes tratamientos para resultados óptimos.',
+      flexiblePackagesNote: 'Precios individuales'
     },
-    
-    // Service Details
     serviceDetails: {
       bioenergetischeMassage: {
         title: 'Masaje Bioenergético',
-        subtitle: 'Relajación holística para cuerpo y alma',
-        description1: 'Un masaje bioenergético es una combinación de masaje suave con aceite y trabajo energético. Incluye equilibrio de chakras y aura, así como estimulación de zonas reflejas y canales meridianos. Además, se mejora la circulación muscular, se liberan toxinas del tejido conectivo y se activa la linfa.',
-        description2: 'El masaje tiene efectos beneficiosos en la circulación, nervios, respiración, digestión, tracto urinario, tejido conectivo, así como en los sistemas inmunológico y hormonal.',
+        subtitle: 'Flujo de Energía y Relajación',
+        description1: 'El masaje bioenergético es un método de tratamiento holístico que combina el toque físico con el trabajo energético.',
+        description2: 'Esta técnica suave pero profunda libera bloqueos y promueve el flujo natural de energía en el cuerpo.',
+        whatIsIt: '¿Qué es el masaje bioenergético?',
+        whatIsItDesc: 'El masaje bioenergético es un método de sanación único que combina los principios del masaje tradicional con conocimientos modernos sobre bioenergía.',
+        principleDesc: 'El principio básico se basa en la suposición de que nuestro cuerpo está atravesado por vías de energía, similares a los meridianos en la medicina tradicional china.',
+        techniqueDesc: 'A través de técnicas especiales de masaje, toques suaves y transmisión energética, se liberan los bloqueos y se restaura el flujo natural de energía.',
+        meridianDesc: 'El tratamiento se realiza a lo largo de las vías de energía y en puntos importantes de energía del cuerpo, liberando así tensiones tanto físicas como emocionales.',
         treatmentTypes: 'Tipos de Tratamiento',
-        fullBodyWithHead: 'Masaje de cuerpo completo con cabeza',
-        backAndHead: 'Masaje de espalda y cabeza',
-        frontAndHead: 'Parte frontal con cabeza',
+        fullBodyWithHead: 'Cuerpo Completo con Cabeza',
+        backAndHead: 'Espalda y Cabeza',
+        frontAndHead: 'Frente y Cabeza',
         effectsAndBenefits: 'Efectos y Beneficios',
         energyFlow: 'Flujo de Energía',
-        energyFlowDesc: 'Armonización de chakras y activación de meridianos',
+        energyFlowDesc: 'Activación y armonización de la energía corporal',
         relaxation: 'Relajación Profunda',
-        relaxationDesc: 'Liberación de tensión y estrés',
+        relaxationDesc: 'Liberación de tensiones físicas y emocionales',
         regeneration: 'Regeneración',
-        regenerationDesc: 'Fortalecimiento del sistema inmunológico y poderes de autocuración',
-        suitableFor: 'Adecuado Para',
-        suitableForList: [
-          'Aumentar la capacidad de rendimiento en el trabajo y deporte',
-          'Para nerviosismo, trastornos del sueño, rechinar de dientes y agotamiento',
-          'Para dolor y tensión',
-          'Para crisis emocionales como neurosis, depresión, ira y rabia',
-          'Un camino hacia la paz interior y estabilidad',
-          'Efecto armonizador en el sistema cardiovascular',
-          'Fortalece el tejido conectivo',
-          'Después de operaciones de disco y rehabilitación',
-          'Para molestias menstruales y de menopausia',
-          'Para una cabeza libre y clara',
-          'Alivia dolores de cabeza y migrañas',
-          'Para Síndrome de Piernas Inquietas y piernas pesadas cansadas',
-          'Aumenta el bienestar y equilibrio'
-        ],
-        pricing: 'Precios',
-        duration60: '60 minutos - 60€',
-        duration90: '90 minutos - 79€',
-        treatmentNote: 'Un tratamiento generalmente dura 60 minutos, más unos 15-20 minutos de preparación y unos 10 minutos de limpieza.',
+        regenerationDesc: 'Promoción de los poderes naturales de autocuración',
         physicalBenefits: 'Beneficios Físicos',
         physicalBenefitsList: [
-          'Ayuda con todos los procesos digestivos de absorción y eliminación',
-          'Ayuda con el drenaje del sistema linfático y mejora la circulación sanguínea',
-          'Mejora la calidad del sueño',
-          'Reduce y elimina el agotamiento físico y mental',
-          'Reduce la tensión física, mental y emocional',
-          'Mejora los trastornos psicosomáticos',
-          'Estimulación del sistema inmunológico'
+          'Mejora de la circulación y el flujo linfático',
+          'Liberación de tensiones musculares y adherencias',
+          'Alivio del dolor para molestias crónicas',
+          'Fortalecimiento del sistema inmunológico',
+          'Mejora de la calidad del sueño',
+          'Aumento de la movilidad y flexibilidad'
         ],
-        whatIsIt: '¿Qué es?',
-        whatIsItDesc: 'El masaje bioenergético se basa en la fusión de técnicas manuales suaves y técnicas energéticas que tienen como objetivo resolver simultáneamente nuestros problemas físicos y emocionales, basándose en el principio de que un problema emocional no resuelto también puede causar un problema muscular o de comportamiento.',
-        principleDesc: 'Al mismo tiempo, se basa en el principio de que un problema emocional no resuelto también puede causar un problema muscular o de comportamiento.',
-        techniqueDesc: 'En esta técnica se realizan masajes suaves con aceite.',
-        meridianDesc: 'Especialmente a través de los canales que se consideran energía (meridianos).'
+        suitableFor: 'Adecuado Para',
+        suitableForList: [
+          'Personas con dolor crónico',
+          'Personas con estrés y síntomas de burnout',
+          'Para trastornos del sueño e inquietud',
+          'Para apoyar el estrés emocional',
+          'Para más vitalidad y energía vital',
+          'Como cuidado preventivo de la salud'
+        ]
       },
       reiki: {
-        title: 'Reiki',
-        subtitle: 'Energía vital universal para sanación y equilibrio',
-        description1: 'Reiki es un método de sanación japonés basado en la transmisión de energía vital universal. A través de la imposición suave de manos o sanación a distancia, se armoniza el flujo natural de energía en el cuerpo y se activan los poderes de autocuración.',
-        description2: 'Este método holístico trabaja en niveles físicos, emocionales y mentales, trayendo relajación profunda y paz interior.',
+        title: 'Tratamiento de Sanación Reiki',
+        subtitle: 'Energía Vital Universal',
+        description1: 'Reiki es un arte de sanación japonés que utiliza la energía vital universal para promover la sanación y el bienestar.',
+        description2: 'Este método suave y no invasivo activa los poderes naturales de autocuración del cuerpo.',
         treatmentForms: 'Formas de Tratamiento',
         directReiki: 'Reiki Directo',
         distanceReiki: 'Reiki a Distancia',
-        crystalReikiCombo: 'Combinación Cristal-Reiki',
-        reikiPrinciples: 'Las Cinco Reglas de Vida Reiki',
-        principlesIntro: 'Los principios Reiki según Dr. Mikao Usui:',
+        crystalReikiCombo: 'Reiki con Cristales',
+        reikiPrinciples: 'Los Cinco Principios del Reiki',
+        principlesIntro: 'La base de la práctica del Reiki se basa en cinco principios universales:',
         principles: [
           'Solo por hoy, no te enojes',
           'Solo por hoy, no te preocupes',
@@ -1110,43 +1025,43 @@ export const translations: Record<Language, Translations> = {
           'Solo por hoy, sé amable con todos los seres vivos'
         ],
         directTreatment: 'Tratamiento Directo',
-        directTreatmentDesc: 'En el tratamiento Reiki directo, los clientes se acuestan vestidos en una camilla de tratamiento. La energía se transmite a través de la imposición suave de manos en varias posiciones del cuerpo.',
+        directTreatmentDesc: 'En el tratamiento directo de Reiki, colocamos las manos sobre o encima de varias partes del cuerpo.',
         directTreatmentBenefits: [
-          'Relajación profunda y reducción del estrés',
-          'Activación de poderes de autocuración',
-          'Armonización de chakras',
-          'Liberación de bloqueos energéticos'
+          'Transmisión intensiva de energía',
+          'Contacto personal y confianza',
+          'Relajación inmediata',
+          'Adaptación individual'
         ],
         distanceTreatment: 'Tratamiento a Distancia',
-        distanceTreatmentDesc: 'Reiki también puede transmitirse a distancia. El tiempo y el espacio no juegan ningún papel en la transmisión de energía.',
+        distanceTreatmentDesc: 'La energía Reiki no conoce límites espaciales y también puede transmitirse a distancia.',
         distanceTreatmentBenefits: [
-          'Tratamiento posible desde cualquier ubicación',
-          'Ideal para personas con movilidad limitada',
-          'Transmisión de energía en horarios acordados',
-          'Misma efectividad que el tratamiento directo'
+          'Flexibilidad y comodidad',
+          'Misma efectividad que el tratamiento directo',
+          'Ideal para apoyo regular',
+          'No requiere viaje'
         ],
         reikiEffects: 'Efectos del Reiki',
         physicalLevel: 'Nivel Físico',
         physicalBenefits: [
           'Alivio del dolor',
-          'Mejora de la circulación',
+          'Mejora de la calidad del sueño',
           'Fortalecimiento del sistema inmunológico',
-          'Aceleración de procesos de curación'
+          'Aceleración de la sanación'
         ],
         emotionalLevel: 'Nivel Emocional',
         emotionalBenefits: [
-          'Reducción del estrés y ansiedad',
+          'Reducción del estrés y relajación',
           'Equilibrio emocional',
-          'Más serenidad',
-          'Paz interior'
+          'Claridad y paz interior',
+          'Liberación de bloqueos'
         ]
       },
       kristalltherapie: {
         title: 'Terapia con Cristales',
-        subtitle: 'Sanación a través del poder de los cristales',
-        description1: 'La terapia con cristales utiliza las vibraciones naturales y energías de las piedras sanadoras para equilibrar cuerpo, mente y alma. Cada cristal posee propiedades únicas y frecuencias vibratorias.',
-        description2: 'A través de la colocación dirigida de piedras en chakras o puntos energéticos, se liberan bloqueos y se restaura el flujo natural de energía.',
-        popularCrystals: 'Cristales Populares',
+        subtitle: 'Energía Sanadora de Cristales',
+        description1: 'Los cristales son herramientas poderosas de la naturaleza que han sido utilizadas para la sanación y el desarrollo espiritual durante miles de años.',
+        description2: 'Cada cristal posee una vibración única que trabaja armoniosamente en nuestros centros de energía.',
+        popularCrystals: 'Cristales Sanadores Populares',
         amethyst: 'Amatista',
         amethystDesc: 'Calma y claridad espiritual',
         roseQuartz: 'Cuarzo Rosa',
@@ -1155,15 +1070,15 @@ export const translations: Record<Language, Translations> = {
         clearQuartzDesc: 'Amplificación y purificación',
         treatmentProcess: 'Proceso de Tratamiento',
         consultation: 'Consulta',
-        consultationDesc: 'Análisis de necesidades',
+        consultationDesc: 'Selección de cristales adecuados',
         placement: 'Colocación',
-        placementDesc: 'Colocación de cristales',
-        reikiStep: 'Energía Reiki',
-        reikiStepDesc: 'Transmisión de energía',
+        placementDesc: 'Colocar cristales en puntos de energía',
+        reikiStep: 'Transmisión Reiki',
+        reikiStepDesc: 'Combinación con energía Reiki',
         integration: 'Integración',
-        integrationDesc: 'Discusión de seguimiento',
+        integrationDesc: 'Discusión de seguimiento y recomendaciones',
         chakraHealing: 'Sanación de Chakras',
-        chakraHealingDesc: 'Se colocan cristales especiales en los siete chakras principales para armonizarlos y activarlos.',
+        chakraHealingDesc: 'Los cristales se utilizan específicamente para armonizar los siete chakras principales.',
         chakraList: [
           'Chakra Raíz - Conexión a tierra y estabilidad',
           'Chakra Sacro - Creatividad y emociones',
@@ -1174,77 +1089,73 @@ export const translations: Record<Language, Translations> = {
           'Chakra Corona - Espiritualidad'
         ],
         crystalMeditation: 'Meditación con Cristales',
-        crystalMeditationDesc: 'Las meditaciones guiadas con cristales mejoran el efecto sanador y promueven la relajación profunda.',
+        crystalMeditationDesc: 'Las meditaciones guiadas con cristales profundizan el efecto sanador.',
         crystalMeditationBenefits: [
-          'Meditación profundizada',
-          'Vibración elevada',
-          'Claridad mental',
-          'Conexión espiritual'
+          'Meditación mejorada',
+          'Claridad y enfoque',
+          'Sanación emocional',
+          'Desarrollo espiritual'
         ],
         applications: 'Aplicaciones',
         physical: 'Físico',
         physicalBenefits: [
           'Alivio del dolor',
-          'Energización',
-          'Desintoxicación',
-          'Fortalecimiento inmunológico'
+          'Limpieza energética',
+          'Vitalización'
         ],
         emotional: 'Emocional',
         emotionalBenefits: [
           'Reducción del estrés',
-          'Sanación emocional',
-          'Autoconfianza',
-          'Paz interior'
+          'Equilibrio emocional',
+          'Autoconfianza'
         ],
         spiritual: 'Espiritual',
         spiritualBenefits: [
           'Expansión de la conciencia',
           'Fortalecimiento de la intuición',
-          'Crecimiento espiritual',
-          'Limpieza energética'
+          'Crecimiento espiritual'
         ]
       },
       fortbildungskurse: {
         title: 'Cursos de Formación',
-        subtitle: 'Aprende el arte del trabajo energético',
-        description1: 'Descubre el fascinante mundo del trabajo energético y aprende a sanar por ti mismo. Mis cursos proporcionan conocimiento integral y habilidades prácticas en Reiki y terapia con cristales.',
-        description2: 'Ya sea principiante o avanzado, te acompaño en tu camino hacia trabajador energético certificado con apoyo personal e instrucción práctica.',
+        subtitle: 'Aprende a Sanarte a Ti Mismo',
+        description1: 'Descubre el arte del trabajo energético y aprende a aplicar Reiki y terapia con cristales por ti mismo.',
+        description2: 'Nuestros cursos son adecuados para principiantes y estudiantes avanzados y transmiten tanto conocimiento teórico como habilidades prácticas.',
         courseFormats: 'Formatos de Curso',
-        weekendIntensive: 'Cursos intensivos de fin de semana',
-        individualLessons: 'Instrucción individual',
-        smallGroups: 'Grupos pequeños (máx. 6 personas)',
+        weekendIntensive: 'Cursos Intensivos de Fin de Semana',
+        individualLessons: 'Lecciones Individuales',
+        smallGroups: 'Grupos Pequeños (máx. 6 personas)',
         availableCourses: 'Cursos Disponibles',
         reikiGrade1: {
           title: 'Reiki 1er Grado',
-          subtitle: 'Fundamentos de la energía Reiki',
+          subtitle: 'Fundamentos de la Sanación Reiki',
           contents: 'Contenidos del Curso',
           contentsList: [
             'Historia y filosofía del Reiki',
-            'Las cinco reglas de vida Reiki',
-            'Primera sintonización y transmisión de energía',
+            'Los cinco principios del Reiki',
             'Posiciones básicas de las manos',
             'Autotratamiento con Reiki',
-            'Tratamiento de familia y amigos'
+            'Tratamiento de otras personas'
           ],
           details: 'Detalles del Curso',
           detailsList: [
             'Duración: 2 días (16 horas)',
-            'Incluye manual y certificado',
-            'Ejercicios prácticos',
-            'Apoyo de seguimiento de por vida'
+            'Iniciación en el 1er grado de Reiki',
+            'Material de curso completo',
+            'Certificado al completar',
+            'Apoyo de por vida'
           ]
         },
         reikiGrade2: {
           title: 'Reiki 2do Grado',
-          subtitle: 'Sanación mental y tratamiento a distancia',
-          contents: 'Técnicas Avanzadas',
+          subtitle: 'Técnicas Avanzadas de Reiki',
+          contents: 'Contenidos Avanzados',
           contentsList: [
-            'Los tres símbolos sagrados del Reiki',
+            'Los tres símbolos del Reiki',
+            'Sanación a distancia y Reiki a distancia',
             'Sanación mental y emocional',
-            'Técnicas de Reiki a distancia',
             'Sanación del pasado y futuro',
-            'Equilibrio de chakras',
-            'Técnicas de tratamiento profesional'
+            'Fortalecimiento del poder Reiki'
           ],
           requirements: 'Requisitos',
           requirementsList: [
@@ -1256,81 +1167,81 @@ export const translations: Record<Language, Translations> = {
         },
         crystalTherapy: {
           title: 'Formación en Terapia con Cristales',
-          subtitle: 'Entender y aplicar el poder sanador de las piedras',
-          contents: 'Contenidos de Formación',
+          subtitle: 'El Poder de las Piedras Sanadoras',
+          contents: 'Contenidos de la Formación',
           contentsList: [
-            'Fundamentos de la sanación con cristales',
-            'Propiedades de varias piedras sanadoras',
+            'Propiedades de varios cristales',
             'Trabajo de chakras con cristales',
+            'Diseños y rejillas de cristales',
             'Limpieza y programación',
-            'Técnicas de tratamiento',
-            'Meditación con cristales'
+            'Combinación con Reiki'
           ],
-          included: 'Incluido en el Precio',
+          included: 'Incluido en el Curso',
           includedList: [
-            'Manual integral',
             'Set inicial con 12 piedras sanadoras',
+            'Manual detallado',
             'Ejercicios prácticos',
-            'Certificado al completar'
+            'Certificado',
+            'Cuidado de seguimiento'
           ]
         },
         whyLearnWithMe: '¿Por Qué Aprender Conmigo?',
         experienceCompetence: 'Experiencia y Competencia',
         experienceList: [
-          'Más de 10 años de experiencia en trabajo energético',
+          'Más de 10 años de experiencia práctica',
           'Maestra Reiki certificada',
-          'Educación continua',
-          'Cientos de estudiantes satisfechos'
+          'Cientos de estudiantes satisfechos',
+          'Educación continua'
         ],
         personalSupport: 'Apoyo Personal',
         supportList: [
-          'Grupos de curso pequeños para apoyo intensivo',
-          'Ritmo de aprendizaje individual',
-          'Apoyo de seguimiento de por vida',
+          'Grupos de curso pequeños',
+          'Cuidado individual',
+          'Apoyo de por vida',
           'Grupos de práctica regulares'
         ]
       },
       makrameeWorkshops: {
         title: 'Talleres de Macramé',
-        subtitle: 'Relajación creativa a través del arte de anudar',
-        description1: 'Descubre el arte meditativo del anudado de macramé. En mis talleres, aprendes a crear hermosos colgantes de pared, colgadores de plantas y joyería mientras encuentras paz al mismo tiempo.',
-        description2: 'El macramé no es solo un pasatiempo creativo sino también una forma de meditación en movimiento que reduce el estrés y promueve la concentración.',
-        highlights: 'Destacados del Taller',
-        relaxingAtmosphere: 'Atmósfera relajada',
-        allMaterialsIncluded: 'Todos los materiales incluidos',
-        smallGroups: 'Grupos pequeños (máx. 8 personas)',
+        subtitle: 'Relajación Creativa',
+        description1: 'Descubre el arte meditativo del anudado de macramé y crea hermosas obras de arte hechas a mano.',
+        description2: 'Nuestros talleres combinan creatividad con relajación y ofrecen un descanso perfecto de la vida cotidiana.',
+        highlights: 'Aspectos Destacados del Taller',
+        relaxingAtmosphere: 'Atmósfera Relajante',
+        allMaterialsIncluded: 'Todos los Materiales Incluidos',
+        smallGroups: 'Grupos Pequeños (máx. 8 personas)',
         workshopOffers: 'Ofertas de Taller',
         wallHanging: {
           title: 'Taller de Colgante de Pared',
-          subtitle: 'Tu primera obra de arte de macramé',
+          subtitle: 'Tu Primera Obra de Arte de Macramé',
           whatYouLearn: 'Lo Que Aprenderás',
           learnList: [
             'Nudos básicos de macramé',
-            'Crear patrones simétricos',
-            'Flecos y decoraciones',
-            'Colgado y acabado'
+            'Varias técnicas de anudado',
+            'Diseño y composición',
+            'Técnicas de acabado'
           ],
           yourProject: 'Tu Proyecto',
           projectList: [
-            'Colgante de pared 40x60 cm',
+            'Colgante de pared 40x60cm',
             'Cordón de algodón natural',
-            'Vara de madera para colgar',
+            'Varilla de madera para colgar',
             'Diseño individual'
           ]
         },
         plantHanger: {
           title: 'Taller de Colgador de Plantas',
-          subtitle: 'Oasis verde para colgar',
-          features: 'Características Especiales',
+          subtitle: 'Decoración Verde Hecha por Ti Mismo',
+          features: 'Características',
           featuresList: [
-            'Varios tamaños de maceta posibles',
+            'Funcional y decorativo',
+            'Para varios tamaños de macetas',
             'Técnica de anudado estable',
-            'Longitud ajustable',
-            'Resistente al clima para uso en balcón'
+            'Diseños modernos'
           ],
           included: 'Incluido',
           includedList: [
-            'Hilo de macramé de alta calidad',
+            'Cordón de macramé de alta calidad',
             'Anillo de metal para colgar',
             'Maceta a elección',
             'Instrucciones de cuidado'
@@ -1338,24 +1249,24 @@ export const translations: Record<Language, Translations> = {
         },
         jewelry: {
           title: 'Taller de Joyería de Macramé',
-          subtitle: 'Accesorios únicos hechos a mano',
+          subtitle: 'Accesorios Únicos',
           projects: 'Proyectos',
           projectsList: [
             'Pulseras con cuentas',
             'Collares con colgantes',
-            'Aretes estilo boho',
-            'Anillos y tobilleras'
+            'Pendientes (Avanzado)',
+            'Llaveros'
           ],
           materials: 'Materiales',
           materialsList: [
             'Cordón de algodón encerado',
             'Cuentas naturales y gemas',
             'Cierres de metal',
-            'Accesorios de joyería'
+            'Herramientas y accesorios'
           ]
         },
         meditativeEffect: 'Efecto Meditativo',
-        meditativeEffectDesc: 'El anudado rítmico tiene un efecto calmante en mente y alma. Muchos participantes lo describen como "meditación en movimiento".',
+        meditativeEffectDesc: 'El anudado rítmico tiene un efecto calmante y meditativo en la mente y el alma.',
         meditativeEffectList: [
           'Reducción del estrés a través de movimientos repetitivos',
           'Promoción de la concentración',
@@ -1363,53 +1274,52 @@ export const translations: Record<Language, Translations> = {
           'Autorrealización creativa'
         ],
         suitableFor: 'Adecuado Para',
-        suitableForDesc: 'Mis talleres son adecuados para todos los grupos de edad y niveles de experiencia. No se requiere conocimiento previo.',
+        suitableForDesc: 'Nuestros talleres son adecuados para todos los grupos de edad y niveles de experiencia.',
         suitableForList: [
-          'Principiantes sin experiencia previa',
-          'Avanzados para profundizar',
-          'Personas estresadas para relajación',
-          'Personas creativas de todas las edades'
+          'Principiantes absolutos',
+          'Personas creativas de todas las edades',
+          'Como actividad grupal',
+          'Para relajación y desaceleración'
         ],
         workshopInfo: 'Información del Taller',
         schedule: 'Horario',
         scheduleList: [
           'Sábados 10:00-16:00',
-          'Domingos 10:00-14:00',
+          'Domingos 10:00-16:00',
           'Talleres nocturnos con cita previa'
         ],
         included: 'Incluido',
         includedList: [
           'Todos los materiales',
-          'Herramientas y accesorios',
+          'Herramientas y ayudas',
           'Bebidas y aperitivos',
-          'Instrucciones para llevar a casa'
+          'Instrucciones detalladas'
         ],
         special: 'Especial',
         specialList: [
           'Atmósfera relajada',
-          'Apoyo personal',
-          'Proyectos individuales posibles',
-          'Apoyo de seguimiento para preguntas'
+          'Cuidado personal',
+          'Apoyo de seguimiento para preguntas',
+          'Talleres avanzados disponibles'
         ]
       }
     },
-    
-    // Contact Section
     contact: {
       badge: 'Contacto',
-      title: '¿Listo para Su ',
+      title: '¿Listo para Tu ',
       titleHighlight: 'Viaje de Sanación?',
-      description: 'Contácteme para una consulta personal o para programar una cita. Espero conocerle.',
+      description: 'Contáctame para una consulta personal o reserva directamente tu cita deseada.',
       phone: 'Teléfono',
-      phoneDesc: 'No dude en llamarme para consulta personal',
+      phoneDesc: 'No dudes en llamarme para una consulta personal',
       location: 'Ubicación',
-      locationDesc: 'Visíteme en mi consulta',
+      locationDesc: 'Visítame en mi consulta en Hannover',
       address: [
-        'Lister Hof-Oase Bronsartstr. 5',
+        'Lister Hof-Oase',
+        'Bronsartstr. 5',
         'Edificio del patio trasero',
         '30161 Hannover'
       ],
-      hours: 'Horarios',
+      hours: 'Horarios de Atención',
       hoursDesc: 'Citas con cita previa',
       schedule: [
         'Lunes - Viernes: 9:00 - 18:00',
@@ -1418,30 +1328,30 @@ export const translations: Record<Language, Translations> = {
       ],
       bookAppointment: 'Reservar Cita',
       name: 'Nombre',
-      namePlaceholder: 'Su nombre completo',
+      namePlaceholder: 'Tu nombre completo',
       telephone: 'Teléfono',
-      telephonePlaceholder: 'Su número de teléfono',
+      telephonePlaceholder: 'Tu número de teléfono',
       desiredTreatment: 'Tratamiento Deseado',
       treatmentOptions: [
-        'Masaje Bioenergético',
+        'Por favor selecciona...',
         'Tratamiento Reiki',
+        'Masaje Bioenergético',
         'Terapia con Cristales',
+        'Tratamiento Combinado',
         'Curso de Formación',
         'Taller de Macramé',
         'Consulta'
       ],
       message: 'Mensaje',
-      messagePlaceholder: 'Describa sus deseos o preguntas...',
+      messagePlaceholder: 'Describe tus deseos o preguntas...',
       sendInquiry: 'Enviar Consulta'
     },
-    
-    // Footer
     footer: {
-      description: 'Su camino hacia el bienestar holístico a través de métodos de sanación probados y atención personal.',
+      description: 'Tu socio de confianza para la sanación holística y el desarrollo espiritual en Hannover.',
       services: 'Servicios',
       servicesList: [
-        'Masaje Bioenergético',
         'Tratamientos Reiki',
+        'Masaje Bioenergético',
         'Terapia con Cristales',
         'Cursos de Formación',
         'Talleres de Macramé'
@@ -1449,8 +1359,6 @@ export const translations: Record<Language, Translations> = {
       contact: 'Contacto',
       copyright: '© 2024 Erika Natural Healing. Todos los derechos reservados.'
     },
-    
-    // Common
     common: {
       backToServices: '← Volver a Servicios'
     }
