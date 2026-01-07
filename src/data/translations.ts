@@ -32,7 +32,7 @@ export const translations = {
       },
       bioenergeticMassage: {
         title: 'Bioenergetische Massage',
-        description: 'Sanfte Berührung kombiniert mit energetischer Arbeit für tiefe Entspannung'
+        description: 'Harmonisierung von Körper und Energiefluss durch sanfte Berührung'
       }
     },
     about: {
@@ -488,10 +488,6 @@ export const translations = {
       personalCare: {
         title: 'Personal Care',
         description: 'Individual treatments tailored to your unique needs'
-      },
-      bioenergeticMassage: {
-        title: 'Bioenergetic Massage',
-        description: 'Gentle touch combined with energetic work for deep relaxation'
       }
     },
     about: {
@@ -947,10 +943,6 @@ export const translations = {
       personalCare: {
         title: 'Cuidado Personal',
         description: 'Tratamientos individuales adaptados a tus necesidades únicas'
-      },
-      bioenergeticMassage: {
-        title: 'Masaje Bioenergético',
-        description: 'Toque suave combinado con trabajo energético para relajación profunda'
       }
     },
     about: {
