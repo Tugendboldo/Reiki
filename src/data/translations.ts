@@ -478,20 +478,20 @@ export const translations = {
     },
     features: {
       holisticHealing: {
-        title: 'Holistic Healing',
-        description: 'Treatment of body, mind, and soul for complete well-being'
+        title: 'Reiki Sessions',
+        description: 'One-to-one support rooted in presence and embodied awarenesse.'
       },
       crystalReiki: {
-        title: 'Crystal & Reiki',
-        description: 'Powerful combination of crystal energy and Reiki healing'
+        title: 'Group Gatherings',
+        description: 'Monthly practice and conscious healing workshops.'
       },
       personalCare: {
-        title: 'Personal Care',
-        description: 'Individual treatments tailored to your unique needs'
+        title: 'Reiki Training',
+        description: 'Levels I, II, III and Usui Tibetan Reiki Mastery.'
       },
       bioenergeticMassage: {
         title: 'Bioenergetic Massage',
-        description: 'Release blockages and promote natural energy flow'
+        description: 'Conscious bodywork to release tnesion and restore flow.'
       }
     },
     about: {
