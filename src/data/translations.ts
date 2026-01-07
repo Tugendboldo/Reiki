@@ -1014,7 +1014,7 @@ export const translations = {
         'Mi labor consiste en crear un espacio seguro y contenido donde el sistema pueda autorregularse y recuperar su equilibrio de forma natural.'
       ],
       vision: 'El Reiki, para mí, es una práctica viva y un camino de coherencia, que se expresa tanto en las sesiones individuales como en los encuentros grupales y las formaciones, siempre desde la simplicidad, la ética y la claridad.',
-      closing: 'Quizás tu cuerpo está deseando una pausa. Me encantará acompañarte.'
+      closing: 'Si has llegado hasta aquí, quizá tu cuerpo también esté pidiendo un espacio para descansar y reconectar consigo mismo. Será un placer acompañarte cuando lo sientas.'
     },
     about: {
       badge: 'Acerca de Erika',
