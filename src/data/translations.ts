@@ -51,7 +51,7 @@ export const translations = {
         'Es werden keine Diagnosen gestellt und keine gesundheitlichen Zustände interpretiert.',
         'Meine Aufgabe besteht darin, einen sicheren Rahmen zu schaffen, in dem Selbstregulation und innere Balance möglich werden.',
         'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
-        'Wenn du bis hierher gelesen hast, bittet dein Körper vielleicht ebenfalls um einen Raum, um zu ruhen und sich wieder mit sich selbst zu verbinden. Es wird mir eine Freude sein, dich zu begleiten, wenn du es spürst.'
+        'Vielleicht wünscht sich dein Körper gerade eine Pause. Ich freue mich darauf, dich dabei zu begleiten.'
       ]
     },
     about: {
