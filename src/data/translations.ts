@@ -484,10 +484,6 @@ export const translations = {
       personalCare: {
         title: 'Personal Care',
         description: 'Individual treatments tailored to your unique needs'
-      },
-      bioenergeticMassage: {
-        title: 'Bioenergetic Massage',
-        description: 'Harmonizing body and energy flow through gentle touch'
       }
     },
     about: {
@@ -941,8 +937,12 @@ export const translations = {
         description: 'Poderosa combinación de energía cristalina y sanación Reiki'
       },
       personalCare: {
-        title: 'Cuidado Personal',
-        description: 'Tratamientos individuales adaptados a tus necesidades únicas'
+        title: 'Atención Personal',
+        description: 'Tratamientos individuales en un ambiente relajado'
+      },
+      bioenergeticMassage: {
+        title: 'Masaje Bioenergético',
+        description: 'Armonización del cuerpo y flujo energético a través del tacto suave'
       }
     },
     about: {
