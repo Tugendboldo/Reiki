@@ -920,6 +920,7 @@ export const translations = {
       badge: 'Maestra Reiki Certificada',
       title: 'Bienvenido a ',
       titleHighlight: 'Erika Natural Healing',
+      subtitle: 'Cuando el cuerpo descansa, la energía recuerda su equilibrio natural.',
       description: 'un espacio de sanación consciente donde el cuerpo puede descansar y la energía recuperar su equilibrio natural. Aquí acompaño procesos personales y formativos a través del Reiki Usui Tibetano, prácticas de Reiki tradicional japonés y encuentros vivenciales que invitan a volver a la presencia, al cuerpo y a la escucha interna. Cada propuesta nace desde el respeto por el ritmo individual, sin forzar procesos, creando un espacio seguro donde la sanación se revela cuando hay descanso, apertura y confianza.',
       bookAppointment: 'Reservar Cita',
       discoverServices: 'Descubrir Servicios'

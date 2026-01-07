@@ -173,7 +173,7 @@ function App() {
               <span className="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">{t.hero.titleHighlight}</span>
             </h1>
             <p className="relative z-10 text-2xl md:text-3xl text-white/95 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-light">
-              Wenn der Körper zur Ruhe kommt, erinnert sich die Energie an ihre natürliche Harmonie.
+              {t.hero.subtitle}
             </p>
             <p className="relative z-10 text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               {t.hero.description}
