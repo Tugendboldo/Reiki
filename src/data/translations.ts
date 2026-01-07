@@ -12,6 +12,7 @@ export const translations = {
       badge: 'Zertifizierte Reiki-Meisterin',
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
+      subtitle: 'Wenn der Körper zur Ruhe kommt, erinnert sich die Energie an ihre natürlich Harmonie.',
       description: 'Ein Raum für bewusste Heilung, in dem der Körper zur Ruhe kommen und die Energie ihr natürliches Gleichgewicht wiederfinden darf. Hier begleite ich persönliche Entwicklungsprozesse und Ausbildungen durch Reiki Usui Tibetano, Praktiken des traditionellen japanischen Reiki sowie durch erfahrungsbasierte Angebote, die dazu einladen, wieder in Kontakt mit dem Körper, der Präsenz und der inneren Wahrnehmung zu kommen. Alle Angebote entstehen aus dem Respekt vor dem individuellen Rhythmus. Es werden keine Prozesse erzwungen – vielmehr wird ein geschützter Raum geschaffen, in dem sich Heilung zeigen kann, wenn Ruhe, Offenheit und Vertrauen vorhanden sind.',
       bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
