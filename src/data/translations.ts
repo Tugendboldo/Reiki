@@ -12,7 +12,7 @@ export const translations = {
       badge: 'Zertifizierte Reiki-Meisterin',
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'un espacio de sanación consciente donde el cuerpo puede descansar y la energía recuperar su equilibrio natural. Aquí acompaño procesos personales y formativos a través del Reiki Usui Tibetano, prácticas de Reiki tradicional japonés y encuentros vivenciales que invitan a volver a la presencia, al cuerpo y a la escucha interna. Cada propuesta nace desde el respeto por el ritmo individual, sin forzar procesos, creando un espacio seguro donde la sanación se revela cuando hay descanso, apertura y confianza.',
+      description: 'ein Raum bewusster Heilung, wo der Körper ruhen kann und die Energie ihr natürliches Gleichgewicht wiederfinden kann. Hier begleite ich persönliche und formative Prozesse durch Reiki Usui Tibetano, traditionelle japanische Reiki-Praktiken und erfahrungsbasierte Begegnungen, die dazu einladen, zur Präsenz, zum Körper und zum inneren Hören zurückzukehren. Jeder Vorschlag entsteht aus dem Respekt für den individuellen Rhythmus, ohne Prozesse zu forcieren, und schafft einen sicheren Raum, wo sich Heilung offenbart, wenn es Ruhe, Offenheit und Vertrauen gibt.',
       bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
     },
