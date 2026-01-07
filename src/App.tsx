@@ -172,7 +172,7 @@ function App() {
               {t.hero.title}
               <span className="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">{t.hero.titleHighlight}</span>
             </h1>
-            <p className="relative z-10 text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
+            <p className="relative z-10 text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               {t.hero.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

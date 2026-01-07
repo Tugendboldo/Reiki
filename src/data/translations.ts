@@ -12,7 +12,7 @@ export const translations = {
       badge: 'Zertifizierte Reiki-Meisterin',
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Wenn der Körper ruht, erinnert sich die Energie an ihr natürliches Gleichgewicht. Ausbildung und Begleitung in Reiki Usui Tibetano, Level I, II, III und Meisterschaft, mit Integration traditioneller japanischer Reiki-Praktiken basierend auf Präsenz und dem Hören auf den Körper. Praxis zum Halten, Erkundung zum Öffnen und Integration zur Transformation.',
+      description: 'un espacio de sanación consciente donde el cuerpo puede descansar y la energía recuperar su equilibrio natural. Aquí acompaño procesos personales y formativos a través del Reiki Usui Tibetano, prácticas de Reiki tradicional japonés y encuentros vivenciales que invitan a volver a la presencia, al cuerpo y a la escucha interna. Cada propuesta nace desde el respeto por el ritmo individual, sin forzar procesos, creando un espacio seguro donde la sanación se revela cuando hay descanso, apertura y confianza.',
       bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
     },
@@ -466,7 +466,7 @@ export const translations = {
       badge: 'Certified Reiki Master',
       title: 'Welcome to ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'When the body rests, energy remembers its natural balance. Training and accompaniment in Reiki Usui Tibetano, Level I, II, III and Mastery, integrating traditional Japanese Reiki practices based on presence and listening to the body. Practice to sustain, exploration to open, and integration to transform.',
+      description: 'a conscious healing space where the body can rest and energy can recover its natural balance. Here I accompany personal and formative processes through Reiki Usui Tibetano, traditional Japanese Reiki practices and experiential encounters that invite a return to presence, to the body and to internal listening. Each proposal is born from respect for individual rhythm, without forcing processes, creating a safe space where healing reveals itself when there is rest, openness and trust.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
