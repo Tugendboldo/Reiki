@@ -29,6 +29,10 @@ export const translations = {
       personalCare: {
         title: 'Persönliche Betreuung',
         description: 'Individuelle Behandlungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind'
+      },
+      bioenergeticMassage: {
+        title: 'Bioenergetische Massage',
+        description: 'Lösung von Blockaden und Förderung des natürlichen Energieflusses'
       }
     },
     about: {
@@ -484,6 +488,10 @@ export const translations = {
       personalCare: {
         title: 'Personal Care',
         description: 'Individual treatments tailored to your unique needs'
+      },
+      bioenergeticMassage: {
+        title: 'Bioenergetic Massage',
+        description: 'Release blockages and promote natural energy flow'
       }
     },
     about: {
@@ -939,6 +947,10 @@ export const translations = {
       personalCare: {
         title: 'Cuidado Personal',
         description: 'Tratamientos individuales adaptados a tus necesidades únicas'
+      },
+      bioenergeticMassage: {
+        title: 'Masaje Bioenergético',
+        description: 'Libera bloqueos y promueve el flujo natural de energía'
       }
     },
     about: {
