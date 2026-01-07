@@ -23,8 +23,8 @@ export const translations = {
         description: 'Individuelle Begleitung aus Präsenz und Körperbewusstsein.'
       },
       crystalReiki: {
-        title: 'Kristall & Reiki',
-        description: 'Kraftvolle Kombination aus Kristallenergie und Reiki-Heilung'
+        title: 'Gruppenangebote',
+        description: 'Monatliche Praxisräume und Workshops für bewusste Heilung.'
       },
       personalCare: {
         title: 'Persönliche Betreuung',
