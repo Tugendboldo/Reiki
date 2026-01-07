@@ -534,7 +534,7 @@ export const translations = {
         'My role is to create a safe framework in which self-regulation and inner balance become possible.'
       ],
       vision: 'For me, Reiki is a living practice and a path of inner clarity, expressed in individual sessions, group offerings, and training – carried by simplicity, ethics, and transparency.',
-      closing: 'Perhaps your body is longing for a pause right now. I look forward to accompanying you.'
+      closing: 'If you’ve made it this far, perhaps your body is also asking for a space to rest and reconnect with itself. It will be my pleasure to accompany you whenever you feel ready.'
     },
     about: {
       badge: 'About Erika',
