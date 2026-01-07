@@ -40,6 +40,8 @@ export const translations = {
       title: 'Mein ',
       titleHighlight: 'Ansatz',
       paragraphs: [
+        'Hallo und herzlich willkommen. Ich bin Erika Yuliana Castro.'
+        'Ich begleite Heilungsprozesse durch Reiki, Körperarbeit und ein tiefes Lauschen auf Körper und Energie. Ich glaube an eine Form der Heilung, die nicht erzwungen wird, sondern sich zeigt, wenn der Körper sich sicher, gehalten und präsent fühlt.'
         'Meine Arbeit basiert auf Reiki Usui Tibetano sowie auf dem traditionellen japanischen Reiki und folgt einem integrativen Verständnis von Körper, Energie und emotionalen Prozessen.',
         'Ich verstehe Heilung als einen natürlichen Vorgang, der nicht erzwungen werden kann, sondern sich entfaltet, wenn der Körper Sicherheit, Ruhe und Präsenz erfährt.',
         'Ich bin Reiki-Meisterin im Usui-Tibetischen Reiki, anerkannt und federiert bei der Asociación Española de Reiki, und berechtigt, Reiki-Ausbildungen anzubieten, alle Stufen zu zertifizieren sowie neue Reiki-Meister:innen auszubilden – stets im Einklang mit der Tradition, der professionellen Ethik und dem individuellen Entwicklungsprozess.',
