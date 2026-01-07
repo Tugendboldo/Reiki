@@ -38,7 +38,15 @@ export interface Translations {
       description: string;
     };
   };
-  
+
+  // Approach Section
+  approach: {
+    badge: string;
+    title: string;
+    titleHighlight: string;
+    paragraphs: string[];
+  };
+
   // About Section
   about: {
     badge: string;

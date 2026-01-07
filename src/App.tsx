@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, MapPin, Clock, Heart, Sparkles, Menu, X, Star, User, Calendar, Activity } from 'lucide-react';
+import { Phone, MapPin, Clock, Heart, Sparkles, Menu, X, Star, User, Calendar, Activity, Compass } from 'lucide-react';
 import { BioenergetischeMassage, Reiki, Kristalltherapie, Fortbildungskurse, MakrameeWorkshops } from './components/ServicePages';
 import { LanguageSelector } from './components/LanguageSelector';
 import { LeafletMap } from './components/LeafletMap';
@@ -231,8 +231,32 @@ function App() {
         </div>
       </section>
 
+      {/* Approach Section */}
+      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center space-x-2 bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <Compass className="w-4 h-4" />
+              <span>{t.approach.badge}</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              {t.approach.title}
+              <span className="bg-gradient-to-r from-teal-600 to-emerald-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            {t.approach.paragraphs.map((paragraph, index) => (
+              <p key={index} className="text-lg text-gray-600 leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
