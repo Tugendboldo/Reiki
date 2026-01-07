@@ -19,8 +19,8 @@ export const translations = {
     },
     features: {
       holisticHealing: {
-        title: 'Ganzheitliche Heilung',
-        description: 'Behandlung von Körper, Geist und Seele für vollständiges Wohlbefinden'
+        title: 'Reiki-Einzelsitzungen',
+        description: 'Individuelle Begleitung aus Präsenz und Körperbewusstsein.'
       },
       crystalReiki: {
         title: 'Kristall & Reiki',
