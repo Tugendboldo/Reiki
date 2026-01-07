@@ -12,7 +12,7 @@ export const translations = {
       badge: 'Zertifizierte Reiki-Meisterin',
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Entdecken Sie die transformative Kraft von Reiki, bioenergetischer Massage und Kristalltherapie. Ihre Reise zu ganzheitlicher Heilung und innerem Frieden beginnt hier.',
+      description: 'Wenn der Körper ruht, erinnert sich die Energie an ihr natürliches Gleichgewicht. Ausbildung und Begleitung in Reiki Usui Tibetano, Level I, II, III und Meisterschaft, mit Integration traditioneller japanischer Reiki-Praktiken basierend auf Präsenz und dem Hören auf den Körper. Praxis zum Halten, Erkundung zum Öffnen und Integration zur Transformation.',
       bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
     },
@@ -466,7 +466,7 @@ export const translations = {
       badge: 'Certified Reiki Master',
       title: 'Welcome to ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Discover the transformative power of Reiki, bioenergetic massage, and crystal therapy. Your journey to holistic healing and inner peace begins here.',
+      description: 'When the body rests, energy remembers its natural balance. Training and accompaniment in Reiki Usui Tibetano, Level I, II, III and Mastery, integrating traditional Japanese Reiki practices based on presence and listening to the body. Practice to hold, exploration to open, and integration to transform.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
@@ -920,7 +920,7 @@ export const translations = {
       badge: 'Maestra Reiki Certificada',
       title: 'Bienvenido a ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'Descubre el poder transformador del Reiki, masaje bioenergético y terapia con cristales. Tu viaje hacia la sanación holística y la paz interior comienza aquí.',
+      description: 'Cuando el cuerpo descansa, la energía recuerda su equilibrio natural. Formación y acompañamiento en Reiki Usui Tibetano, Nivel I, II, III Y Maestría, integrando prácticas de Reiki tradicional japonés basadas en la presencia y la escucha del cuerpo. Práctica para sostener, exploración para abrir e integración para transformar.',
       bookAppointment: 'Reservar Cita',
       discoverServices: 'Descubrir Servicios'
     },
