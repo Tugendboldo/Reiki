@@ -466,7 +466,8 @@ export const translations = {
       badge: 'Certified Reiki Master',
       title: 'Welcome to ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'a conscious healing space where the body can rest and energy can recover its natural balance. Here I accompany personal and formative processes through Reiki Usui Tibetano, traditional Japanese Reiki practices and experiential encounters that invite a return to presence, to the body and to internal listening. Each proposal is born from respect for individual rhythm, without forcing processes, creating a safe space where healing reveals itself when there is rest, openness and trust.',
+      subtitle: 'When the body comes to rest, energy remembers its natural harmony.',
+      description: 'A space for conscious healing where the body can rest and energy can recover its natural balance. Here I accompany personal development processes and training through Reiki Usui Tibetano, traditional Japanese Reiki practices, and experiential offerings that invite you to reconnect with the body, presence, and inner perception. All offerings arise from respect for individual rhythm. No processes are forced – rather, a protected space is created where healing can reveal itself when there is rest, openness, and trust.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
