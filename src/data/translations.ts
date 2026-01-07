@@ -466,7 +466,7 @@ export const translations = {
       badge: 'Certified Reiki Master',
       title: 'Welcome to ',
       titleHighlight: 'Erika Natural Healing',
-      description: 'When the body rests, energy remembers its natural balance. Training and accompaniment in Reiki Usui Tibetano, Level I, II, III and Mastery, integrating traditional Japanese Reiki practices based on presence and listening to the body. Practice to hold, exploration to open, and integration to transform.',
+      description: 'When the body rests, energy remembers its natural balance. Training and accompaniment in Reiki Usui Tibetano, Level I, II, III and Mastery, integrating traditional Japanese Reiki practices based on presence and listening to the body. Practice to sustain, exploration to open, and integration to transform.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
