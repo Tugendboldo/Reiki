@@ -33,6 +33,10 @@ export interface Translations {
       title: string;
       description: string;
     };
+    bioenergeticMassage: {
+      title: string;
+      description: string;
+    };
   };
   
   // About Section
