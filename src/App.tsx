@@ -195,7 +195,7 @@ function App() {
           </div>
           
           {/* Features Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+          <div className="grid md:grid-cols-3 gap-8 mt-20">
             <div className="relative z-10 text-center p-8 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-80 h-80 mx-auto flex flex-col justify-center">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-purple-600" />
@@ -218,14 +218,6 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-3">{t.features.personalCare.title}</h3>
               <p className="text-gray-600 text-base">{t.features.personalCare.description}</p>
-            </div>
-            
-            <div className="relative z-10 text-center p-8 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-80 h-80 mx-auto flex flex-col justify-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-emerald-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">{t.features.bioenergeticMassage.title}</h3>
-              <p className="text-gray-600 text-base">{t.features.bioenergeticMassage.description}</p>
             </div>
           </div>
         </div>
