@@ -39,20 +39,22 @@ export const translations = {
       badge: 'Mein Ansatz',
       title: 'Mein ',
       titleHighlight: 'Ansatz',
-      paragraphs: [
-        'Hallo und herzlich willkommen. Ich bin Erika Yuliana Castro.',
-        'Ich begleite Heilungsprozesse durch Reiki, Körperarbeit und ein tiefes Lauschen auf Körper und Energie. Ich glaube an eine Form der Heilung, die nicht erzwungen wird, sondern sich zeigt, wenn der Körper sich sicher, gehalten und präsent fühlt.',
-        'Meine Arbeit basiert auf Reiki Usui Tibetano sowie auf dem traditionellen japanischen Reiki und folgt einem integrativen Verständnis von Körper, Energie und emotionalen Prozessen.',
-        'Ich verstehe Heilung als einen natürlichen Vorgang, der nicht erzwungen werden kann, sondern sich entfaltet, wenn der Körper Sicherheit, Ruhe und Präsenz erfährt.',
-        'Ich bin Reiki-Meisterin im Usui-Tibetischen Reiki, anerkannt und federiert bei der Asociación Española de Reiki, und berechtigt, Reiki-Ausbildungen anzubieten, alle Stufen zu zertifizieren sowie neue Reiki-Meister:innen auszubilden – stets im Einklang mit der Tradition, der professionellen Ethik und dem individuellen Entwicklungsprozess.',
-        'Darüber hinaus habe ich mich im traditionellen japanischen Reiki (Gendai Reiki Ho) sowie in ergänzenden ganzheitlichen Ansätzen weitergebildet, unter anderem in integrativer Frauenpsychologie und körper- und emotionsorientierter Arbeit.',
-        'Diese Elemente fließen achtsam in Gruppen- und Erfahrungsräume ein und haben keinen ausbildenden oder zertifizierenden Charakter.',
+      intro: 'Hallo und herzlich willkommen. Ich bin Erika Yuliana Castro.',
+      introDescription: 'Ich begleite Heilungsprozesse durch Reiki, Körperarbeit und ein tiefes Lauschen auf Körper und Energie. Ich glaube an eine Form der Heilung, die nicht erzwungen wird, sondern sich zeigt, wenn der Körper sich sicher, gehalten und präsent fühlt.',
+      philosophyTitle: 'Meine Philosophie',
+      philosophy: 'Meine Arbeit basiert auf Reiki Usui Tibetano sowie auf dem traditionellen japanischen Reiki und folgt einem integrativen Verständnis von Körper, Energie und emotionalen Prozessen. Ich verstehe Heilung als einen natürlichen Vorgang, der nicht erzwungen werden kann, sondern sich entfaltet, wenn der Körper Sicherheit, Ruhe und Präsenz erfährt.',
+      credentialsTitle: 'Qualifikationen',
+      credentials: 'Ich bin Reiki-Meisterin im Usui-Tibetischen Reiki, anerkannt und federiert bei der Asociación Española de Reiki, und berechtigt, Reiki-Ausbildungen anzubieten, alle Stufen zu zertifizieren sowie neue Reiki-Meister:innen auszubilden – stets im Einklang mit der Tradition, der professionellen Ethik und dem individuellen Entwicklungsprozess.',
+      trainingTitle: 'Weiterbildung',
+      training: 'Darüber hinaus habe ich mich im traditionellen japanischen Reiki (Gendai Reiki Ho) sowie in ergänzenden ganzheitlichen Ansätzen weitergebildet, unter anderem in integrativer Frauenpsychologie und körper- und emotionsorientierter Arbeit. Diese Elemente fließen achtsam in Gruppen- und Erfahrungsräume ein und haben keinen ausbildenden oder zertifizierenden Charakter.',
+      principlesTitle: 'Meine Grundsätze',
+      principles: [
         'Ich begleite aus Präsenz, Zuhören und Respekt.',
         'Es werden keine Diagnosen gestellt und keine gesundheitlichen Zustände interpretiert.',
-        'Meine Aufgabe besteht darin, einen sicheren Rahmen zu schaffen, in dem Selbstregulation und innere Balance möglich werden.',
-        'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
-        'Vielleicht wünscht sich dein Körper gerade eine Pause. Ich freue mich darauf, dich dabei zu begleiten.'
-      ]
+        'Meine Aufgabe besteht darin, einen sicheren Rahmen zu schaffen, in dem Selbstregulation und innere Balance möglich werden.'
+      ],
+      vision: 'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
+      closing: 'Vielleicht wünscht sich dein Körper gerade eine Pause. Ich freue mich darauf, dich dabei zu begleiten.'
     },
     about: {
       badge: 'Über Erika',
@@ -517,17 +519,22 @@ export const translations = {
       badge: 'My Approach',
       title: 'My ',
       titleHighlight: 'Approach',
-      paragraphs: [
-        'My work is grounded in Usui Tibetan Reiki and traditional Japanese Reiki, following an integrative understanding of body, energy, and emotional processes.',
-        'I understand healing as a natural process that cannot be forced, but unfolds when the body experiences safety, rest, and presence.',
-        'I am a Reiki Master in Usui Tibetan Reiki, recognized and federated by the Spanish Reiki Association, and authorized to offer Reiki training, certify all levels, and train new Reiki Masters – always in harmony with tradition, professional ethics, and individual development processes.',
-        'Additionally, I have trained in traditional Japanese Reiki (Gendai Reiki Ho) as well as complementary holistic approaches, including integrative women\'s psychology and body- and emotion-oriented work.',
-        'These elements flow mindfully into group and experiential spaces and have no training or certifying character.',
+      intro: 'Hello and welcome. I am Erika Yuliana Castro.',
+      introDescription: 'I accompany healing processes through Reiki, bodywork, and deep listening to body and energy. I believe in a form of healing that is not forced, but reveals itself when the body feels safe, held, and present.',
+      philosophyTitle: 'My Philosophy',
+      philosophy: 'My work is grounded in Usui Tibetan Reiki and traditional Japanese Reiki, following an integrative understanding of body, energy, and emotional processes. I understand healing as a natural process that cannot be forced, but unfolds when the body experiences safety, rest, and presence.',
+      credentialsTitle: 'Credentials',
+      credentials: 'I am a Reiki Master in Usui Tibetan Reiki, recognized and federated by the Spanish Reiki Association, and authorized to offer Reiki training, certify all levels, and train new Reiki Masters – always in harmony with tradition, professional ethics, and individual development processes.',
+      trainingTitle: 'Further Training',
+      training: 'Additionally, I have trained in traditional Japanese Reiki (Gendai Reiki Ho) as well as complementary holistic approaches, including integrative women\'s psychology and body- and emotion-oriented work. These elements flow mindfully into group and experiential spaces and have no training or certifying character.',
+      principlesTitle: 'My Principles',
+      principles: [
         'I accompany from presence, listening, and respect.',
         'No diagnoses are made and no health conditions are interpreted.',
-        'My role is to create a safe framework in which self-regulation and inner balance become possible.',
-        'For me, Reiki is a living practice and a path of inner clarity, expressed in individual sessions, group offerings, and training – carried by simplicity, ethics, and transparency.'
-      ]
+        'My role is to create a safe framework in which self-regulation and inner balance become possible.'
+      ],
+      vision: 'For me, Reiki is a living practice and a path of inner clarity, expressed in individual sessions, group offerings, and training – carried by simplicity, ethics, and transparency.',
+      closing: 'Perhaps your body is longing for a pause right now. I look forward to accompanying you.'
     },
     about: {
       badge: 'About Erika',
@@ -992,16 +999,22 @@ export const translations = {
       badge: 'Mi Enfoque',
       title: 'Mi ',
       titleHighlight: 'Enfoque',
-      paragraphs: [
-        'Mi trabajo se fundamenta en el Reiki Usui Tibetano y en el Reiki tradicional japonés, desde una comprensión integrativa del cuerpo, la energía y los procesos emocionales.',
-        'Concibo la sanación como un proceso natural que no se fuerza, sino que se facilita cuando el cuerpo encuentra descanso, seguridad y presencia.',
-        'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a impartir formación, certificar los distintos niveles de Reiki y formar a nuevos maestros, respetando la tradición, la ética profesional y el ritmo individual de cada proceso.',
-        'Mi recorrido profesional incluye también la formación y práctica en Reiki tradicional japonés (Gendai Reiki Ho) y en otras disciplinas complementarias, como técnicas de psicología femenina integrativa y prácticas holísticas orientadas al trabajo corporal, energético y emocional.',
-        'Estas herramientas se integran de manera consciente y respetuosa en los espacios grupales y vivenciales, sin carácter formativo ni certificante.',
+      intro: 'Hola y bienvenido/a. Soy Erika Yuliana Castro.',
+      introDescription: 'Acompaño procesos de sanación a través del Reiki, el trabajo corporal y una escucha profunda del cuerpo y la energía. Creo en una forma de sanación que no se fuerza, sino que se revela cuando el cuerpo se siente seguro, sostenido y presente.',
+      philosophyTitle: 'Mi Filosofía',
+      philosophy: 'Mi trabajo se fundamenta en el Reiki Usui Tibetano y en el Reiki tradicional japonés, desde una comprensión integrativa del cuerpo, la energía y los procesos emocionales. Concibo la sanación como un proceso natural que no se fuerza, sino que se facilita cuando el cuerpo encuentra descanso, seguridad y presencia.',
+      credentialsTitle: 'Credenciales',
+      credentials: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a impartir formación, certificar los distintos niveles de Reiki y formar a nuevos maestros, respetando la tradición, la ética profesional y el ritmo individual de cada proceso.',
+      trainingTitle: 'Formación Complementaria',
+      training: 'Mi recorrido profesional incluye también la formación y práctica en Reiki tradicional japonés (Gendai Reiki Ho) y en otras disciplinas complementarias, como técnicas de psicología femenina integrativa y prácticas holísticas orientadas al trabajo corporal, energético y emocional. Estas herramientas se integran de manera consciente y respetuosa en los espacios grupales y vivenciales, sin carácter formativo ni certificante.',
+      principlesTitle: 'Mis Principios',
+      principles: [
         'Acompaño desde la escucha, la presencia y el respeto profundo por cada persona.',
-        'No realizo diagnósticos ni interpretaciones sobre la condición de nadie; mi labor consiste en crear un espacio seguro y contenido donde el sistema pueda autorregularse y recuperar su equilibrio de forma natural.',
-        'El Reiki, para mí, es una práctica viva y un camino de coherencia, que se expresa tanto en las sesiones individuales como en los encuentros grupales y las formaciones, siempre desde la simplicidad, la ética y la claridad.'
-      ]
+        'No realizo diagnósticos ni interpretaciones sobre la condición de nadie.',
+        'Mi labor consiste en crear un espacio seguro y contenido donde el sistema pueda autorregularse y recuperar su equilibrio de forma natural.'
+      ],
+      vision: 'El Reiki, para mí, es una práctica viva y un camino de coherencia, que se expresa tanto en las sesiones individuales como en los encuentros grupales y las formaciones, siempre desde la simplicidad, la ética y la claridad.',
+      closing: 'Quizás tu cuerpo está deseando una pausa. Me encantará acompañarte.'
     },
     about: {
       badge: 'Acerca de Erika',

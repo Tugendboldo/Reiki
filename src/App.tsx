@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, MapPin, Clock, Heart, Sparkles, Menu, X, Star, User, Calendar, Activity, Compass } from 'lucide-react';
+import { Phone, MapPin, Clock, Heart, Sparkles, Menu, X, Star, User, Calendar, Activity, Compass, Award, BookOpen, Shield, Quote } from 'lucide-react';
 import { BioenergetischeMassage, Reiki, Kristalltherapie, Fortbildungskurse, MakrameeWorkshops } from './components/ServicePages';
 import { LanguageSelector } from './components/LanguageSelector';
 import { LeafletMap } from './components/LeafletMap';
@@ -232,9 +232,9 @@ function App() {
       </section>
 
       {/* Approach Section */}
-      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
+      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-teal-50/30">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Compass className="w-4 h-4" />
               <span>{t.approach.badge}</span>
@@ -245,12 +245,82 @@ function App() {
             </h2>
           </div>
 
-          <div className="space-y-6">
-            {t.approach.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-lg text-gray-600 leading-relaxed">
-                {paragraph}
+          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+            <div className="flex items-start gap-4 mb-6">
+              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <Quote className="w-6 h-6 text-teal-600" />
+              </div>
+              <div>
+                <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
+                  {t.approach.intro}
+                </p>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  {t.approach.introDescription}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-emerald-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">{t.approach.philosophyTitle}</h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed">{t.approach.philosophy}</p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                  <Award className="w-5 h-5 text-amber-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">{t.approach.credentialsTitle}</h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed">{t.approach.credentials}</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <BookOpen className="w-5 h-5 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900">{t.approach.trainingTitle}</h3>
+            </div>
+            <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-teal-600 to-emerald-600 rounded-3xl p-8 md:p-12 text-white mb-12">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+                <Shield className="w-5 h-5 text-white" />
+              </div>
+              <h3 className="text-2xl font-semibold">{t.approach.principlesTitle}</h3>
+            </div>
+            <div className="space-y-4">
+              {t.approach.principles.map((principle, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-sm font-medium">{index + 1}</span>
+                  </div>
+                  <p className="text-white/95 leading-relaxed">{principle}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-xl text-gray-700 leading-relaxed mb-8 max-w-3xl mx-auto">
+              {t.approach.vision}
+            </p>
+            <div className="bg-teal-50 rounded-2xl p-8 inline-block">
+              <p className="text-lg text-teal-800 font-medium italic">
+                "{t.approach.closing}"
               </p>
-            ))}
+            </div>
           </div>
         </div>
       </section>

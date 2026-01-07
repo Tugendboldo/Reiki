@@ -44,7 +44,18 @@ export interface Translations {
     badge: string;
     title: string;
     titleHighlight: string;
-    paragraphs: string[];
+    intro: string;
+    introDescription: string;
+    philosophyTitle: string;
+    philosophy: string;
+    credentialsTitle: string;
+    credentials: string;
+    trainingTitle: string;
+    training: string;
+    principlesTitle: string;
+    principles: string[];
+    vision: string;
+    closing: string;
   };
 
   // About Section
