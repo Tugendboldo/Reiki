@@ -32,7 +32,7 @@ export const translations = {
       },
       bioenergeticMassage: {
         title: 'Bioenergetische Massage',
-        description: 'Lösung von Blockaden und Förderung des natürlichen Energieflusses'
+        description: 'Bewusste Körperarbeit zur Entspannung und Regulation.'
       }
     },
     about: {
