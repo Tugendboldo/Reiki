@@ -50,7 +50,8 @@ export const translations = {
         'Ich begleite aus Präsenz, Zuhören und Respekt.',
         'Es werden keine Diagnosen gestellt und keine gesundheitlichen Zustände interpretiert.',
         'Meine Aufgabe besteht darin, einen sicheren Rahmen zu schaffen, in dem Selbstregulation und innere Balance möglich werden.',
-        'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.'
+        'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
+        'Wenn du bis hierher gelesen hast, bittet dein Körper vielleicht ebenfalls um einen Raum, um zu ruhen und sich wieder mit sich selbst zu verbinden. Es wird mir eine Freude sein, dich zu begleiten, wenn du es spürst.'
       ]
     },
     about: {
