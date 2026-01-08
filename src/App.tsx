@@ -232,23 +232,23 @@ function App() {
       </section>
 
       {/* Approach Section */}
-      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-teal-50/30">
+      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-100 to-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Compass className="w-4 h-4" />
               <span>{t.approach.badge}</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               {t.approach.title}
-              <span className="bg-gradient-to-r from-teal-600 to-emerald-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
+              <span className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
             </h2>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
             <div className="flex items-start gap-4 mb-6">
-              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
-                <Quote className="w-6 h-6 text-teal-600" />
+              <div className="w-12 h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <Quote className="w-6 h-6 text-cyan-600" />
               </div>
               <div>
                 <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
@@ -262,20 +262,20 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-cyan-100/50">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-emerald-600" />
+                <div className="w-10 h-10 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-cyan-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900">{t.approach.philosophyTitle}</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">{t.approach.philosophy}</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-purple-100/50">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
-                  <Award className="w-5 h-5 text-amber-600" />
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
+                  <Award className="w-5 h-5 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900">{t.approach.credentialsTitle}</h3>
               </div>
@@ -283,9 +283,9 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12">
+          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12 border border-blue-100/50">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">{t.approach.trainingTitle}</h3>
@@ -293,7 +293,7 @@ function App() {
             <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
           </div>
 
-          <div className="bg-gradient-to-br from-teal-600 to-emerald-600 rounded-3xl p-8 md:p-12 text-white mb-12">
+          <div className="bg-gradient-to-br from-cyan-500 via-blue-500 via-purple-600 to-pink-500 rounded-3xl p-8 md:p-12 text-white mb-12 shadow-xl">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
                 <Shield className="w-5 h-5 text-white" />
@@ -316,8 +316,8 @@ function App() {
             <p className="text-xl text-gray-700 leading-relaxed mb-8 max-w-3xl mx-auto">
               {t.approach.vision}
             </p>
-            <div className="bg-teal-50 rounded-2xl p-8 inline-block">
-              <p className="text-lg text-teal-800 font-medium italic">
+            <div className="bg-gradient-to-r from-cyan-50 via-purple-50 to-pink-50 rounded-2xl p-8 inline-block border border-purple-200/50">
+              <p className="text-lg bg-gradient-to-r from-cyan-700 via-purple-700 to-pink-700 bg-clip-text text-transparent font-medium italic">
                 "{t.approach.closing}"
               </p>
             </div>
