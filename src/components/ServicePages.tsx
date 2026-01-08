@@ -55,7 +55,7 @@ export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, cur
           {/* Description Section */}
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Beschreibung</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.descriptionTitle}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
               </p>
@@ -183,7 +183,7 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Was ist Reiki?</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.whatIsReiki}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
               </p>
@@ -324,7 +324,7 @@ export const Kristalltherapie: React.FC<ServicePageProps> = ({ onBack, currentLa
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Die Kraft der Kristalle</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.powerOfCrystals}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
               </p>
@@ -492,7 +492,7 @@ export const Fortbildungskurse: React.FC<ServicePageProps> = ({ onBack, currentL
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Werden Sie selbst zum Heiler</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.becomeHealer}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
               </p>
@@ -675,7 +675,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Entdecken Sie die Kunst des Makramee</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.discoverArt}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
               </p>

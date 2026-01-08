@@ -87,6 +87,7 @@ export const translations = {
       bioenergetischeMassage: {
         title: 'Bioenergetische Massage',
         subtitle: 'Energiefluss und Entspannung',
+        descriptionTitle: 'Beschreibung',
         description1: 'Die bioenergetische Massage ist eine ganzheitliche Behandlungsmethode, die körperliche Berührung mit energetischer Arbeit verbindet.',
         description2: 'Diese sanfte, aber tiefgreifende Technik löst Blockaden und fördert den natürlichen Energiefluss im Körper.',
         whatIsIt: 'Was ist bioenergetische Massage?',
@@ -127,6 +128,7 @@ export const translations = {
       reiki: {
         title: 'Reiki Heilbehandlung',
         subtitle: 'Universelle Lebensenergie',
+        whatIsReiki: 'Was ist Reiki?',
         description1: 'Reiki wird als universelle Lebensenergie verstanden, die Harmonie und Ausgleich unterstützt. Es ist weniger eine Technik als vielmehr eine Praxis der Achtsamkeit und Präsenz, die den Körper in einen Zustand tiefer Entspannung führen kann. Wenn diese Ruhe eintritt, können sich natürliche Regulationsprozesse entfalten.',
         description2: 'In den Sitzungen stelle ich mich als Kanal für diese Praxis zur Verfügung, stets im Respekt vor deinem persönlichen Rhythmus und Prozess. Heilung wird dabei nicht herbeigeführt – sie darf sich zeigen.',
         treatmentForms: 'Behandlungsformen',
@@ -186,6 +188,7 @@ export const translations = {
       kristalltherapie: {
         title: 'Kristalltherapie',
         subtitle: 'Heilende Kristallenergie',
+        powerOfCrystals: 'Die Kraft der Kristalle',
         description1: 'Kristalle sind kraftvolle Werkzeuge der Natur, die seit Jahrtausenden für Heilung und spirituelle Entwicklung verwendet werden.',
         description2: 'Jeder Kristall besitzt eine einzigartige Schwingung, die harmonisierend auf unsere Energiezentren wirkt.',
         popularCrystals: 'Beliebte Heilkristalle',
@@ -246,6 +249,7 @@ export const translations = {
       fortbildungskurse: {
         title: 'Fortbildungskurse',
         subtitle: 'Lernen Sie selbst zu heilen',
+        becomeHealer: 'Werden Sie selbst zum Heiler',
         description1: 'Entdecken Sie die Kunst der Energiearbeit und lernen Sie, Reiki und Kristalltherapie selbst anzuwenden.',
         description2: 'Unsere Kurse sind für Anfänger und Fortgeschrittene geeignet und vermitteln sowohl theoretisches Wissen als auch praktische Fähigkeiten.',
         courseFormats: 'Kursformate',
@@ -331,6 +335,7 @@ export const translations = {
       makrameeWorkshops: {
         title: 'Makramee-Workshops',
         subtitle: 'Kreative Entspannung',
+        discoverArt: 'Entdecken Sie die Kunst des Makramee',
         description1: 'Entdecken Sie die meditative Kunst des Makramee-Knotens und schaffen Sie wunderschöne, handgefertigte Kunstwerke.',
         description2: 'Unsere Workshops verbinden Kreativität mit Entspannung und bieten eine perfekte Auszeit vom Alltag.',
         highlights: 'Workshop-Highlights',
@@ -576,6 +581,7 @@ export const translations = {
       bioenergetischeMassage: {
         title: 'Bioenergetic Massage',
         subtitle: 'Energy Flow and Relaxation',
+        descriptionTitle: 'Description',
         description1: 'Bioenergetic massage is a holistic treatment method that combines physical touch with energetic work.',
         description2: 'This gentle yet profound technique releases blockages and promotes natural energy flow in the body.',
         whatIsIt: 'What is bioenergetic massage?',
@@ -616,6 +622,7 @@ export const translations = {
       reiki: {
         title: 'Reiki Healing Treatment',
         subtitle: 'Universal Life Energy',
+        whatIsReiki: 'What is Reiki?',
         description1: 'Reiki is understood as universal life energy that supports harmony and balance. It is less a technique than a practice of mindfulness and presence that can lead the body into a state of deep relaxation. When this calm occurs, natural regulatory processes can unfold.',
         description2: 'In sessions, I make myself available as a channel for this practice, always in respect of your personal rhythm and process. Healing is not forced – it is allowed to reveal itself.',
         treatmentForms: 'Treatment Forms',
@@ -675,6 +682,7 @@ export const translations = {
       kristalltherapie: {
         title: 'Crystal Therapy',
         subtitle: 'Healing Crystal Energy',
+        powerOfCrystals: 'The Power of Crystals',
         description1: 'Crystals are powerful tools of nature that have been used for healing and spiritual development for thousands of years.',
         description2: 'Each crystal possesses a unique vibration that works harmoniously on our energy centers.',
         popularCrystals: 'Popular Healing Crystals',
@@ -735,6 +743,7 @@ export const translations = {
       fortbildungskurse: {
         title: 'Training Courses',
         subtitle: 'Learn to Heal Yourself',
+        becomeHealer: 'Become a Healer Yourself',
         description1: 'Discover the art of energy work and learn to apply Reiki and crystal therapy yourself.',
         description2: 'Our courses are suitable for beginners and advanced students and convey both theoretical knowledge and practical skills.',
         courseFormats: 'Course Formats',
@@ -820,6 +829,7 @@ export const translations = {
       makrameeWorkshops: {
         title: 'Macramé Workshops',
         subtitle: 'Creative Relaxation',
+        discoverArt: 'Discover the Art of Macramé',
         description1: 'Discover the meditative art of macramé knotting and create beautiful, handcrafted artworks.',
         description2: 'Our workshops combine creativity with relaxation and offer a perfect break from everyday life.',
         highlights: 'Workshop Highlights',
@@ -1065,6 +1075,7 @@ export const translations = {
       bioenergetischeMassage: {
         title: 'Masaje Bioenergético',
         subtitle: 'Flujo de Energía y Relajación',
+        descriptionTitle: 'Descripción',
         description1: 'El masaje bioenergético es un método de tratamiento holístico que combina el toque físico con el trabajo energético.',
         description2: 'Esta técnica suave pero profunda libera bloqueos y promueve el flujo natural de energía en el cuerpo.',
         whatIsIt: '¿Qué es el masaje bioenergético?',
@@ -1105,6 +1116,7 @@ export const translations = {
       reiki: {
         title: 'Tratamiento de Sanación Reiki',
         subtitle: 'Energía Vital Universal',
+        whatIsReiki: '¿Qué es Reiki?',
         description1: 'Reiki es una energía universal de amor, armonía y sanación que impregna todo lo que existe. Más que una técnica, es una vibración que nos invita a recordar quiénes somos en esencia. Cuando permitimos que esta energía fluya, la mente se aquieta, el corazón se abre y el cuerpo recupera su capacidad natural de equilibrio.',
         description2: 'En cada sesión me convierto en un canal consciente para que esta vibración actúe allí donde más la necesitas, respetando tu ritmo y tu proceso. Porque la verdadera sanación no se impone: se revela.',
         treatmentForms: 'Formas de Tratamiento',
@@ -1163,6 +1175,7 @@ export const translations = {
       kristalltherapie: {
         title: 'Terapia con Cristales',
         subtitle: 'Energía Sanadora de Cristales',
+        powerOfCrystals: 'El Poder de los Cristales',
         description1: 'Los cristales son herramientas poderosas de la naturaleza que han sido utilizadas para la sanación y el desarrollo espiritual durante miles de años.',
         description2: 'Cada cristal posee una vibración única que trabaja armoniosamente en nuestros centros de energía.',
         popularCrystals: 'Cristales Sanadores Populares',
@@ -1223,6 +1236,7 @@ export const translations = {
       fortbildungskurse: {
         title: 'Cursos de Formación',
         subtitle: 'Aprende a Sanarte a Ti Mismo',
+        becomeHealer: 'Conviértete en un Sanador',
         description1: 'Descubre el arte del trabajo energético y aprende a aplicar Reiki y terapia con cristales por ti mismo.',
         description2: 'Nuestros cursos son adecuados para principiantes y estudiantes avanzados y transmiten tanto conocimiento teórico como habilidades prácticas.',
         courseFormats: 'Formatos de Curso',
@@ -1308,6 +1322,7 @@ export const translations = {
       makrameeWorkshops: {
         title: 'Talleres de Macramé',
         subtitle: 'Relajación Creativa',
+        discoverArt: 'Descubre el Arte del Macramé',
         description1: 'Descubre el arte meditativo del anudado de macramé y crea hermosas obras de arte hechas a mano.',
         description2: 'Nuestros talleres combinan creatividad con relajación y ofrecen un descanso perfecto de la vida cotidiana.',
         highlights: 'Aspectos Destacados del Taller',
