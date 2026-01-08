@@ -258,19 +258,19 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white mb-8">
-            <h3 className="text-xl font-bold mb-2">{t.reikiEffects}</h3>
-            {t.reikiEffectsIntro && <p className="mb-4 text-sm">{t.reikiEffectsIntro}</p>}
+          <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-6 mb-8 border border-purple-200/50">
+            <h3 className="text-xl font-bold mb-2 text-gray-900">{t.reikiEffects}</h3>
+            {t.reikiEffectsIntro && <p className="mb-4 text-sm text-gray-700">{t.reikiEffectsIntro}</p>}
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <ul className="text-sm space-y-1">
+                <ul className="text-sm space-y-1 text-gray-700">
                   {t.physicalBenefits.map((benefit, index) => (
                     <li key={index}>• {benefit}</li>
                   ))}
                 </ul>
               </div>
               <div>
-                <ul className="text-sm space-y-1">
+                <ul className="text-sm space-y-1 text-gray-700">
                   {t.emotionalBenefits.map((benefit, index) => (
                     <li key={index}>• {benefit}</li>
                   ))}
