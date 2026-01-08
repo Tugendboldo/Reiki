@@ -126,8 +126,8 @@ export const translations = {
         ]
       },
       reiki: {
-        title: 'Reiki Heilbehandlung',
-        subtitle: 'Universelle Lebensenergie',
+        title: 'Begleitung in Präsenz - für Körper und Energie',
+        subtitle: 'Reiki-Sitzungen für tiefe Entspannung und innere Balance',
         whatIsReiki: 'Was ist Reiki?',
         description1: 'Reiki wird als universelle Lebensenergie verstanden, die Harmonie und Ausgleich unterstützt. Es ist weniger eine Technik als vielmehr eine Praxis der Achtsamkeit und Präsenz, die den Körper in einen Zustand tiefer Entspannung führen kann. Wenn diese Ruhe eintritt, können sich natürliche Regulationsprozesse entfalten.',
         description2: 'In den Sitzungen stelle ich mich als Kanal für diese Praxis zur Verfügung, stets im Respekt vor deinem persönlichen Rhythmus und Prozess. Heilung wird dabei nicht herbeigeführt – sie darf sich zeigen.',
