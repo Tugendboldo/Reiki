@@ -293,20 +293,20 @@ function App() {
             <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-300 to-pink-300 rounded-3xl p-8 md:p-12 text-white mb-12 shadow-xl">
+          <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-purple-200/50">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
-                <Shield className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
+                <Shield className="w-5 h-5 text-purple-700" />
               </div>
-              <h3 className="text-2xl font-semibold">{t.approach.principlesTitle}</h3>
+              <h3 className="text-2xl font-semibold text-gray-900">{t.approach.principlesTitle}</h3>
             </div>
             <div className="space-y-4">
               {t.approach.principles.map((principle, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-sm font-medium">{index + 1}</span>
+                  <div className="w-6 h-6 bg-purple-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-sm font-medium text-purple-700">{index + 1}</span>
                   </div>
-                  <p className="text-white/95 leading-relaxed">{principle}</p>
+                  <p className="text-gray-700 leading-relaxed">{principle}</p>
                 </div>
               ))}
             </div>
