@@ -260,11 +260,11 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-            <h3 className="text-xl font-bold mb-4">{t.reikiEffects}</h3>
+          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white mb-8">
+            <h3 className="text-xl font-bold mb-2">{t.reikiEffects}</h3>
+            {t.reikiEffectsIntro && <p className="mb-4 text-sm">{t.reikiEffectsIntro}</p>}
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold mb-2">{t.physicalLevel}</h4>
                 <ul className="text-sm space-y-1">
                   {t.physicalBenefits.map((benefit, index) => (
                     <li key={index}>• {benefit}</li>
@@ -272,7 +272,6 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">{t.emotionalLevel}</h4>
                 <ul className="text-sm space-y-1">
                   {t.emotionalBenefits.map((benefit, index) => (
                     <li key={index}>• {benefit}</li>
@@ -281,6 +280,17 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
               </div>
             </div>
           </div>
+
+          {t.medicalDisclaimer && (
+            <div className="bg-amber-50 border-l-4 border-amber-500 rounded-xl p-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.medicalDisclaimer}</h3>
+              <div className="space-y-3 text-gray-700">
+                {t.medicalDisclaimerText.map((text, index) => (
+                  <p key={index} className="leading-relaxed">{text}</p>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

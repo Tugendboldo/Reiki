@@ -127,8 +127,8 @@ export const translations = {
       reiki: {
         title: 'Reiki Heilbehandlung',
         subtitle: 'Universelle Lebensenergie',
-        description1: 'Reiki ist eine japanische Heilkunst, die universelle Lebensenergie zur Förderung von Heilung und Wohlbefinden nutzt.',
-        description2: 'Diese sanfte, nicht-invasive Methode aktiviert die natürlichen Selbstheilungskräfte des Körpers.',
+        description1: 'Reiki wird als universelle Lebensenergie verstanden, die Harmonie und Ausgleich unterstützt. Es ist weniger eine Technik als vielmehr eine Praxis der Achtsamkeit und Präsenz, die den Körper in einen Zustand tiefer Entspannung führen kann. Wenn diese Ruhe eintritt, können sich natürliche Regulationsprozesse entfalten.',
+        description2: 'In den Sitzungen stelle ich mich als Kanal für diese Praxis zur Verfügung, stets im Respekt vor deinem persönlichen Rhythmus und Prozess. Heilung wird dabei nicht herbeigeführt – sie darf sich zeigen.',
         treatmentForms: 'Behandlungsformen',
         directReiki: 'Direktes Reiki',
         distanceReiki: 'Fernreiki',
@@ -142,36 +142,45 @@ export const translations = {
           'Gerade heute arbeite ehrlich',
           'Gerade heute sei freundlich zu allen Lebewesen'
         ],
-        directTreatment: 'Direkte Behandlung',
-        directTreatmentDesc: 'Bei der direkten Reiki-Behandlung legen wir die Hände auf oder über verschiedene Körperstellen.',
+        directTreatment: 'Wie wirkt Reiki?',
+        directTreatmentDesc: 'Der Körper speichert Spannungen und Stresszustände, oft ohne dass wir sie bewusst wahrnehmen. Durch achtsame Berührung oder Arbeit im Energiefeld kann das Nervensystem aus einem Zustand erhöhter Anspannung in einen Modus von Ruhe und Regeneration wechseln.',
         directTreatmentBenefits: [
-          'Intensive Energieübertragung',
-          'Persönlicher Kontakt und Vertrauen',
-          'Sofortige Entspannung',
-          'Individuelle Anpassung'
+          'Ziel der Sitzung ist es nicht, Veränderungen zu erzwingen',
+          'Einen Raum öffnen, in dem Loslassen möglich wird',
+          'Atmung und Selbstwahrnehmung fördern',
+          'Natürliche Regulationsprozesse unterstützen'
         ],
-        distanceTreatment: 'Fernbehandlung',
-        distanceTreatmentDesc: 'Reiki-Energie kennt keine räumlichen Grenzen und kann auch über die Ferne übertragen werden.',
+        distanceTreatment: 'Wie ist eine Reiki-Sitzung bei mir?',
+        distanceTreatmentDesc: 'Die Sitzung findet in einem ruhigen und geschützten Raum statt. Du liegst bekleidet auf einer Behandlungsliege und kannst dich bei Bedarf mit einer Decke zudecken. Ich biete Sitzungen von 30 Minuten sowie 45 bis 60 Minuten an.',
         distanceTreatmentBenefits: [
-          'Flexibilität und Komfort',
-          'Gleiche Wirksamkeit wie direkte Behandlung',
-          'Ideal für regelmäßige Unterstützung',
-          'Keine Anfahrtswege nötig'
+          'Reiki wird durch sanfte Handauflage oder ohne direkten Körperkontakt angewendet',
+          'Die Sitzung erfolgt in Stille, begleitet von leiser Musik',
+          'Aromatherapie oder Kristalle können ergänzend eingesetzt werden',
+          'Es werden keine Deutungen, Bewertungen oder Diagnosen vorgenommen'
         ],
-        reikiEffects: 'Reiki-Wirkungen',
+        reikiEffects: 'Mögliche Wirkungen von Reiki',
+        reikiEffectsIntro: 'Reiki richtet sich nicht ausschließlich an den Körper, sondern wirkt ganzheitlich regulierend. Viele Menschen berichten von:',
         physicalLevel: 'Körperliche Ebene',
         physicalBenefits: [
-          'Schmerzlinderung',
-          'Verbesserung der Schlafqualität',
-          'Stärkung des Immunsystems',
-          'Beschleunigung der Heilung'
+          'Tiefer Entspannung',
+          'Verbesserter Körperwahrnehmung',
+          'Gesteigertem Wohlbefinden',
+          'Mehr innerer Klarheit'
         ],
         emotionalLevel: 'Emotionale Ebene',
         emotionalBenefits: [
-          'Stressabbau und Entspannung',
-          'Emotionale Balance',
-          'Klarheit und innere Ruhe',
-          'Lösung von Blockaden'
+          'Emotionaler Entlastung',
+          'Rückkehr in ein natürliches Gleichgewicht',
+          'Keine Leistung oder Zielerreichung',
+          'Natürliches Gleichgewicht wiederfinden'
+        ],
+        medicalDisclaimer: 'Reiki und Schulmedizin – Rechtlicher Hinweis',
+        medicalDisclaimerText: [
+          'Reiki ist eine komplementäre Methode zur Förderung des Wohlbefindens.',
+          'Die angebotenen Leistungen stellen keine medizinische, psychotherapeutische oder heilkundliche Behandlung dar und ersetzen diese nicht.',
+          'Es werden keine Diagnosen gestellt, keine Heilversprechen abgegeben und keine bestehenden Therapien empfohlen oder abgesetzt.',
+          'Bei gesundheitlichen Beschwerden ist stets eine ärztliche oder therapeutische Abklärung erforderlich.',
+          'Alle Angebote erfolgen in Eigenverantwortung der teilnehmenden Person.'
         ]
       },
       kristalltherapie: {
@@ -607,8 +616,8 @@ export const translations = {
       reiki: {
         title: 'Reiki Healing Treatment',
         subtitle: 'Universal Life Energy',
-        description1: 'Reiki is a Japanese healing art that uses universal life energy to promote healing and well-being.',
-        description2: 'This gentle, non-invasive method activates the body\'s natural self-healing powers.',
+        description1: 'Reiki is understood as universal life energy that supports harmony and balance. It is less a technique than a practice of mindfulness and presence that can lead the body into a state of deep relaxation. When this calm occurs, natural regulatory processes can unfold.',
+        description2: 'In sessions, I make myself available as a channel for this practice, always in respect of your personal rhythm and process. Healing is not forced – it is allowed to reveal itself.',
         treatmentForms: 'Treatment Forms',
         directReiki: 'Direct Reiki',
         distanceReiki: 'Distance Reiki',
@@ -622,36 +631,45 @@ export const translations = {
           'Just for today, work honestly',
           'Just for today, be kind to all living beings'
         ],
-        directTreatment: 'Direct Treatment',
-        directTreatmentDesc: 'In direct Reiki treatment, we place hands on or over various parts of the body.',
+        directTreatment: 'How Does Reiki Work?',
+        directTreatmentDesc: 'The body stores tension and stress states, often without us being consciously aware of them. Through mindful touch or work in the energy field, the nervous system can shift from a state of heightened tension to a mode of rest and regeneration.',
         directTreatmentBenefits: [
-          'Intensive energy transmission',
-          'Personal contact and trust',
-          'Immediate relaxation',
-          'Individual adaptation'
+          'The goal of the session is not to force changes',
+          'To open a space where letting go becomes possible',
+          'To support breathing and self-awareness',
+          'To support natural regulatory processes'
         ],
-        distanceTreatment: 'Distance Treatment',
-        distanceTreatmentDesc: 'Reiki energy knows no spatial boundaries and can also be transmitted over distance.',
+        distanceTreatment: 'What Is a Reiki Session with Me Like?',
+        distanceTreatmentDesc: 'The session takes place in a quiet and protected space. You lie clothed on a treatment table and can cover yourself with a blanket if needed. I offer sessions of 30 minutes as well as 45 to 60 minutes.',
         distanceTreatmentBenefits: [
-          'Flexibility and comfort',
-          'Same effectiveness as direct treatment',
-          'Ideal for regular support',
-          'No travel required'
+          'Reiki is applied through gentle hand placement or without direct body contact',
+          'The session takes place in silence, accompanied by soft music',
+          'Aromatherapy or crystals can be used complementarily',
+          'No interpretations, evaluations or diagnoses are made'
         ],
-        reikiEffects: 'Reiki Effects',
+        reikiEffects: 'Possible Effects of Reiki',
+        reikiEffectsIntro: 'Reiki is not directed exclusively at the body, but works holistically regulating. Many people report:',
         physicalLevel: 'Physical Level',
         physicalBenefits: [
-          'Pain relief',
-          'Improvement of sleep quality',
-          'Strengthening of immune system',
-          'Acceleration of healing'
+          'Deep relaxation',
+          'Improved body awareness',
+          'Increased well-being',
+          'More inner clarity'
         ],
         emotionalLevel: 'Emotional Level',
         emotionalBenefits: [
-          'Stress reduction and relaxation',
-          'Emotional balance',
-          'Clarity and inner peace',
-          'Release of blockages'
+          'Emotional relief',
+          'Return to natural balance',
+          'No performance or goal achievement',
+          'Finding natural equilibrium'
+        ],
+        medicalDisclaimer: 'Reiki and Conventional Medicine – Legal Notice',
+        medicalDisclaimerText: [
+          'Reiki is a complementary method to promote well-being.',
+          'The services offered do not constitute medical, psychotherapeutic or healing treatment and do not replace them.',
+          'No diagnoses are made, no healing promises are given, and no existing therapies are recommended or discontinued.',
+          'In case of health complaints, medical or therapeutic clarification is always required.',
+          'All offers are made at the participant\'s own responsibility.'
         ]
       },
       kristalltherapie: {
@@ -1087,8 +1105,8 @@ export const translations = {
       reiki: {
         title: 'Tratamiento de Sanación Reiki',
         subtitle: 'Energía Vital Universal',
-        description1: 'Reiki es un arte de sanación japonés que utiliza la energía vital universal para promover la sanación y el bienestar.',
-        description2: 'Este método suave y no invasivo activa los poderes naturales de autocuración del cuerpo.',
+        description1: 'Reiki se entiende como energía vital universal que apoya la armonía y el equilibrio. Es menos una técnica que una práctica de atención plena y presencia que puede llevar al cuerpo a un estado de relajación profunda. Cuando esta calma ocurre, los procesos regulatorios naturales pueden desplegarse.',
+        description2: 'En las sesiones, me pongo a disposición como canal para esta práctica, siempre en respeto a tu ritmo y proceso personal. La sanación no se fuerza – se le permite revelarse.',
         treatmentForms: 'Formas de Tratamiento',
         directReiki: 'Reiki Directo',
         distanceReiki: 'Reiki a Distancia',
@@ -1102,36 +1120,45 @@ export const translations = {
           'Solo por hoy, trabaja honestamente',
           'Solo por hoy, sé amable con todos los seres vivos'
         ],
-        directTreatment: 'Tratamiento Directo',
-        directTreatmentDesc: 'En el tratamiento directo de Reiki, colocamos las manos sobre o encima de varias partes del cuerpo.',
+        directTreatment: '¿Cómo Funciona el Reiki?',
+        directTreatmentDesc: 'El cuerpo almacena tensión y estados de estrés, a menudo sin que seamos conscientes de ellos. A través del toque consciente o del trabajo en el campo energético, el sistema nervioso puede cambiar de un estado de tensión elevada a un modo de descanso y regeneración.',
         directTreatmentBenefits: [
-          'Transmisión intensiva de energía',
-          'Contacto personal y confianza',
-          'Relajación inmediata',
-          'Adaptación individual'
+          'El objetivo de la sesión no es forzar cambios',
+          'Abrir un espacio donde el soltar sea posible',
+          'Apoyar la respiración y la autoconciencia',
+          'Apoyar los procesos regulatorios naturales'
         ],
-        distanceTreatment: 'Tratamiento a Distancia',
-        distanceTreatmentDesc: 'La energía Reiki no conoce límites espaciales y también puede transmitirse a distancia.',
+        distanceTreatment: '¿Cómo es una Sesión de Reiki Conmigo?',
+        distanceTreatmentDesc: 'La sesión tiene lugar en un espacio tranquilo y protegido. Te acuestas vestido en una camilla de tratamiento y puedes cubrirte con una manta si lo necesitas. Ofrezco sesiones de 30 minutos así como de 45 a 60 minutos.',
         distanceTreatmentBenefits: [
-          'Flexibilidad y comodidad',
-          'Misma efectividad que el tratamiento directo',
-          'Ideal para apoyo regular',
-          'No requiere viaje'
+          'Reiki se aplica mediante colocación suave de manos o sin contacto corporal directo',
+          'La sesión se realiza en silencio, acompañada de música suave',
+          'La aromaterapia o los cristales pueden usarse de manera complementaria',
+          'No se realizan interpretaciones, evaluaciones o diagnósticos'
         ],
-        reikiEffects: 'Efectos del Reiki',
+        reikiEffects: 'Posibles Efectos del Reiki',
+        reikiEffectsIntro: 'Reiki no se dirige exclusivamente al cuerpo, sino que actúa de manera holística reguladora. Muchas personas reportan:',
         physicalLevel: 'Nivel Físico',
         physicalBenefits: [
-          'Alivio del dolor',
-          'Mejora de la calidad del sueño',
-          'Fortalecimiento del sistema inmunológico',
-          'Aceleración de la sanación'
+          'Relajación profunda',
+          'Mejor percepción corporal',
+          'Mayor bienestar',
+          'Más claridad interior'
         ],
         emotionalLevel: 'Nivel Emocional',
         emotionalBenefits: [
-          'Reducción del estrés y relajación',
-          'Equilibrio emocional',
-          'Claridad y paz interior',
-          'Liberación de bloqueos'
+          'Alivio emocional',
+          'Retorno al equilibrio natural',
+          'Sin rendimiento o logro de metas',
+          'Encontrar el equilibrio natural'
+        ],
+        medicalDisclaimer: 'Reiki y Medicina Convencional – Aviso Legal',
+        medicalDisclaimerText: [
+          'Reiki es un método complementario para promover el bienestar.',
+          'Los servicios ofrecidos no constituyen tratamiento médico, psicoterapéutico o de sanación y no los reemplazan.',
+          'No se realizan diagnósticos, no se dan promesas de curación y no se recomiendan ni interrumpen terapias existentes.',
+          'En caso de problemas de salud, siempre se requiere aclaración médica o terapéutica.',
+          'Todas las ofertas se realizan bajo la propia responsabilidad del participante.'
         ]
       },
       kristalltherapie: {
