@@ -239,9 +239,8 @@ function App() {
               <Compass className="w-4 h-4" />
               <span>{t.approach.badge}</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              {t.approach.title}
-              <span className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+              {t.approach.title}{t.approach.titleHighlight}
             </h2>
           </div>
 
