@@ -1124,7 +1124,7 @@ export const translations = {
         ],
         directTreatment: '¿Cómo funciona?',
         directTreatmentDesc: 'Tu cuerpo guarda tensiones, emociones y estados de alerta que muchas veces no sabes que estás sosteniendo. Durante la sesión, a través de un contacto suave y consciente, se libera esa carga interna para que tu sistema nervioso pueda salir del modo supervivencia y entrar en un estado real de descanso y reparación.',
-        directTreatmentBenefits: 'El objetivo de la sesión no es forzar cambios, sino crear el espacio donde tu cuerpo recuerda cómo soltar, respirar y volver a sentirse en casa.',
+        directTreatmentBenefits: 'No vengo a forzar cambios, sino a crear el espacio donde tu cuerpo recuerda cómo soltar, respirar y volver a sentirse en casa. Y cuando el cuerpo descansa de verdad… la vida empieza a ordenarse sola.',
         distanceTreatment: '¿Cómo es una sesión conmigo?',
         distanceTreatmentDesc: 'La sesión se desarrolla en un espacio tranquilo y cuidado, pensado para favorecer la calma y el descanso. Te recuestas en una camilla, vestida y tapada con una manta si así lo deseas. Ofrezco sesiones de 30 minutos, así como sesiones de 45 minutos a una hora.',
         distanceTreatmentBenefits: [
