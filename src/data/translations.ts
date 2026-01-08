@@ -997,8 +997,8 @@ export const translations = {
     },
     approach: {
       badge: 'Mi Enfoque',
-      title: 'Mi ',
-      titleHighlight: 'Enfoque',
+      title: ' ',
+      titleHighlight: 'Mi Enfoque',
       intro: 'Hola y bienvenido/a. Soy Erika Yuliana Castro.',
       introDescription: 'Acompaño procesos de sanación a través del Reiki, el trabajo corporal y una escucha profunda del cuerpo y la energía. Creo en una forma de sanación que no se fuerza, sino que se revela cuando el cuerpo se siente seguro, sostenido y presente.',
       philosophyTitle: 'Mi Filosofía',
