@@ -204,13 +204,16 @@ function App() {
               <p className="text-gray-600 text-sm px-2">{t.features.holisticHealing.description}</p>
             </div>
 
-            <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-64 h-64 mx-auto flex flex-col justify-center">
+            <button
+              onClick={() => handleServiceClick('reiki')}
+              className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
+            >
               <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Sparkles className="w-7 h-7 text-pink-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{t.features.crystalReiki.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.crystalReiki.description}</p>
-            </div>
+            </button>
 
             <div className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white w-64 h-64 mx-auto flex flex-col justify-center">
               <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
