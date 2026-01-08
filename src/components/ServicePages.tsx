@@ -240,11 +240,9 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
               <p className="text-gray-600 mb-4">
                 {t.directTreatmentDesc}
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                {t.directTreatmentBenefits.map((benefit, index) => (
-                  <li key={index}>• {benefit}</li>
-                ))}
-              </ul>
+              <p className="text-gray-600">
+                {t.directTreatmentBenefits}
+              </p>
             </div>
             
             <div className="bg-pink-50 rounded-2xl p-6">

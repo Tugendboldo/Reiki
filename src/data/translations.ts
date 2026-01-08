@@ -146,12 +146,7 @@ export const translations = {
         ],
         directTreatment: 'Wie wirkt Reiki?',
         directTreatmentDesc: 'Der Körper speichert Spannungen und Stresszustände, oft ohne dass wir sie bewusst wahrnehmen. Durch achtsame Berührung oder Arbeit im Energiefeld kann das Nervensystem aus einem Zustand erhöhter Anspannung in einen Modus von Ruhe und Regeneration wechseln.',
-        directTreatmentBenefits: [
-          'Ziel der Sitzung ist es nicht, Veränderungen zu erzwingen',
-          'Einen Raum öffnen, in dem Loslassen möglich wird',
-          'Atmung und Selbstwahrnehmung fördern',
-          'Natürliche Regulationsprozesse unterstützen'
-        ],
+        directTreatmentBenefits: 'Ziel der Sitzung ist es nicht, Veränderungen zu erzwingen, sondern einen Raum zu öffnen, in dem Loslassen, Atmung und Selbstwahrnehmung möglich werden.',
         distanceTreatment: 'Wie ist eine Reiki-Sitzung bei mir?',
         distanceTreatmentDesc: 'Die Sitzung findet in einem ruhigen und geschützten Raum statt. Du liegst bekleidet auf einer Behandlungsliege und kannst dich bei Bedarf mit einer Decke zudecken. Ich biete Sitzungen von 30 Minuten sowie 45 bis 60 Minuten an.',
         distanceTreatmentBenefits: [
@@ -640,12 +635,7 @@ export const translations = {
         ],
         directTreatment: 'How Does Reiki Work?',
         directTreatmentDesc: 'The body stores tension and stress states, often without us being consciously aware of them. Through mindful touch or work in the energy field, the nervous system can shift from a state of heightened tension to a mode of rest and regeneration.',
-        directTreatmentBenefits: [
-          'The goal of the session is not to force changes',
-          'To open a space where letting go becomes possible',
-          'To support breathing and self-awareness',
-          'To support natural regulatory processes'
-        ],
+        directTreatmentBenefits: 'The goal of the session is not to force changes, but to open a space where letting go, breathing, and self-awareness become possible.',
         distanceTreatment: 'What Is a Reiki Session with Me Like?',
         distanceTreatmentDesc: 'The session takes place in a quiet and protected space. You lie clothed on a treatment table and can cover yourself with a blanket if needed. I offer sessions of 30 minutes as well as 45 to 60 minutes.',
         distanceTreatmentBenefits: [
@@ -1134,12 +1124,7 @@ export const translations = {
         ],
         directTreatment: '¿Cómo funciona?',
         directTreatmentDesc: 'Tu cuerpo guarda tensiones, emociones y estados de alerta que muchas veces no sabes que estás sosteniendo. Durante la sesión, a través de un contacto suave y consciente, se libera esa carga interna para que tu sistema nervioso pueda salir del modo supervivencia y entrar en un estado real de descanso y reparación.',
-        directTreatmentBenefits: [
-          'No vengo a forzar cambios, sino a crear el espacio donde tu cuerpo recuerda cómo soltar',
-          'Respirar y volver a sentirse en casa',
-          'Cuando el cuerpo descansa de verdad… la vida empieza a ordenarse sola',
-          ''
-        ],
+        directTreatmentBenefits: 'El objetivo de la sesión no es forzar cambios, sino crear el espacio donde tu cuerpo recuerda cómo soltar, respirar y volver a sentirse en casa.',
         distanceTreatment: '¿Cómo es una sesión conmigo?',
         distanceTreatmentDesc: 'La sesión se desarrolla en un espacio tranquilo y cuidado, pensado para favorecer la calma y el descanso. Te recuestas en una camilla, vestida y tapada con una manta si así lo deseas. Ofrezco sesiones de 30 minutos, así como sesiones de 45 minutos a una hora.',
         distanceTreatmentBenefits: [
