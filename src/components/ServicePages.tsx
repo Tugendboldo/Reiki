@@ -300,161 +300,137 @@ export const Kristalltherapie: React.FC<ServicePageProps> = ({ onBack, currentLa
   const common = translations[currentLanguage].common;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-pink-50">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <button 
+        <button
           onClick={onBack}
-          className="mb-8 text-purple-600 hover:text-purple-700 font-medium"
+          className="mb-8 text-orange-600 hover:text-orange-700 font-medium"
         >
           {common.backToServices}
         </button>
-        
+
         <div className="bg-white rounded-3xl p-8 shadow-sm">
           <div className="flex items-center space-x-4 mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
-              <Gem className="w-8 h-8 text-white" />
+            <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full flex items-center justify-center">
+              <Users className="w-8 h-8 text-white" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">{t.title}</h1>
-              <p className="text-purple-600 font-medium">{t.subtitle}</p>
+              <p className="text-orange-600 font-medium">{t.subtitle}</p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.powerOfCrystals}</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                {t.description1}
+          <div className="mb-8">
+            <div className="space-y-4">
+              <p className="text-gray-700 leading-relaxed text-lg">
+                {t.intro}
               </p>
-              <p className="text-gray-600 leading-relaxed">
-                {t.description2}
+              <p className="text-gray-700 leading-relaxed">
+                {t.intro2}
               </p>
             </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.popularCrystals}</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <div>
-                    <span className="font-medium">{t.amethyst}</span>
-                    <p className="text-xs text-gray-600">{t.amethystDesc}</p>
-                  </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-6 border border-amber-100">
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <p className="text-gray-900 font-semibold text-lg">{t.practiceToHold}</p>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-4 h-4 text-pink-600" />
-                  </div>
-                  <div>
-                    <span className="font-medium">{t.roseQuartz}</span>
-                    <p className="text-xs text-gray-600">{t.roseQuartzDesc}</p>
-                  </div>
+                <div>
+                  <p className="text-gray-900 font-semibold text-lg">{t.explorationToOpen}</p>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-4 h-4 text-indigo-600" />
-                  </div>
-                  <div>
-                    <span className="font-medium">{t.clearQuartz}</span>
-                    <p className="text-xs text-gray-600">{t.clearQuartzDesc}</p>
-                  </div>
+                <div>
+                  <p className="text-gray-900 font-semibold text-lg">{t.integrationToTransform}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.treatmentProcess}</h2>
-            <div className="grid md:grid-cols-4 gap-4">
-              <div className="text-center p-4 bg-purple-50 rounded-2xl">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="font-bold text-purple-600">1</span>
-                </div>
-                <h3 className="font-semibold mb-2">{t.consultation}</h3>
-                <p className="text-sm text-gray-600">{t.consultationDesc}</p>
-              </div>
-              
-              <div className="text-center p-4 bg-pink-50 rounded-2xl">
-                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="font-bold text-pink-600">2</span>
-                </div>
-                <h3 className="font-semibold mb-2">{t.placement}</h3>
-                <p className="text-sm text-gray-600">{t.placementDesc}</p>
-              </div>
-              
-              <div className="text-center p-4 bg-indigo-50 rounded-2xl">
-                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="font-bold text-indigo-600">3</span>
-                </div>
-                <h3 className="font-semibold mb-2">{t.reikiStep}</h3>
-                <p className="text-sm text-gray-600">{t.reikiStepDesc}</p>
-              </div>
-              
-              <div className="text-center p-4 bg-emerald-50 rounded-2xl">
-                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="font-bold text-emerald-600">4</span>
-                </div>
-                <h3 className="font-semibold mb-2">{t.integration}</h3>
-                <p className="text-sm text-gray-600">{t.integrationDesc}</p>
-              </div>
+            <div className="bg-gradient-to-br from-orange-50 to-pink-50 rounded-2xl p-8 border-2 border-orange-200">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Sparkles className="w-6 h-6 text-orange-600" />
+                {t.circleName}
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                <span className="font-semibold">{t.circleName}</span> {t.circleIntro}
+              </p>
+              <p className="text-gray-900 font-medium mb-4">{t.noExperienceNeeded}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.rootedIn}
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.notFromMind}
+              </p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-purple-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.chakraHealing}</h3>
-              <p className="text-gray-600 mb-4">
-                {t.chakraHealingDesc}
-              </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                {t.chakraList.map((chakra, index) => (
-                  <li key={index}>• {chakra}</li>
-                ))}
-              </ul>
-            </div>
-            
-            <div className="bg-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.crystalMeditation}</h3>
-              <p className="text-gray-600 mb-4">
-                {t.crystalMeditationDesc}
-              </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                {t.crystalMeditationBenefits.map((benefit, index) => (
-                  <li key={index}>• {benefit}</li>
+          <div className="mb-8">
+            <div className="bg-white border-2 border-amber-200 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.duringMeetings}</h3>
+              <ul className="space-y-3 text-gray-700">
+                {t.practicesList.map((practice, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <span className="text-orange-600 font-bold mt-1">•</span>
+                    <span>{practice}</span>
+                  </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-            <h3 className="text-xl font-bold mb-4">{t.applications}</h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div>
-                <h4 className="font-semibold mb-2">{t.physical}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.physicalBenefits.map((benefit, index) => (
-                    <li key={index}>• {benefit}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">{t.emotional}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.emotionalBenefits.map((benefit, index) => (
-                    <li key={index}>• {benefit}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">{t.spiritual}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.spiritualBenefits.map((benefit, index) => (
-                    <li key={index}>• {benefit}</li>
-                  ))}
-                </ul>
-              </div>
+          <div className="mb-8">
+            <div className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-2xl p-6 border border-pink-100">
+              <p className="text-gray-900 font-semibold text-lg mb-3">{t.groupEnergy}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.whenWeTogether}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t.invitation}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200">
+              <p className="text-gray-700 leading-relaxed mb-3">
+                {t.contactText}
+              </p>
+              <p className="text-orange-700 font-medium text-lg">
+                {t.pleasureText}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6">
+              <p className="text-gray-700 leading-relaxed mb-3">
+                {t.eachMeeting}
+              </p>
+              <p className="text-gray-700 leading-relaxed italic">
+                {t.spaceFlexible}
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-orange-100 to-pink-100 rounded-2xl p-8 border-2 border-orange-200">
+            <p className="text-gray-800 leading-relaxed text-lg mb-6 text-center">
+              {t.listenBody}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-gradient-to-r from-amber-600 to-orange-600 text-white px-8 py-4 rounded-full font-semibold hover:from-amber-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
+              >
+                {t.ctaPrimary}
+              </button>
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-white text-orange-600 border-2 border-orange-600 px-8 py-4 rounded-full font-semibold hover:bg-orange-50 transition-all duration-300 text-center"
+              >
+                {t.ctaSecondary}
+              </button>
             </div>
           </div>
         </div>
