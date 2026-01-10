@@ -1230,8 +1230,8 @@ export const translations = {
         invitationClosing: 'Espero conocerte.'
       },
       makrameeWorkshops: {
-        title: 'Workshops vivenciales',
-        subtitle: 'Espacios de exploración, conciencia y experiencia',
+        title: 'Espacios de exploración intuitiva',
+        subtitle: 'Mi camino personal incluye diferentes experiencias espirituales que han nutrido mi sensibilidad y mi forma de acompañar, siempre desde una práctica respetuosa y consciente.',
         intro: 'que cada persona pueda sentir, experimentar e integrar desde su propia vivencia.',
         description1: 'Mi camino personal ha atravesado procesos de transformación profunda.',
         description2: 'Desde ahí acompaño: no desde la teoría, sino desde la experiencia vivida, integrada y sostenida en el tiempo.',
