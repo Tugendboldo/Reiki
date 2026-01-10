@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Heart, Sparkles, Star, Zap, Gem, GraduationCap, Scissors, Users } from 'lucide-react';
+import { Clock, Heart, Sparkles, Star, Zap, Gem, GraduationCap, Scissors, Users, Award } from 'lucide-react';
 import { Language } from '../types/translations';
 import { translations } from '../data/translations';
 
