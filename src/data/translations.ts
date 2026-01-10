@@ -1254,8 +1254,8 @@ export const translations = {
         certificationTitle: 'Cualificación',
         certificationText: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a impartir formaciones con iniciaciones y certificación oficial en todos los niveles, desde el Nivel I hasta la Maestría.',
 
-        approachTitle: 'Mi Enfoque de Formación',
-        approachIntro: 'En mis formaciones, la experiencia directa es central. Reiki no se transmite como una técnica, sino como una práctica vivida que puede acompañar y profundizar la vida cotidiana.',
+        approachTitle: 'Cómo son las formaciones conmigo?',
+        approachIntro: 'Las formaciones están diseñadas para que la experiencia preceda a la teoría. Trabajo con un enfoque vivencial, integrando la práctica del Reiki en la vida cotidiana desde la presencia, la respiración y el cuidado del cuerpo.',
         approachIncludes: 'La formación incluye:',
         approachList: [
           'práctica regular de dar y recibir Reiki',
