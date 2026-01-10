@@ -254,7 +254,7 @@ function App() {
 
             <div className="mt-8 mb-12">
               <img
-                src="/photo_2026-01-10_16-21-12.jpg"
+                src="/erika-49 copy.jpg"
                 alt="Healing hands with crystal stone"
                 className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl"
               />
