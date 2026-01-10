@@ -1276,7 +1276,7 @@ export const translations = {
         formatsIncludeList: [
           'Iniciaciones (21 días después de la iniciación, existe la posibilidad de una re-iniciación para continuar profundizando suavemente el proceso interno)',
           'materiales de formación completos',
-          'certificación oficial',
+          'certificación oficial avalada por la federación Espanola de Reiki',
           'acompañamiento después de completar la formación'
         ],
 
