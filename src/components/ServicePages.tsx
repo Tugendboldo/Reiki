@@ -738,28 +738,14 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
 
           <div className="mb-8">
             <div className="bg-gradient-to-br from-cyan-50 to-purple-50 rounded-2xl p-6 border border-cyan-100">
-              <p className="text-gray-700 leading-relaxed text-lg italic mb-4">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 {t.intro}
               </p>
-            </div>
-          </div>
-
-          <div className="mb-8">
-            <div className="space-y-4">
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 {t.description1}
               </p>
               <p className="text-gray-700 leading-relaxed">
                 {t.description2}
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                {t.description3}
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                {t.description4}
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                {t.description5}
               </p>
             </div>
           </div>
@@ -773,17 +759,15 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
               <p className="text-gray-700 leading-relaxed mb-4">
                 {t.approachDesc}
               </p>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">{t.focusTitle}</h3>
-              <ul className="space-y-2 text-gray-700 mb-4">
-                {t.focusList.map((item, index) => (
-                  <li key={index} className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold mt-1">•</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="text-gray-900 font-semibold mb-2">{t.notForced}</p>
-              <p className="text-gray-700 leading-relaxed">{t.safePath}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.approachDesc2}
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.approachDesc3}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t.approachDesc4}
+              </p>
             </div>
           </div>
 
@@ -791,13 +775,33 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
             <div className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-2xl p-6 border border-cyan-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                 <Sparkles className="w-6 h-6 text-cyan-600" />
-                {t.invitationTitle}
+                {t.workshopsTitle}
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                {t.invitationDesc}
+                {t.workshopsDesc}
               </p>
-              <p className="text-gray-700 leading-relaxed">
-                {t.invitationDesc2}
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.workshopsDesc2}
+              </p>
+              <p className="text-gray-900 font-semibold mb-2">{t.notForced}</p>
+              <p className="text-gray-700 leading-relaxed">{t.safePath}</p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-teal-50 rounded-2xl p-6 border border-teal-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.focusTitle}</h2>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">{t.focusSubtitle}</h3>
+              <ul className="space-y-2 text-gray-700 mb-4">
+                {t.focusList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-teal-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-700 leading-relaxed italic border-l-4 border-teal-300 pl-4">
+                {t.invitationTitle}
               </p>
             </div>
           </div>
@@ -820,8 +824,14 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
           </div>
 
           <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-8 border-2 border-purple-200">
-            <p className="text-gray-800 leading-relaxed text-lg mb-6 text-center">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+              {t.finalInvitationTitle}
+            </h3>
+            <p className="text-gray-800 leading-relaxed text-lg mb-3 text-center">
               {t.finalInvitation}
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-6 text-center">
+              {t.finalInvitationCTA}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
