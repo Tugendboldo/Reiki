@@ -1249,10 +1249,10 @@ export const translations = {
       fortbildungskurse: {
         title: 'Formación en Reiki Usui Tibetano',
         subtitle: 'Un Camino de Desarrollo Personal',
-        mainDescription: 'La formación en Reiki Usui Tibetano es un camino de desarrollo personal claramente estructurado y a la vez consciente. Combina práctica, presencia y experiencia, y permite integrar Reiki paso a paso en la propia vida.',
-        description2: 'Cada nivel de formación profundiza el acceso a Reiki a través del cuerpo, la percepción consciente y una práctica continua, siempre respetando el ritmo y proceso individual.',
+        mainDescription: 'La formación en Reiki Usui Tibetano es un camino progresivo de práctica, presencia y desarrollo personal.',
+        description2: 'Cada nivel profundiza en la experiencia del Reiki desde el cuerpo, la conciencia y la práctica consciente, respetando siempre el ritmo y el proceso individual.',
         certificationTitle: 'Cualificación',
-        certificationText: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a ofrecer todos los niveles de formación hasta la Maestría con iniciación y certificación.',
+        certificationText: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a impartir formaciones con iniciaciones y certificación oficial en todos los niveles, desde el Nivel I hasta la Maestría.',
 
         approachTitle: 'Mi Enfoque de Formación',
         approachIntro: 'En mis formaciones, la experiencia directa es central. Reiki no se transmite como una técnica, sino como una práctica vivida que puede acompañar y profundizar la vida cotidiana.',
