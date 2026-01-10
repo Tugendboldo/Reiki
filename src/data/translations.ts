@@ -75,7 +75,7 @@ export const translations = {
       certifiedReikiMaster: 'Zertifizierte Reiki-Meisterin'
     },
     services: {
-      badge: 'Unsere Leistungen',
+      badge: 'Leistungen',
       title: 'Heilende ',
       titleHighlight: 'Behandlungen',
       description: 'Entdecken Sie unser umfassendes Angebot an ganzheitlichen Heilbehandlungen, die Körper, Geist und Seele in Einklang bringen.',
