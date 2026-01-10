@@ -907,7 +907,7 @@ export const translations = {
       certifiedReikiMaster: 'Maestra Reiki Certificada'
     },
     services: {
-      badge: 'Nuestros Servicios',
+      badge: 'Servicios',
       title: 'Tratamientos de ',
       titleHighlight: 'Sanación',
       description: 'Descubre nuestra gama completa de tratamientos de sanación holística que armonizan cuerpo, mente y alma.',
