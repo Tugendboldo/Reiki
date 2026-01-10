@@ -745,90 +745,104 @@ export const translations = {
         ]
       },
       fortbildungskurse: {
-        title: 'Training Courses',
-        subtitle: 'Learn to Heal Yourself',
-        becomeHealer: 'Become a Healer Yourself',
-        description1: 'Discover the art of energy work and learn to apply Reiki and crystal therapy yourself.',
-        description2: 'Our courses are suitable for beginners and advanced students and convey both theoretical knowledge and practical skills.',
-        courseFormats: 'Course Formats',
-        weekendIntensive: 'Weekend Intensive Courses',
-        individualLessons: 'Individual Lessons',
-        smallGroups: 'Small Groups (max. 6 people)',
-        availableCourses: 'Available Courses',
-        reikiGrade1: {
-          title: 'Reiki 1st Degree',
-          subtitle: 'Basics of Reiki Healing',
-          contents: 'Course Contents',
-          contentsList: [
-            'History and philosophy of Reiki',
-            'The five Reiki principles',
-            'Basic hand positions',
-            'Self-treatment with Reiki',
-            'Treatment of other people'
-          ],
-          details: 'Course Details',
-          detailsList: [
-            'Duration: 2 days (16 hours)',
-            'Initiation into 1st Reiki degree',
-            'Comprehensive course material',
-            'Certificate upon completion',
-            'Lifelong support'
-          ]
-        },
-        reikiGrade2: {
-          title: 'Reiki 2nd Degree',
-          subtitle: 'Advanced Reiki Techniques',
-          contents: 'Advanced Contents',
-          contentsList: [
-            'The three Reiki symbols',
-            'Distance healing and distance Reiki',
-            'Mental and emotional healing',
-            'Past and future healing',
-            'Strengthening Reiki power'
-          ],
-          requirements: 'Requirements',
-          requirementsList: [
-            'Completed Reiki 1st degree',
-            'At least 3 months of practice',
-            'Regular self-treatment',
-            'Willingness to deepen'
-          ]
-        },
-        crystalTherapy: {
-          title: 'Crystal Therapy Training',
-          subtitle: 'The Power of Healing Stones',
-          contents: 'Training Contents',
-          contentsList: [
-            'Properties of various crystals',
-            'Chakra work with crystals',
-            'Crystal layouts and grids',
-            'Cleansing and programming',
-            'Combination with Reiki'
-          ],
-          included: 'Included in Course',
-          includedList: [
-            'Starter set with 12 healing stones',
-            'Detailed handbook',
-            'Practical exercises',
-            'Certificate',
-            'Follow-up care'
-          ]
-        },
-        whyLearnWithMe: 'Why Learn with Me?',
-        experienceCompetence: 'Experience & Competence',
-        experienceList: [
-          'Over 10 years of practical experience',
-          'Certified Reiki Master',
-          'Hundreds of satisfied students',
-          'Continuous education'
+        title: 'Training in Usui Tibetan Reiki',
+        subtitle: 'A Path of Personal Development',
+        mainDescription: 'Training in Usui Tibetan Reiki is a clearly structured yet mindful path of personal development. It combines practice, presence, and experience, allowing you to integrate Reiki step by step into your own life.',
+        description2: 'Each training level deepens access to Reiki through the body, conscious awareness, and continuous practice – always in respect of individual pace and process.',
+        certificationTitle: 'Qualification',
+        certificationText: 'I am a Reiki Master in Usui Tibetan Reiki, recognized and federated by the Spanish Reiki Association, and authorized to offer all training levels up to Mastery with initiation and certification.',
+
+        approachTitle: 'My Training Approach',
+        approachIntro: 'In my trainings, direct experience is central. Reiki is not conveyed as a technique, but as a lived practice that can accompany and deepen everyday life.',
+        approachIncludes: 'The training includes:',
+        approachList: [
+          'regular practice of giving and receiving Reiki',
+          'breathing, presence, and meditation exercises from traditional Japanese Reiki',
+          'mindful work with the body',
+          'space for integration and follow-up support'
         ],
-        personalSupport: 'Personal Support',
-        supportList: [
-          'Small course groups',
-          'Individual care',
-          'Lifelong support',
-          'Regular practice groups'
-        ]
+        approachClosing: 'It is not about collecting grades, but developing a stable, authentic, and sustainable Reiki practice.',
+
+        formatsTitle: 'Training Formats',
+        formatsIntro: 'Reiki trainings are offered both in-person and online (live). In both formats, I place great emphasis on personal support, clear structure, and ethically responsible transmission.',
+        inPersonTitle: 'In-Person Format',
+        inPersonDesc: 'Training in a protected space with direct practice, exchange, and personal support.',
+        onlineTitle: 'Online Format (live)',
+        onlineDesc: 'Training in real-time with guided practice, space for questions, and individual support.',
+        initiationNote: 'Initiations are conducted consciously and in accordance with Reiki tradition.',
+        formatsInclude: 'Both formats include:',
+        formatsIncludeList: [
+          'Initiations (21 days after initiation, there is the possibility of a re-initiation to gently continue deepening the inner process)',
+          'comprehensive training materials',
+          'official certification',
+          'support after completion of training'
+        ],
+
+        levelsTitle: 'The Training Levels',
+
+        grade1: {
+          title: 'Reiki Grade I – Shoden',
+          subtitle: 'Foundation and Introduction',
+          description: 'The first grade forms the basis of Reiki practice. The focus is on self-treatment, body awareness, and conscious integration of Reiki into everyday life.',
+          learnTitle: 'In this level you learn:',
+          learnList: [
+            'to connect with Reiki energy',
+            'to apply self-treatment',
+            'to pass Reiki on to others',
+            'basic hand positions',
+            'to practically live the principles of Reiki'
+          ],
+          availability: 'Available in-person and online.'
+        },
+
+        grade2: {
+          title: 'Reiki Grade II – Okuden',
+          subtitle: 'Deepening and Focus',
+          description: 'The second grade expands the practice and enables more targeted work with Reiki. Attention is increasingly directed toward inner clarity, focus, and continuity.',
+          contentsTitle: 'Contents of this grade include:',
+          contentsList: [
+            'work with Reiki symbols',
+            'distance Reiki applications',
+            'accompanying processes and situations',
+            'deepening one\'s own practice'
+          ],
+          availability: 'Available in-person and online.'
+        },
+
+        grade3: {
+          title: 'Reiki Grade III – Shinpiden',
+          subtitle: 'Integration and Inner Maturity',
+          description: 'The third grade supports deep integration of Reiki as a personal path. It is aimed at people who want to consolidate their practice and deepen Reiki as part of their life understanding.',
+          supportsTitle: 'This grade promotes:',
+          supportsList: [
+            'maturation of one\'s own practice',
+            'clear inner alignment',
+            'connection of Reiki, everyday life, and consciousness'
+          ],
+          availability: 'Available in-person and online.'
+        },
+
+        mastery: {
+          title: 'Reiki Mastery Usui Tibetan',
+          description: 'Mastery is a path of responsibility and conscious transmission. It is aimed at people who feel the desire to teach Reiki, give initiations, and accompany others mindfully.',
+          permission: 'After completing the mastery, there is authorization to give Reiki trainings and issue certifications in Usui Tibetan Reiki, in harmony with tradition and its ethical responsibility.',
+          format: 'Format by individual arrangement.'
+        },
+
+        suitableForTitle: 'Who is this training suitable for?',
+        suitableForIntro: 'The training is aimed at:',
+        suitableForList: [
+          'people who want to get to know Reiki',
+          'persons seeking a conscious practice of self-care',
+          'therapists who want to integrate Reiki into their work',
+          'people with the desire to later pass on Reiki'
+        ],
+        suitableForNote: 'Prior knowledge is not required.',
+
+        invitationTitle: 'Invitation',
+        invitationText: 'If you feel that Reiki appeals to you – whether for your personal development or for a professional path – I am happy to accompany you on this path.',
+        invitationContact: 'Write to me for information about upcoming dates, formats, and availability.',
+        invitationClosing: 'I look forward to getting to know you.'
       },
       makrameeWorkshops: {
         title: 'Macramé Workshops',
@@ -1233,90 +1247,104 @@ export const translations = {
         ]
       },
       fortbildungskurse: {
-        title: 'Cursos de Formación',
-        subtitle: 'Aprende a Sanarte a Ti Mismo',
-        becomeHealer: 'Conviértete en un Sanador',
-        description1: 'Descubre el arte del trabajo energético y aprende a aplicar Reiki y terapia con cristales por ti mismo.',
-        description2: 'Nuestros cursos son adecuados para principiantes y estudiantes avanzados y transmiten tanto conocimiento teórico como habilidades prácticas.',
-        courseFormats: 'Formatos de Curso',
-        weekendIntensive: 'Cursos Intensivos de Fin de Semana',
-        individualLessons: 'Lecciones Individuales',
-        smallGroups: 'Grupos Pequeños (máx. 6 personas)',
-        availableCourses: 'Cursos Disponibles',
-        reikiGrade1: {
-          title: 'Reiki 1er Grado',
-          subtitle: 'Fundamentos de la Sanación Reiki',
-          contents: 'Contenidos del Curso',
-          contentsList: [
-            'Historia y filosofía del Reiki',
-            'Los cinco principios del Reiki',
-            'Posiciones básicas de las manos',
-            'Autotratamiento con Reiki',
-            'Tratamiento de otras personas'
-          ],
-          details: 'Detalles del Curso',
-          detailsList: [
-            'Duración: 2 días (16 horas)',
-            'Iniciación en el 1er grado de Reiki',
-            'Material de curso completo',
-            'Certificado al completar',
-            'Apoyo de por vida'
-          ]
-        },
-        reikiGrade2: {
-          title: 'Reiki 2do Grado',
-          subtitle: 'Técnicas Avanzadas de Reiki',
-          contents: 'Contenidos Avanzados',
-          contentsList: [
-            'Los tres símbolos del Reiki',
-            'Sanación a distancia y Reiki a distancia',
-            'Sanación mental y emocional',
-            'Sanación del pasado y futuro',
-            'Fortalecimiento del poder Reiki'
-          ],
-          requirements: 'Requisitos',
-          requirementsList: [
-            'Reiki 1er grado completado',
-            'Al menos 3 meses de práctica',
-            'Autotratamiento regular',
-            'Disposición para profundizar'
-          ]
-        },
-        crystalTherapy: {
-          title: 'Formación en Terapia con Cristales',
-          subtitle: 'El Poder de las Piedras Sanadoras',
-          contents: 'Contenidos de la Formación',
-          contentsList: [
-            'Propiedades de varios cristales',
-            'Trabajo de chakras con cristales',
-            'Diseños y rejillas de cristales',
-            'Limpieza y programación',
-            'Combinación con Reiki'
-          ],
-          included: 'Incluido en el Curso',
-          includedList: [
-            'Set inicial con 12 piedras sanadoras',
-            'Manual detallado',
-            'Ejercicios prácticos',
-            'Certificado',
-            'Cuidado de seguimiento'
-          ]
-        },
-        whyLearnWithMe: '¿Por Qué Aprender Conmigo?',
-        experienceCompetence: 'Experiencia y Competencia',
-        experienceList: [
-          'Más de 10 años de experiencia práctica',
-          'Maestra Reiki certificada',
-          'Cientos de estudiantes satisfechos',
-          'Educación continua'
+        title: 'Formación en Reiki Usui Tibetano',
+        subtitle: 'Un Camino de Desarrollo Personal',
+        mainDescription: 'La formación en Reiki Usui Tibetano es un camino de desarrollo personal claramente estructurado y a la vez consciente. Combina práctica, presencia y experiencia, y permite integrar Reiki paso a paso en la propia vida.',
+        description2: 'Cada nivel de formación profundiza el acceso a Reiki a través del cuerpo, la percepción consciente y una práctica continua, siempre respetando el ritmo y proceso individual.',
+        certificationTitle: 'Cualificación',
+        certificationText: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a ofrecer todos los niveles de formación hasta la Maestría con iniciación y certificación.',
+
+        approachTitle: 'Mi Enfoque de Formación',
+        approachIntro: 'En mis formaciones, la experiencia directa es central. Reiki no se transmite como una técnica, sino como una práctica vivida que puede acompañar y profundizar la vida cotidiana.',
+        approachIncludes: 'La formación incluye:',
+        approachList: [
+          'práctica regular de dar y recibir Reiki',
+          'ejercicios de respiración, presencia y meditación del Reiki tradicional japonés',
+          'trabajo consciente con el cuerpo',
+          'espacio para integración y acompañamiento posterior'
         ],
-        personalSupport: 'Apoyo Personal',
-        supportList: [
-          'Grupos de curso pequeños',
-          'Cuidado individual',
-          'Apoyo de por vida',
-          'Grupos de práctica regulares'
-        ]
+        approachClosing: 'No se trata de acumular grados, sino de desarrollar una práctica de Reiki estable, auténtica y sostenible.',
+
+        formatsTitle: 'Formatos de Formación',
+        formatsIntro: 'Las formaciones de Reiki se ofrecen tanto en presencia como en línea (en vivo). En ambos formatos, pongo gran énfasis en el acompañamiento personal, la estructura clara y la transmisión éticamente responsable.',
+        inPersonTitle: 'Formato Presencial',
+        inPersonDesc: 'Formación en un espacio protegido con práctica directa, intercambio y acompañamiento personal.',
+        onlineTitle: 'Formato en Línea (en vivo)',
+        onlineDesc: 'Formación en tiempo real con práctica guiada, espacio para preguntas y acompañamiento individual.',
+        initiationNote: 'Las iniciaciones se realizan conscientemente y de acuerdo con la tradición Reiki.',
+        formatsInclude: 'Ambos formatos incluyen:',
+        formatsIncludeList: [
+          'Iniciaciones (21 días después de la iniciación, existe la posibilidad de una re-iniciación para continuar profundizando suavemente el proceso interno)',
+          'materiales de formación completos',
+          'certificación oficial',
+          'acompañamiento después de completar la formación'
+        ],
+
+        levelsTitle: 'Los Niveles de Formación',
+
+        grade1: {
+          title: 'Reiki Grado I – Shoden',
+          subtitle: 'Fundamento e Introducción',
+          description: 'El primer grado forma la base de la práctica de Reiki. El enfoque está en el autotratamiento, la conciencia corporal y la integración consciente de Reiki en la vida cotidiana.',
+          learnTitle: 'En este nivel aprenderás:',
+          learnList: [
+            'a conectarte con la energía Reiki',
+            'a aplicar el autotratamiento',
+            'a transmitir Reiki a otros',
+            'posiciones básicas de las manos',
+            'a vivir prácticamente los principios de Reiki'
+          ],
+          availability: 'Disponible en presencia y en línea.'
+        },
+
+        grade2: {
+          title: 'Reiki Grado II – Okuden',
+          subtitle: 'Profundización y Enfoque',
+          description: 'El segundo grado amplía la práctica y permite un trabajo más específico con Reiki. La atención se dirige cada vez más hacia la claridad interior, el enfoque y la continuidad.',
+          contentsTitle: 'Los contenidos de este grado incluyen:',
+          contentsList: [
+            'trabajo con los símbolos de Reiki',
+            'aplicaciones de Reiki a distancia',
+            'acompañamiento de procesos y situaciones',
+            'profundización de la propia práctica'
+          ],
+          availability: 'Disponible en presencia y en línea.'
+        },
+
+        grade3: {
+          title: 'Reiki Grado III – Shinpiden',
+          subtitle: 'Integración y Madurez Interior',
+          description: 'El tercer grado apoya la integración profunda de Reiki como camino personal. Está dirigido a personas que desean consolidar su práctica y profundizar Reiki como parte de su comprensión de la vida.',
+          supportsTitle: 'Este grado promueve:',
+          supportsList: [
+            'la maduración de la propia práctica',
+            'una alineación interior clara',
+            'la conexión de Reiki, vida cotidiana y conciencia'
+          ],
+          availability: 'Disponible en presencia y en línea.'
+        },
+
+        mastery: {
+          title: 'Maestría Reiki Usui Tibetano',
+          description: 'La Maestría es un camino de responsabilidad y transmisión consciente. Está dirigida a personas que sienten el deseo de enseñar Reiki, dar iniciaciones y acompañar a otros conscientemente.',
+          permission: 'Después de completar la Maestría, existe la autorización para dar formaciones de Reiki y emitir certificaciones en Reiki Usui Tibetano, en armonía con la tradición y su responsabilidad ética.',
+          format: 'Formato según acuerdo individual.'
+        },
+
+        suitableForTitle: '¿Para quién es adecuada esta formación?',
+        suitableForIntro: 'La formación está dirigida a:',
+        suitableForList: [
+          'personas que desean conocer Reiki',
+          'personas que buscan una práctica consciente de autocuidado',
+          'terapeutas que desean integrar Reiki en su trabajo',
+          'personas con el deseo de transmitir Reiki más adelante'
+        ],
+        suitableForNote: 'No se requieren conocimientos previos.',
+
+        invitationTitle: 'Invitación',
+        invitationText: 'Si sientes que Reiki te llama, ya sea para tu desarrollo personal o para un camino profesional, estaré encantada de acompañarte en este camino.',
+        invitationContact: 'Escríbeme para información sobre próximas fechas, formatos y disponibilidad.',
+        invitationClosing: 'Espero conocerte.'
       },
       makrameeWorkshops: {
         title: 'Talleres de Macramé',
