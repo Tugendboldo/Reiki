@@ -1267,11 +1267,11 @@ export const translations = {
 
         formatsTitle: 'Modalidad de las formaciones',
         formatsIntro: 'Las formaciones en Reiki Usui Tibetano se ofrecen en modalidad presencial y modalidad online, manteniendo en ambas la calidad de la transmisión y el acompañamiento del proceso.',
-        inPersonTitle: 'Formato Presencial',
-        inPersonDesc: 'Formación en un espacio protegido con práctica directa, intercambio y acompañamiento personal.',
-        onlineTitle: 'Formato en Línea (en vivo)',
-        onlineDesc: 'Formación en tiempo real con práctica guiada, espacio para preguntas y acompañamiento individual.',
-        initiationNote: 'Las iniciaciones se realizan conscientemente y de acuerdo con la tradición Reiki.',
+        inPersonTitle: 'Modalidad Presencial',
+        inPersonDesc: 'Encuentros en un espacio cuidado, con práctica directa, intercambio de Reiki y acompañamiento cercano.',
+        onlineTitle: 'Modalidad online (en vivo)',
+        onlineDesc: 'Formación impartida en encuentros en directo, con práctica guiada, espacios de intercambio y seguimiento personalizado.',
+        initiationNote: 'Las iniciaciones se realizan de manera consciente y acompañada, respetando la tradición del Reiki.',
         formatsInclude: 'Ambos formatos incluyen:',
         formatsIncludeList: [
           'Iniciaciones (21 días después de la iniciación, existe la posibilidad de una re-iniciación para continuar profundizando suavemente el proceso interno)',
