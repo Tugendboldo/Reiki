@@ -192,28 +192,32 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
               </p>
             </div>
             
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.treatmentForms}</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <span className="font-medium">{t.directReiki}</span>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t.sessionTitle}</h3>
+              <div className="space-y-4 mb-6">
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🕊</span>
+                  <span className="text-gray-700 font-medium">{t.sessionDuration}</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Sparkles className="w-4 h-4 text-pink-600" />
-                  </div>
-                  <span className="font-medium">{t.distanceReiki}</span>
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🌿</span>
+                  <span className="text-gray-700 font-medium">{t.sessionContact}</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-4 h-4 text-indigo-600" />
-                  </div>
-                  <span className="font-medium">{t.crystalReikiCombo}</span>
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🎶</span>
+                  <span className="text-gray-700 font-medium">{t.sessionMusic}</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🌸</span>
+                  <span className="text-gray-700 font-medium">{t.sessionAroma}</span>
                 </div>
               </div>
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                {t.sessionButton}
+              </button>
             </div>
           </div>
 
@@ -276,6 +280,14 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
                   ))}
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-8 border-2 border-purple-200 text-center">
+              <p className="text-gray-800 leading-relaxed text-lg">
+                {t.sessionClosing}
+              </p>
             </div>
           </div>
 
