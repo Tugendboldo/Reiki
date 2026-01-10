@@ -491,7 +491,7 @@ export const translations = {
       certifiedReikiMaster: 'Certified Reiki Master'
     },
     services: {
-      badge: 'Our Services',
+      badge: 'Services',
       title: 'Healing ',
       titleHighlight: 'Treatments',
       description: 'Discover our comprehensive range of holistic healing treatments that bring body, mind, and soul into harmony.',
