@@ -708,7 +708,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
             <img
               src="/workshops_web_bild.png"
               alt={t.title}
-              className="max-w-2xl w-full h-auto rounded-2xl"
+              className="max-w-sm w-full h-auto rounded-2xl"
             />
           </div>
 
