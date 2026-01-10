@@ -238,7 +238,7 @@ function App() {
       </section>
 
       {/* Approach Section */}
-      <section id="approach" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
+      <section id="approach" className="pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-100 to-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -332,7 +332,7 @@ function App() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
+      <section id="about" className="pt-12 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-8">
