@@ -704,15 +704,15 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
         </button>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div className="w-full">
+          <div className="flex justify-center p-8 pb-4">
             <img
               src="/workshops_web_bild.png"
               alt={t.title}
-              className="w-full h-auto"
+              className="max-w-2xl w-full h-auto rounded-2xl"
             />
           </div>
 
-          <div className="p-8">
+          <div className="p-8 pt-4">
             <div className="flex items-center space-x-4 mb-8">
               <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-full flex items-center justify-center">
                 <Sparkles className="w-8 h-8 text-white" />
