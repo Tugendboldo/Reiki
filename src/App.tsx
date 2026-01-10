@@ -396,14 +396,14 @@ function App() {
                 <img
                   src="/photo_2026-01-10_19-32-06.jpg"
                   alt="Peaceful healing moment"
-                  className="w-full rounded-2xl shadow-lg"
+                  className="w-3/4 mx-auto rounded-2xl shadow-lg"
                 />
               </div>
             </div>
 
             {/* Desktop Image - hidden on mobile */}
             <div className="hidden lg:block relative lg:sticky lg:top-24">
-              <div className="relative">
+              <div className="relative max-w-md mx-auto">
                 <img
                   src="/photo_2026-01-10_19-32-06.jpg"
                   alt="Peaceful healing moment"
