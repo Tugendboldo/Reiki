@@ -414,6 +414,21 @@ export const Kristalltherapie: React.FC<ServicePageProps> = ({ onBack, currentLa
             </div>
           </div>
 
+          <div className="mb-8">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Heart className="w-5 h-5 text-green-600" />
+                {t.contributionTitle}
+              </h3>
+              <p className="text-gray-700 leading-relaxed mb-3">
+                {t.contributionText}
+              </p>
+              <p className="text-gray-700 leading-relaxed font-medium">
+                {t.contributionFlexible}
+              </p>
+            </div>
+          </div>
+
           <div className="bg-gradient-to-br from-orange-100 to-pink-100 rounded-2xl p-8 border-2 border-orange-200">
             <p className="text-gray-800 leading-relaxed text-lg mb-6 text-center">
               {t.listenBody}

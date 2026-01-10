@@ -213,6 +213,9 @@ export const translations = {
         pleasureText: 'Es wird mir eine Freude sein, dich zu begleiten.',
         eachMeeting: 'Jedes Treffen hat eine Absicht, die das energetische Feld der Gruppe öffnet.',
         spaceFlexible: 'Der Raum bleibt jedoch lebendig und flexibel, damit die Energie uns zeigen kann, was in diesem Moment geheilt werden muss.',
+        contributionTitle: 'Bewusster Beitrag',
+        contributionText: 'Der Kreis von Licht und Heilung wird mit einem bewussten, liebevollen Beitrag angeboten, als eine Form, den Raum, die Zeit und die geteilte Energie zu tragen.',
+        contributionFlexible: 'Der Beitrag ist nicht ausschließend: Wenn du ihn zu einem bestimmten Zeitpunkt nicht leisten kannst, kannst du mir schreiben.',
         listenBody: 'Auf deinen Körper und deine Energie zu hören, kann der erste Schritt sein.',
         ctaPrimary: 'Meine Sitzung reservieren',
         ctaSecondary: 'Mehr erfahren'
@@ -626,6 +629,9 @@ export const translations = {
         pleasureText: 'It will be my pleasure to accompany you.',
         eachMeeting: 'Each gathering has an intention that opens the energetic field of the group.',
         spaceFlexible: 'However, the space remains alive and flexible, so that the energy can show us what needs to be healed in that moment.',
+        contributionTitle: 'Conscious Contribution',
+        contributionText: 'The Circle of Light and Healing is offered with a conscious loving contribution, as a way to hold the space, time and shared energy.',
+        contributionFlexible: 'The contribution is not exclusive: if at any time you cannot make it, you can write to me.',
         listenBody: 'Listening to your body and your energy can be the first step.',
         ctaPrimary: 'Reserve my session',
         ctaSecondary: 'Learn more'
@@ -1038,6 +1044,9 @@ export const translations = {
         pleasureText: 'Será un placer acompañarte.',
         eachMeeting: 'Cada encuentro tiene una intención que abre el campo energético del grupo.',
         spaceFlexible: 'Sin embargo, el espacio permanece vivo y flexible, para que la energía nos muestre qué necesita ser sanado en ese momento.',
+        contributionTitle: 'Aporte Consciente',
+        contributionText: 'El Círculo de Luz y Sanación se ofrece con aporte amoroso consciente, como una forma de sostener el espacio, el tiempo y la energía compartida.',
+        contributionFlexible: 'El aporte no es excluyente: si en algún momento no puedes realizarlo, puedes escribirme.',
         listenBody: 'Escuchar tu cuerpo y tu energía puede ser el primer paso.',
         ctaPrimary: 'Quiero reservar mi sesión',
         ctaSecondary: 'Más información'
