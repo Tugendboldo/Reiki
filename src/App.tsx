@@ -403,7 +403,7 @@ function App() {
 
             {/* Desktop Image - hidden on mobile */}
             <div className="hidden lg:block relative lg:sticky lg:top-24">
-              <div className="relative max-w-md mx-auto">
+              <div className="relative max-w-sm mx-auto">
                 <img
                   src="/photo_2026-01-10_19-32-06.jpg"
                   alt="Peaceful healing moment"
