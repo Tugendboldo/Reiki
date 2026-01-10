@@ -703,16 +703,26 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
           {common.backToServices}
         </button>
 
-        <div className="bg-white rounded-3xl p-8 shadow-sm">
-          <div className="flex items-center space-x-4 mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-full flex items-center justify-center">
-              <Sparkles className="w-8 h-8 text-white" />
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">{t.title}</h1>
-              <p className="text-cyan-600 font-medium">{t.subtitle}</p>
-            </div>
+        <div className="bg-white rounded-3xl overflow-hidden shadow-sm">
+          <div className="w-full h-[400px] relative overflow-hidden">
+            <img
+              src="/workshops_web_bild.png"
+              alt={t.title}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
           </div>
+
+          <div className="p-8">
+            <div className="flex items-center space-x-4 mb-8">
+              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-full flex items-center justify-center">
+                <Sparkles className="w-8 h-8 text-white" />
+              </div>
+              <div>
+                <h1 className="text-3xl font-bold text-gray-900">{t.title}</h1>
+                <p className="text-cyan-600 font-medium">{t.subtitle}</p>
+              </div>
+            </div>
 
           <div className="mb-8">
             <div className="bg-gradient-to-br from-cyan-50 to-purple-50 rounded-2xl p-6 border border-cyan-100">
@@ -825,6 +835,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
                 {t.ctaSecondary}
               </button>
             </div>
+          </div>
           </div>
         </div>
       </div>
