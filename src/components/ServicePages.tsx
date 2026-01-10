@@ -704,13 +704,12 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
         </button>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div className="w-full h-[400px] relative overflow-hidden">
+          <div className="w-full">
             <img
               src="/workshops_web_bild.png"
               alt={t.title}
-              className="w-full h-full object-cover"
+              className="w-full h-auto"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
           </div>
 
           <div className="p-8">
