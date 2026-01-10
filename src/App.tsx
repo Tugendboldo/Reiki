@@ -352,6 +352,15 @@ function App() {
                   <span>{t.about.badge}</span>
                 </div>
 
+                {/* Mobile - Image between badge and title */}
+                <div className="mb-8 lg:hidden">
+                  <img
+                    src="/photo_2026-01-10_19-32-06.jpg"
+                    alt="Peaceful healing moment"
+                    className="w-3/4 mx-auto rounded-2xl shadow-lg"
+                  />
+                </div>
+
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
                   {t.about.title}
                   <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
@@ -389,15 +398,6 @@ function App() {
                 >
                   {t.about.bookPersonalAppointment}
                 </button>
-              </div>
-
-              {/* Mobile - Additional Image */}
-              <div className="mt-8 lg:hidden">
-                <img
-                  src="/photo_2026-01-10_19-32-06.jpg"
-                  alt="Peaceful healing moment"
-                  className="w-3/4 mx-auto rounded-2xl shadow-lg"
-                />
               </div>
             </div>
 
