@@ -334,59 +334,60 @@ function App() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                <User className="w-4 h-4" />
-                <span>{t.about.badge}</span>
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                {t.about.title}
-                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
-              </h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <User className="w-4 h-4" />
+              <span>{t.about.badge}</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              {t.about.title}
+              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
+            </h2>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 {t.about.description1}
               </p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 {t.about.description2}
               </p>
-              
-              <div className="grid sm:grid-cols-2 gap-6 mb-8">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Star className="w-6 h-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{t.about.certifiedTraining}</h4>
-                    <p className="text-sm text-gray-600">{t.about.reikiMasterCert}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-6 h-6 text-pink-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{t.about.experience}</h4>
-                    <p className="text-sm text-gray-600">{t.about.holisticHealing}</p>
-                  </div>
-                </div>
-              </div>
-              
-              <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-                {t.about.bookPersonalAppointment}
-              </button>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                {t.about.description3}
+              </p>
             </div>
-            
-            <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg mx-auto">
-                <img 
-                  src="/photo_2025-11-26_17-00-03.jpg" 
-                  alt="Erika - Certified Reiki Master and Natural Healing Practitioner" 
+
+            <div className="relative flex justify-center lg:justify-end">
+              <div className="w-80 h-80 rounded-full overflow-hidden shadow-xl">
+                <img
+                  src="/photo_2025-11-26_17-00-03.jpg"
+                  alt="Erika - Certified Reiki Master and Natural Healing Practitioner"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-6 mb-12">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              {t.about.description4}
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              {t.about.description5}
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto bg-white rounded-3xl shadow-lg p-8 md:p-12 text-center">
+            <p className="text-xl text-gray-800 mb-8 leading-relaxed font-light">
+              {t.about.closingText}
+            </p>
+            <button
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
+              {t.about.bookPersonalAppointment}
+            </button>
           </div>
         </div>
       </section>
