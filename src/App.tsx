@@ -334,60 +334,65 @@ function App() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <User className="w-4 h-4" />
-              <span>{t.about.badge}</span>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              {t.about.title}
-              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
-            </h2>
-          </div>
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div className="space-y-8">
+              <div>
+                <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm text-purple-700 px-4 py-2 rounded-full text-sm font-medium shadow-sm mb-6">
+                  <User className="w-4 h-4" />
+                  <span>{t.about.badge}</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+                  {t.about.title}
+                  <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
+                </h2>
+              </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
-            <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                {t.about.description1}
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                {t.about.description2}
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                {t.about.description3}
-              </p>
-            </div>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-xl text-gray-800 leading-relaxed font-light mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-purple-600 first-letter:float-left first-letter:mr-3 first-letter:leading-none first-letter:mt-1">
+                  {t.about.paragraph1}
+                </p>
 
-            <div className="relative flex justify-center lg:justify-end">
-              <div className="w-80 h-80 rounded-full overflow-hidden shadow-xl">
-                <img
-                  src="/photo_2025-11-26_17-00-03.jpg"
-                  alt="Erika - Certified Reiki Master and Natural Healing Practitioner"
-                  className="w-full h-full object-cover"
-                />
+                <div className="space-y-5">
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    {t.about.paragraph2}
+                  </p>
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    {t.about.paragraph3}
+                  </p>
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    {t.about.paragraph4}
+                  </p>
+
+                  <div className="bg-white/60 backdrop-blur-sm border-l-4 border-purple-400 pl-6 py-4 rounded-r-lg shadow-sm">
+                    <p className="text-lg text-gray-800 leading-relaxed font-medium italic">
+                      {t.about.paragraph5}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6">
+                <button
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                >
+                  {t.about.buttonText}
+                </button>
               </div>
             </div>
-          </div>
 
-          <div className="max-w-4xl mx-auto space-y-6 mb-12">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              {t.about.description4}
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              {t.about.description5}
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto bg-white rounded-3xl shadow-lg p-8 md:p-12 text-center">
-            <p className="text-xl text-gray-800 mb-8 leading-relaxed font-light">
-              {t.about.closingText}
-            </p>
-            <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
-            >
-              {t.about.bookPersonalAppointment}
-            </button>
+            <div className="relative lg:sticky lg:top-24">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"></div>
+                <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl mx-auto ring-8 ring-white/50">
+                  <img
+                    src="/photo_2025-11-26_17-00-03.jpg"
+                    alt="Erika - Certified Reiki Master and Natural Healing Practitioner"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
