@@ -1272,10 +1272,10 @@ export const translations = {
         onlineTitle: 'Modalidad online (en vivo)',
         onlineDesc: 'Formación impartida en encuentros en directo, con práctica guiada, espacios de intercambio y seguimiento personalizado.',
         initiationNote: 'Las iniciaciones se realizan de manera consciente y acompañada, respetando la tradición del Reiki.',
-        formatsInclude: 'Ambos formatos incluyen:',
+        formatsInclude: 'Ambas modalidades incluyen:',
         formatsIncludeList: [
-          'Iniciaciones (21 días después de la iniciación, existe la posibilidad de una re-iniciación para continuar profundizando suavemente el proceso interno)',
-          'materiales de formación completos',
+          'iniciaciones (21 días después de la iniciación, existe la posibilidad de una re-iniciación para continuar profundizando suavemente el proceso interno)',
+          'manual y materiales de formación completos',
           'certificación oficial avalada por la federación Espanola de Reiki',
           'acompañamiento después de completar la formación'
         ],
