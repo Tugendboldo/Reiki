@@ -5,6 +5,7 @@ export interface Translations {
   nav: {
     home: string;
     about: string;
+    approach: string;
     services: string;
     contact: string;
   };

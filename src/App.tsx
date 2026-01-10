@@ -113,11 +113,12 @@ function App() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.home}</a>
               <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.about}</a>
+              <a href="#approach" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.approach}</a>
               <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.services}</a>
               <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.contact}</a>
-              <LanguageSelector 
+              <LanguageSelector
                 currentLanguage={currentLanguage}
-                onLanguageChange={changeLanguage} 
+                onLanguageChange={changeLanguage}
               />
             </div>
 
@@ -135,12 +136,13 @@ function App() {
             <div className="md:hidden pb-4 space-y-2">
               <a href="#home" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.home}</a>
               <a href="#about" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.about}</a>
+              <a href="#approach" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.approach}</a>
               <a href="#services" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.services}</a>
               <a href="#contact" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.contact}</a>
               <div className="py-2">
-                <LanguageSelector 
-                  currentLanguage={currentLanguage} 
-                  onLanguageChange={changeLanguage} 
+                <LanguageSelector
+                  currentLanguage={currentLanguage}
+                  onLanguageChange={changeLanguage}
                 />
               </div>
             </div>

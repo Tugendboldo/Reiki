@@ -5,6 +5,7 @@ export const translations = {
     nav: {
       home: 'Startseite',
       about: 'Über mich',
+      approach: 'Mein Ansatz',
       services: 'Leistungen',
       contact: 'Kontakt'
     },
@@ -512,6 +513,7 @@ export const translations = {
     nav: {
       home: 'Home',
       about: 'About',
+      approach: 'My Approach',
       services: 'Services',
       contact: 'Contact'
     },
@@ -1018,7 +1020,8 @@ export const translations = {
   es: {
     nav: {
       home: 'Inicio',
-      about: 'Acerca de',
+      about: 'Sobre mi',
+      approach: 'Mi Enfoque',
       services: 'Servicios',
       contact: 'Contacto'
     },
