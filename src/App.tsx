@@ -210,7 +210,12 @@ function App() {
             </button>
 
             <button
-              onClick={() => handleServiceClick('fortbildungskurse')}
+              onClick={() => {
+                const element = document.getElementById('gruppenangebote');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+              }}
               className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
             >
               <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -437,8 +442,12 @@ function App() {
 
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-12">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:transform hover:scale-105 cursor-pointer"
-                   onClick={() => handleServiceClick(service.page)}>
+              <div
+                key={index}
+                id={service.page === 'kristalltherapie' ? 'gruppenangebote' : undefined}
+                className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:transform hover:scale-105 cursor-pointer"
+                onClick={() => handleServiceClick(service.page)}
+              >
                 <div className="flex items-start justify-between mb-6">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">{service.title}</h3>
@@ -446,15 +455,15 @@ function App() {
                       <p className="text-purple-600 font-medium">{service.subtitle}</p>
                     )}
                   </div>
-                  <img 
-                    src="/Logo.JPG" 
-                    alt="Service Icon" 
+                  <img
+                    src="/Logo.JPG"
+                    alt="Service Icon"
                     className="w-12 h-12 rounded-full object-cover"
                   />
                 </div>
-                
+
                 <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-                
+
                 <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
                   {t.services.learnMore}
                 </button>
