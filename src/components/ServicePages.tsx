@@ -470,13 +470,13 @@ export const Fortbildungskurse: React.FC<ServicePageProps> = ({ onBack, currentL
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <button 
+        <button
           onClick={onBack}
           className="mb-8 text-purple-600 hover:text-purple-700 font-medium"
         >
           {common.backToServices}
         </button>
-        
+
         <div className="bg-white rounded-3xl p-8 shadow-sm">
           <div className="flex items-center space-x-4 mb-8">
             <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
@@ -488,157 +488,231 @@ export const Fortbildungskurse: React.FC<ServicePageProps> = ({ onBack, currentL
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.becomeHealer}</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                {t.description1}
+          <div className="mb-8">
+            <div className="bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40 rounded-2xl p-6 border border-purple-100">
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.mainDescription}
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 {t.description2}
               </p>
             </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.courseFormats}</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Clock className="w-4 h-4 text-purple-600" />
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-6 border border-purple-200/50">
+              <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <Award className="w-5 h-5 text-purple-600" />
+                {t.certificationTitle}
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                {t.certificationText}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+              <Sparkles className="w-6 h-6 text-purple-600" />
+              {t.approachTitle}
+            </h2>
+            <div className="bg-purple-50 rounded-2xl p-6">
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.approachIntro}
+              </p>
+              <h4 className="font-semibold text-gray-900 mb-3">{t.approachIncludes}</h4>
+              <ul className="space-y-2 text-gray-700 mb-4">
+                {t.approachList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-purple-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-700 leading-relaxed italic border-l-4 border-purple-300 pl-4">
+                {t.approachClosing}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+              <Users className="w-6 h-6 text-pink-600" />
+              {t.formatsTitle}
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              {t.formatsIntro}
+            </p>
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-pink-50 rounded-2xl p-6 border border-pink-100">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                    <Users className="w-5 h-5 text-pink-600" />
                   </div>
-                  <span className="font-medium">{t.weekendIntensive}</span>
+                  <h3 className="text-xl font-bold text-gray-900">{t.inPersonTitle}</h3>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-pink-600" />
+                <p className="text-gray-700">{t.inPersonDesc}</p>
+              </div>
+              <div className="bg-indigo-50 rounded-2xl p-6 border border-indigo-100">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Sparkles className="w-5 h-5 text-indigo-600" />
                   </div>
-                  <span className="font-medium">{t.individualLessons}</span>
+                  <h3 className="text-xl font-bold text-gray-900">{t.onlineTitle}</h3>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-4 h-4 text-indigo-600" />
+                <p className="text-gray-700">{t.onlineDesc}</p>
+              </div>
+            </div>
+            <div className="bg-white border border-purple-200 rounded-xl p-6">
+              <p className="text-gray-700 leading-relaxed mb-3 italic">
+                {t.initiationNote}
+              </p>
+              <h4 className="font-semibold text-gray-900 mb-3">{t.formatsInclude}</h4>
+              <ul className="space-y-2 text-gray-700">
+                {t.formatsIncludeList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-purple-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+              <Star className="w-6 h-6 text-purple-600" />
+              {t.levelsTitle}
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <span className="text-2xl font-bold text-green-600">I</span>
                   </div>
-                  <span className="font-medium">{t.smallGroups}</span>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">{t.grade1.title}</h3>
+                    <p className="text-green-600 font-medium">{t.grade1.subtitle}</p>
+                  </div>
                 </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.grade1.description}
+                </p>
+                <h4 className="font-semibold text-gray-900 mb-3">{t.grade1.learnTitle}</h4>
+                <ul className="space-y-2 text-gray-700 mb-4">
+                  {t.grade1.learnList.map((item, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-sm text-gray-600 italic">{t.grade1.availability}</p>
+              </div>
+
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-2xl font-bold text-blue-600">II</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">{t.grade2.title}</h3>
+                    <p className="text-blue-600 font-medium">{t.grade2.subtitle}</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.grade2.description}
+                </p>
+                <h4 className="font-semibold text-gray-900 mb-3">{t.grade2.contentsTitle}</h4>
+                <ul className="space-y-2 text-gray-700 mb-4">
+                  {t.grade2.contentsList.map((item, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="text-blue-600 font-bold mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-sm text-gray-600 italic">{t.grade2.availability}</p>
+              </div>
+
+              <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl p-6 border border-purple-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <span className="text-2xl font-bold text-purple-600">III</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">{t.grade3.title}</h3>
+                    <p className="text-purple-600 font-medium">{t.grade3.subtitle}</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.grade3.description}
+                </p>
+                <h4 className="font-semibold text-gray-900 mb-3">{t.grade3.supportsTitle}</h4>
+                <ul className="space-y-2 text-gray-700 mb-4">
+                  {t.grade3.supportsList.map((item, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="text-purple-600 font-bold mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-sm text-gray-600 italic">{t.grade3.availability}</p>
+              </div>
+
+              <div className="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-6 border-2 border-amber-200">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
+                    <Star className="w-7 h-7 text-amber-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">{t.mastery.title}</h3>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.mastery.description}
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.mastery.permission}
+                </p>
+                <p className="text-sm text-gray-600 italic">{t.mastery.format}</p>
               </div>
             </div>
           </div>
 
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.availableCourses}</h2>
-            <div className="space-y-6">
-              <div className="bg-purple-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Sparkles className="w-6 h-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.reikiGrade1.title}</h3>
-                    <p className="text-purple-600 font-medium">{t.reikiGrade1.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.reikiGrade1.contents}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.reikiGrade1.contentsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.reikiGrade1.details}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.reikiGrade1.detailsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-pink-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-6 h-6 text-pink-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.reikiGrade2.title}</h3>
-                    <p className="text-pink-600 font-medium">{t.reikiGrade2.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.reikiGrade2.contents}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.reikiGrade2.contentsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.reikiGrade2.requirements}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.reikiGrade2.requirementsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-indigo-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-6 h-6 text-indigo-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.crystalTherapy.title}</h3>
-                    <p className="text-indigo-600 font-medium">{t.crystalTherapy.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.crystalTherapy.contents}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.crystalTherapy.contentsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.crystalTherapy.included}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.crystalTherapy.includedList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-6 border border-purple-200/50">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Heart className="w-5 h-5 text-purple-600" />
+                {t.suitableForTitle}
+              </h3>
+              <p className="text-gray-700 mb-3">{t.suitableForIntro}</p>
+              <ul className="space-y-2 text-gray-700 mb-4">
+                {t.suitableForList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-purple-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-700 italic">{t.suitableForNote}</p>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-            <h3 className="text-xl font-bold mb-4">{t.whyLearnWithMe}</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-semibold mb-2">{t.experienceCompetence}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.experienceList.map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">{t.personalSupport}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.supportList.map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+          <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 border-2 border-pink-200">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <Sparkles className="w-6 h-6 text-pink-600" />
+              {t.invitationTitle}
+            </h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              {t.invitationText}
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              {t.invitationContact}
+            </p>
+            <p className="text-purple-700 font-medium text-lg">
+              {t.invitationClosing}
+            </p>
           </div>
         </div>
       </div>
