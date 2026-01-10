@@ -1265,8 +1265,8 @@ export const translations = {
         ],
         approachClosing: 'No se trata de acumular niveles, sino de construir una práctica sólida y consciente.',
 
-        formatsTitle: 'Formatos de Formación',
-        formatsIntro: 'Las formaciones de Reiki se ofrecen tanto en presencia como en línea (en vivo). En ambos formatos, pongo gran énfasis en el acompañamiento personal, la estructura clara y la transmisión éticamente responsable.',
+        formatsTitle: 'Modalidad de las formaciones',
+        formatsIntro: 'Las formaciones en Reiki Usui Tibetano se ofrecen en modalidad presencial y modalidad online, manteniendo en ambas la calidad de la transmisión y el acompañamiento del proceso.',
         inPersonTitle: 'Formato Presencial',
         inPersonDesc: 'Formación en un espacio protegido con práctica directa, intercambio y acompañamiento personal.',
         onlineTitle: 'Formato en Línea (en vivo)',
