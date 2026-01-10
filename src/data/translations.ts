@@ -1280,12 +1280,12 @@ export const translations = {
           'acompañamiento después de completar la formación'
         ],
 
-        levelsTitle: 'Los Niveles de Formación',
+        levelsTitle: 'Los niveles de Reiki Usui Tibetano',
 
         grade1: {
-          title: 'Reiki Grado I – Shoden',
-          subtitle: 'Fundamento e Introducción',
-          description: 'El primer grado forma la base de la práctica de Reiki. El enfoque está en el autotratamiento, la conciencia corporal y la integración consciente de Reiki en la vida cotidiana.',
+          title: 'Reiki Nivel I – Shoden',
+          subtitle: 'Iniciación y base de la práctica',
+          description: 'El Nivel I es el primer contacto consciente con la energía Reiki. Está orientado al autotratamiento, al cuidado personal y a la integración del Reiki en la vida diaria.',
           learnTitle: 'En este nivel aprenderás:',
           learnList: [
             'a conectarte con la energía Reiki',
@@ -1294,13 +1294,13 @@ export const translations = {
             'posiciones básicas de las manos',
             'a vivir prácticamente los principios de Reiki'
           ],
-          availability: 'Disponible en presencia y en línea.'
+          availability: 'Disponible en presencia y online.'
         },
 
         grade2: {
-          title: 'Reiki Grado II – Okuden',
-          subtitle: 'Profundización y Enfoque',
-          description: 'El segundo grado amplía la práctica y permite un trabajo más específico con Reiki. La atención se dirige cada vez más hacia la claridad interior, el enfoque y la continuidad.',
+          title: 'Reiki Nivel II – Okuden',
+          subtitle: 'Profundización y enfoque',
+          description: 'El Nivel II amplía la práctica y permite trabajar con mayor conciencia e intención. Se introduce el trabajo con los símbolos de Reiki y la práctica de Reiki a distancia.',
           contentsTitle: 'Los contenidos de este grado incluyen:',
           contentsList: [
             'trabajo con los símbolos de Reiki',
