@@ -1301,10 +1301,10 @@ export const translations = {
           title: 'Reiki Nivel II – Okuden',
           subtitle: 'Profundización y enfoque',
           description: 'El Nivel II amplía la práctica y permite trabajar con mayor conciencia e intención. Se introduce el trabajo con los símbolos de Reiki y la práctica de Reiki a distancia.',
-          contentsTitle: 'Los contenidos de este grado incluyen:',
+          contentsTitle: 'En este nivel se profundiza en:',
           contentsList: [
             'trabajo con los símbolos de Reiki',
-            'aplicaciones de Reiki a distancia',
+            'Reiki a distancia',
             'acompañamiento de procesos y situaciones',
             'profundización de la propia práctica'
           ],
