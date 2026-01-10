@@ -15,13 +15,13 @@ export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, cur
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <button 
+        <button
           onClick={onBack}
           className="mb-8 text-purple-600 hover:text-purple-700 font-medium"
         >
           {common.backToServices}
         </button>
-        
+
         <div className="bg-white rounded-3xl p-8 shadow-sm">
           <div className="flex items-center space-x-4 mb-8">
             <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
@@ -33,121 +33,87 @@ export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, cur
             </div>
           </div>
 
-          {/* What is it Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.whatIsIt}</h2>
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <p className="text-gray-600 leading-relaxed mb-4">
-                {t.whatIsItDesc}
+            <div className="space-y-4">
+              <p className="text-gray-700 leading-relaxed text-lg">
+                {t.intro1}
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                {t.principleDesc}
+              <p className="text-gray-700 leading-relaxed text-lg">
+                {t.intro2}
               </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                {t.techniqueDesc}
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                {t.meridianDesc}
+              <p className="text-gray-700 leading-relaxed text-lg">
+                {t.intro3}
               </p>
             </div>
           </div>
 
-          {/* Description Section */}
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.descriptionTitle}</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                {t.description1}
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                {t.description2}
-              </p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.treatmentTypes}</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <span className="font-medium">{t.fullBodyWithHead}</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-pink-600" />
-                  </div>
-                  <span className="font-medium">{t.backAndHead}</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-indigo-600" />
-                  </div>
-                  <span className="font-medium">{t.frontAndHead}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Effects Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.effectsAndBenefits}</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center p-6 bg-purple-50 rounded-2xl">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="font-semibold mb-2">{t.energyFlow}</h3>
-                <p className="text-sm text-gray-600">{t.energyFlowDesc}</p>
-              </div>
-              
-              <div className="text-center p-6 bg-pink-50 rounded-2xl">
-                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-6 h-6 text-pink-600" />
-                </div>
-                <h3 className="font-semibold mb-2">{t.relaxation}</h3>
-                <p className="text-sm text-gray-600">{t.relaxationDesc}</p>
-              </div>
-              
-              <div className="text-center p-6 bg-indigo-50 rounded-2xl">
-                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Sparkles className="w-6 h-6 text-indigo-600" />
-                </div>
-                <h3 className="font-semibold mb-2">{t.regeneration}</h3>
-                <p className="text-sm text-gray-600">{t.regenerationDesc}</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Physical Benefits Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Vorteile - Physisch, Emotional und Mental</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.howItWorks}</h2>
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.physicalBenefits}</h3>
-              <ul className="space-y-2 text-gray-600">
-                {t.physicalBenefitsList.map((benefit, index) => (
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.howItWorksIntro}
+              </p>
+              <ul className="space-y-3 text-gray-700">
+                {t.benefitsList.map((benefit, index) => (
                   <li key={index} className="flex items-start space-x-3">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-purple-600 font-bold text-lg">•</span>
                     <span>{benefit}</span>
                   </li>
                 ))}
               </ul>
+              <p className="text-gray-700 leading-relaxed mt-4 italic">
+                {t.benefitsClosing}
+              </p>
             </div>
           </div>
 
-          {/* Applications Section */}
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-            <div className="flex items-center space-x-3 mb-4">
-              <Users className="w-6 h-6" />
-              <h3 className="text-xl font-bold">{t.suitableFor}</h3>
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.usefulFor}</h2>
+            <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-6">
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.usefulForIntro}
+              </p>
+              <ul className="space-y-3 text-gray-700 mb-4">
+                {t.usefulForList.map((item, index) => (
+                  <li key={index} className="flex items-start space-x-3">
+                    <span className="text-pink-600 font-bold text-lg">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-700 leading-relaxed italic">
+                {t.usefulForClosing}
+              </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
-              {t.suitableForList.map((item, index) => (
-                <div key={index} className="flex items-start space-x-2">
-                  <span className="text-pink-200 font-bold">•</span>
-                  <span className="text-sm">{item}</span>
-                </div>
-              ))}
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.approach}</h2>
+            <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 border-2 border-purple-200">
+              <p className="text-gray-800 leading-relaxed mb-4">
+                {t.approachText1}
+              </p>
+              <p className="text-gray-800 leading-relaxed">
+                {t.approachText2}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white text-center">
+              <div className="flex items-center justify-center space-x-2 mb-4">
+                <Sparkles className="w-6 h-6" />
+                <h3 className="text-2xl font-bold">{t.invitation}</h3>
+              </div>
+              <p className="text-white leading-relaxed text-lg mb-6">
+                {t.invitationText}
+              </p>
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                {t.bookButton}
+              </button>
             </div>
           </div>
         </div>
