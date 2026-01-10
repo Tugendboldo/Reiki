@@ -60,7 +60,7 @@ export const translations = {
       badge: 'Über mich',
       title: 'Über ',
       titleHighlight: 'mich',
-      description1: 'Meine Begegnung mit Reiki war weder zufällig noch einmalig. Reiki zeigte sich in verschiedenen Phasen meines Lebens, insbesondere in Zeiten tiefer innerer Transformation und persönlicher Neuausrichtung.',
+      description1: 'Meine Begegnung mit Reiki war weder zufällig noch einmalig. Reiki zeigte sich in verschiedenen Phasen meines Lebens, besonders in Zeiten tiefer innerer Transformation und persönlicher Neuausrichtung.',
       description2: 'Seit mehr als 12 Jahren ist Reiki ein natürlicher Teil meines Lebens – sowohl in meiner eigenen Praxis als auch in der Begleitung von Prozessen und Sitzungen mit anderen Menschen. Auf diesem Weg war Reiki für mich ein verlässlicher Begleiter, zu dem ich immer wieder zurückkehren konnte: eine Präsenz, die trägt, ordnet und auf liebevolle, feine und zugleich tiefgehende Weise unterstützt.',
       description3: 'Mein Reiki-Weg führte mich durch unterschiedliche Lehrer und Ansätze und hat mich daran erinnert, dass es viele Wege der Heilung und Selbsterkenntnis gibt. Mit der Zeit habe ich verstanden, dass Klarheit nicht als plötzliche Erleuchtung entsteht, sondern als ein langsamer, ehrlicher Prozess – ein Sich-selbst-Begegnen ohne Filter, um zu erkennen, welche Teile des eigenen Lebens der inneren Wahrheit entsprechen und welche äußeren Erwartungen.',
       description4: 'Aus diesem Verständnis heraus begleite ich heute: indem ich Räume schaffe, in denen nichts bekämpft werden muss, sondern gehört werden darf; Räume, in denen Pause, Stille und Präsenz ermöglichen, dass sich das Wesentliche neu ordnet.',
