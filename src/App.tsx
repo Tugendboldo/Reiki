@@ -349,23 +349,23 @@ function App() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-xl text-gray-800 leading-relaxed font-light mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-purple-600 first-letter:float-left first-letter:mr-3 first-letter:leading-none first-letter:mt-1">
-                  {t.about.paragraph1}
+                  {t.about.description1}
                 </p>
 
                 <div className="space-y-5">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    {t.about.paragraph2}
+                    {t.about.description2}
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    {t.about.paragraph3}
+                    {t.about.description3}
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    {t.about.paragraph4}
+                    {t.about.description4}
                   </p>
 
                   <div className="bg-white/60 backdrop-blur-sm border-l-4 border-purple-400 pl-6 py-4 rounded-r-lg shadow-sm">
                     <p className="text-lg text-gray-800 leading-relaxed font-medium italic">
-                      {t.about.paragraph5}
+                      {t.about.description5}
                     </p>
                   </div>
                 </div>
@@ -376,7 +376,7 @@ function App() {
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
-                  {t.about.buttonText}
+                  {t.about.bookPersonalAppointment}
                 </button>
               </div>
             </div>
