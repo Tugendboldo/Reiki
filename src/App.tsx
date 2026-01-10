@@ -251,6 +251,14 @@ function App() {
               {t.approach.title}
               <span className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
             </h2>
+
+            <div className="mt-8 mb-12">
+              <img
+                src="/photo_2026-01-10_16-21-12.jpg"
+                alt="Healing hands with crystal stone"
+                className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl"
+              />
+            </div>
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
