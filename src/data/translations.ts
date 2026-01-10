@@ -347,107 +347,41 @@ export const translations = {
         invitationClosing: 'Ich freue mich darauf, dich kennenzulernen.'
       },
       makrameeWorkshops: {
-        title: 'Makramee-Workshops',
-        subtitle: 'Kreative Entspannung',
-        discoverArt: 'Entdecken Sie die Kunst des Makramee',
-        description1: 'Entdecken Sie die meditative Kunst des Makramee-Knotens und schaffen Sie wunderschöne, handgefertigte Kunstwerke.',
-        description2: 'Unsere Workshops verbinden Kreativität mit Entspannung und bieten eine perfekte Auszeit vom Alltag.',
-        highlights: 'Workshop-Highlights',
-        relaxingAtmosphere: 'Entspannte Atmosphäre',
-        allMaterialsIncluded: 'Alle Materialien inklusive',
-        smallGroups: 'Kleine Gruppen (max. 8 Personen)',
-        workshopOffers: 'Workshop-Angebote',
-        wallHanging: {
-          title: 'Wandbehang Workshop',
-          subtitle: 'Ihr erstes Makramee-Kunstwerk',
-          whatYouLearn: 'Was Sie lernen',
-          learnList: [
-            'Grundknoten des Makramee',
-            'Verschiedene Knotentechniken',
-            'Design und Komposition',
-            'Finishing-Techniken'
-          ],
-          yourProject: 'Ihr Projekt',
-          projectList: [
-            'Wandbehang 40x60cm',
-            'Natürliche Baumwollkordel',
-            'Holzstab als Aufhängung',
-            'Individuelle Gestaltung'
-          ]
-        },
-        plantHanger: {
-          title: 'Pflanzenampel Workshop',
-          subtitle: 'Grüne Dekoration selbst gemacht',
-          features: 'Besonderheiten',
-          featuresList: [
-            'Funktional und dekorativ',
-            'Für verschiedene Topfgrößen',
-            'Stabile Knotentechnik',
-            'Moderne Designs'
-          ],
-          included: 'Inklusive',
-          includedList: [
-            'Hochwertige Makramee-Kordel',
-            'Metallring zur Aufhängung',
-            'Übertopf nach Wahl',
-            'Pflegeanleitung'
-          ]
-        },
-        jewelry: {
-          title: 'Makramee-Schmuck Workshop',
-          subtitle: 'Einzigartige Accessoires',
-          projects: 'Projekte',
-          projectsList: [
-            'Armbänder mit Perlen',
-            'Halsketten mit Anhängern',
-            'Ohrringe (Fortgeschrittene)',
-            'Schlüsselanhänger'
-          ],
-          materials: 'Materialien',
-          materialsList: [
-            'Gewachste Baumwollkordel',
-            'Naturperlen und Edelsteine',
-            'Metallverschlüsse',
-            'Werkzeuge und Zubehör'
-          ]
-        },
-        meditativeEffect: 'Meditativer Effekt',
-        meditativeEffectDesc: 'Das rhythmische Knoten wirkt beruhigend und meditativ auf Geist und Seele.',
-        meditativeEffectList: [
-          'Stressabbau durch repetitive Bewegungen',
-          'Förderung der Konzentration',
-          'Achtsamkeitstraining',
-          'Kreative Selbstverwirklichung'
+        title: 'Erlebnis-Workshops',
+        subtitle: 'Räume für Erforschung, Bewusstsein und Erfahrung',
+        intro: 'dass jede Person aus ihrer eigenen Erfahrung heraus fühlen, erleben und integrieren kann.',
+        description1: 'Mein persönlicher Weg hat tiefgreifende Transformationsprozesse durchlaufen.',
+        description2: 'Von dort aus begleite ich: nicht aus der Theorie, sondern aus der gelebten, integrierten und im Laufe der Zeit getragenen Erfahrung.',
+        description3: 'Die Workshops, die ich leite, sind Erfahrungsräume, in denen Körper, Intuition und Bewusstsein zusammenkommen.',
+        description4: 'Sie suchen nicht nach Antworten oder Formeln, sondern öffnen Erfahrungen, die es ermöglichen, durch direkte Erfahrung zu fühlen, zu erforschen und zu entdecken.',
+        description5: 'Sie sind sowohl für Menschen in persönlichen Prozessen gedacht als auch für diejenigen, die ihre Praxis aus einem respektvollen, integrierenden und bewussten Blickwinkel nähren und erweitern möchten.',
+        approachTitle: 'Ein sensibler und integrativer Ansatz',
+        approachDesc: 'Jedes Treffen wird auf einer klaren Grundlage von Präsenz und Halt aufgebaut und integriert verschiedene Werkzeuge und Ansätze, die die innere Erforschung auf nicht-invasive und zutiefst respektvolle Weise begleiten.',
+        focusTitle: 'Die Arbeit zielt darauf ab:',
+        focusList: [
+          'die Verbindung mit dem Körper zu fördern',
+          'Räume des inneren Zuhörens zu öffnen',
+          'das Entstehen von Intuition zu ermöglichen',
+          'Zugang zu tiefen Verständnissen ohne Analyse oder Urteil zu erhalten'
         ],
-        suitableFor: 'Geeignet für',
-        suitableForDesc: 'Unsere Workshops sind für alle Altersgruppen und Erfahrungslevel geeignet.',
-        suitableForList: [
-          'Absolute Anfänger',
-          'Kreative Menschen jeden Alters',
-          'Als Gruppenaktivität',
-          'Zur Entspannung und Entschleunigung'
+        notForced: 'Nichts wird erzwungen.',
+        safePath: 'Jede Person geht ihren eigenen Weg in einem sicheren und gepflegten Raum.',
+        invitationTitle: 'Eine Einladung, die Kontrolle loszulassen',
+        invitationDesc: 'Die Workshops sind eine Einladung, für einen Moment die Anforderungen, das Urteil und die Rolle des „Erwachsenen, der weiß" loszulassen, um sich einer freieren, kreativeren und authentischeren Erfahrung zu öffnen.',
+        invitationDesc2: 'Durch das Symbol, den Körper und die direkte Erfahrung werden Integrationsprozesse ermöglicht, die auf natürliche Weise entstehen, wenn der richtige Raum geschaffen wird.',
+        forWhomTitle: 'Für wen sind diese Räume?',
+        forWhomDesc: 'Für Menschen, die den Ruf spüren:',
+        forWhomList: [
+          'ihre innere Welt zu erforschen',
+          'ihren persönlichen Weg zu vertiefen',
+          'neue Perspektiven aus der Erfahrung zu öffnen',
+          'ihre Praxis aus einem Erfahrungsansatz heraus zu nähren'
         ],
-        workshopInfo: 'Workshop-Informationen',
-        schedule: 'Termine',
-        scheduleList: [
-          'Samstags 10:00-16:00 Uhr',
-          'Sonntags 10:00-16:00 Uhr',
-          'Abendworkshops nach Vereinbarung'
-        ],
-        included: 'Inklusive',
-        includedList: [
-          'Alle Materialien',
-          'Werkzeuge und Hilfsmittel',
-          'Getränke und Snacks',
-          'Ausführliche Anleitung'
-        ],
-        special: 'Besonderes',
-        specialList: [
-          'Entspannte Atmosphäre',
-          'Persönliche Betreuung',
-          'Nachbetreuung bei Fragen',
-          'Aufbau-Workshops verfügbar'
-        ]
+        noExperience: 'Es ist keine Vorerfahrung erforderlich.',
+        onlyOpenness: 'Nur Offenheit und Neugier.',
+        finalInvitation: 'Wenn du neugierig bist, an einem respektvollen, sensiblen und tiefen Ort zu erforschen, können diese Workshops ein Einstieg sein.',
+        ctaPrimary: 'Termin vereinbaren',
+        ctaSecondary: 'Nächste Workshops ansehen'
       }
     },
     contact: {
@@ -855,107 +789,41 @@ export const translations = {
         invitationClosing: 'I look forward to getting to know you.'
       },
       makrameeWorkshops: {
-        title: 'Macramé Workshops',
-        subtitle: 'Creative Relaxation',
-        discoverArt: 'Discover the Art of Macramé',
-        description1: 'Discover the meditative art of macramé knotting and create beautiful, handcrafted artworks.',
-        description2: 'Our workshops combine creativity with relaxation and offer a perfect break from everyday life.',
-        highlights: 'Workshop Highlights',
-        relaxingAtmosphere: 'Relaxing Atmosphere',
-        allMaterialsIncluded: 'All Materials Included',
-        smallGroups: 'Small Groups (max. 8 people)',
-        workshopOffers: 'Workshop Offers',
-        wallHanging: {
-          title: 'Wall Hanging Workshop',
-          subtitle: 'Your First Macramé Artwork',
-          whatYouLearn: 'What You Learn',
-          learnList: [
-            'Basic macramé knots',
-            'Various knotting techniques',
-            'Design and composition',
-            'Finishing techniques'
-          ],
-          yourProject: 'Your Project',
-          projectList: [
-            'Wall hanging 40x60cm',
-            'Natural cotton cord',
-            'Wooden rod for hanging',
-            'Individual design'
-          ]
-        },
-        plantHanger: {
-          title: 'Plant Hanger Workshop',
-          subtitle: 'Green Decoration Self-Made',
-          features: 'Features',
-          featuresList: [
-            'Functional and decorative',
-            'For various pot sizes',
-            'Stable knotting technique',
-            'Modern designs'
-          ],
-          included: 'Included',
-          includedList: [
-            'High-quality macramé cord',
-            'Metal ring for hanging',
-            'Planter of choice',
-            'Care instructions'
-          ]
-        },
-        jewelry: {
-          title: 'Macramé Jewelry Workshop',
-          subtitle: 'Unique Accessories',
-          projects: 'Projects',
-          projectsList: [
-            'Bracelets with beads',
-            'Necklaces with pendants',
-            'Earrings (Advanced)',
-            'Keychains'
-          ],
-          materials: 'Materials',
-          materialsList: [
-            'Waxed cotton cord',
-            'Natural beads and gemstones',
-            'Metal clasps',
-            'Tools and accessories'
-          ]
-        },
-        meditativeEffect: 'Meditative Effect',
-        meditativeEffectDesc: 'The rhythmic knotting has a calming and meditative effect on mind and soul.',
-        meditativeEffectList: [
-          'Stress reduction through repetitive movements',
-          'Promotion of concentration',
-          'Mindfulness training',
-          'Creative self-realization'
+        title: 'Experiential Workshops',
+        subtitle: 'Spaces for exploration, awareness and experience',
+        intro: 'so that each person can feel, experience and integrate from their own lived experience.',
+        description1: 'My personal path has gone through profound transformation processes.',
+        description2: 'From there I accompany: not from theory, but from lived experience, integrated and sustained over time.',
+        description3: 'The workshops I facilitate are experiential spaces where body, intuition and consciousness meet.',
+        description4: 'They do not seek to give answers or formulas, but to open experiences that allow feeling, exploring and discovering from direct experience.',
+        description5: 'They are designed for people in personal process as well as for those who wish to nourish and expand their practice, from a respectful, integrative and conscious perspective.',
+        approachTitle: 'A sensitive and integrative approach',
+        approachDesc: 'Each meeting is built from a clear foundation of presence and support, integrating different tools and approaches that accompany internal exploration in a non-invasive and deeply respectful way.',
+        focusTitle: 'The work aims to:',
+        focusList: [
+          'foster connection with the body',
+          'open spaces for inner listening',
+          'allow intuition to emerge',
+          'access deep understandings without analysis or judgment'
         ],
-        suitableFor: 'Suitable For',
-        suitableForDesc: 'Our workshops are suitable for all age groups and experience levels.',
-        suitableForList: [
-          'Absolute beginners',
-          'Creative people of all ages',
-          'As group activity',
-          'For relaxation and deceleration'
+        notForced: 'Nothing is forced.',
+        safePath: 'Each person walks their own path within a safe and cared for space.',
+        invitationTitle: 'An invitation to let go of control',
+        invitationDesc: 'The workshops are an invitation to leave aside, for a moment, the demands, judgment and the role of the "adult who knows", to open oneself to a freer, more creative and authentic experience.',
+        invitationDesc2: 'Through symbol, body and direct experience, integration processes are enabled that arise naturally when the appropriate space is created.',
+        forWhomTitle: 'Who are these spaces for?',
+        forWhomDesc: 'For people who feel called to:',
+        forWhomList: [
+          'explore their inner world',
+          'deepen their personal path',
+          'open new perspectives from experience',
+          'nourish their practice from an experiential approach'
         ],
-        workshopInfo: 'Workshop Information',
-        schedule: 'Schedule',
-        scheduleList: [
-          'Saturdays 10:00-16:00',
-          'Sundays 10:00-16:00',
-          'Evening workshops by arrangement'
-        ],
-        included: 'Included',
-        includedList: [
-          'All materials',
-          'Tools and aids',
-          'Drinks and snacks',
-          'Detailed instructions'
-        ],
-        special: 'Special',
-        specialList: [
-          'Relaxed atmosphere',
-          'Personal care',
-          'Follow-up support for questions',
-          'Advanced workshops available'
-        ]
+        noExperience: 'No previous experience required.',
+        onlyOpenness: 'Only openness and curiosity.',
+        finalInvitation: 'If you feel curious to explore from a respectful, sensitive and deep place, these workshops can be a gateway.',
+        ctaPrimary: 'Book appointment',
+        ctaSecondary: 'View upcoming workshops'
       }
     },
     contact: {
@@ -1362,107 +1230,41 @@ export const translations = {
         invitationClosing: 'Espero conocerte.'
       },
       makrameeWorkshops: {
-        title: 'Talleres de Macramé',
-        subtitle: 'Relajación Creativa',
-        discoverArt: 'Descubre el Arte del Macramé',
-        description1: 'Descubre el arte meditativo del anudado de macramé y crea hermosas obras de arte hechas a mano.',
-        description2: 'Nuestros talleres combinan creatividad con relajación y ofrecen un descanso perfecto de la vida cotidiana.',
-        highlights: 'Aspectos Destacados del Taller',
-        relaxingAtmosphere: 'Atmósfera Relajante',
-        allMaterialsIncluded: 'Todos los Materiales Incluidos',
-        smallGroups: 'Grupos Pequeños (máx. 8 personas)',
-        workshopOffers: 'Ofertas de Taller',
-        wallHanging: {
-          title: 'Taller de Colgante de Pared',
-          subtitle: 'Tu Primera Obra de Arte de Macramé',
-          whatYouLearn: 'Lo Que Aprenderás',
-          learnList: [
-            'Nudos básicos de macramé',
-            'Varias técnicas de anudado',
-            'Diseño y composición',
-            'Técnicas de acabado'
-          ],
-          yourProject: 'Tu Proyecto',
-          projectList: [
-            'Colgante de pared 40x60cm',
-            'Cordón de algodón natural',
-            'Varilla de madera para colgar',
-            'Diseño individual'
-          ]
-        },
-        plantHanger: {
-          title: 'Taller de Colgador de Plantas',
-          subtitle: 'Decoración Verde Hecha por Ti Mismo',
-          features: 'Características',
-          featuresList: [
-            'Funcional y decorativo',
-            'Para varios tamaños de macetas',
-            'Técnica de anudado estable',
-            'Diseños modernos'
-          ],
-          included: 'Incluido',
-          includedList: [
-            'Cordón de macramé de alta calidad',
-            'Anillo de metal para colgar',
-            'Maceta a elección',
-            'Instrucciones de cuidado'
-          ]
-        },
-        jewelry: {
-          title: 'Taller de Joyería de Macramé',
-          subtitle: 'Accesorios Únicos',
-          projects: 'Proyectos',
-          projectsList: [
-            'Pulseras con cuentas',
-            'Collares con colgantes',
-            'Pendientes (Avanzado)',
-            'Llaveros'
-          ],
-          materials: 'Materiales',
-          materialsList: [
-            'Cordón de algodón encerado',
-            'Cuentas naturales y gemas',
-            'Cierres de metal',
-            'Herramientas y accesorios'
-          ]
-        },
-        meditativeEffect: 'Efecto Meditativo',
-        meditativeEffectDesc: 'El anudado rítmico tiene un efecto calmante y meditativo en la mente y el alma.',
-        meditativeEffectList: [
-          'Reducción del estrés a través de movimientos repetitivos',
-          'Promoción de la concentración',
-          'Entrenamiento de atención plena',
-          'Autorrealización creativa'
+        title: 'Workshops vivenciales',
+        subtitle: 'Espacios de exploración, conciencia y experiencia',
+        intro: 'que cada persona pueda sentir, experimentar e integrar desde su propia vivencia.',
+        description1: 'Mi camino personal ha atravesado procesos de transformación profunda.',
+        description2: 'Desde ahí acompaño: no desde la teoría, sino desde la experiencia vivida, integrada y sostenida en el tiempo.',
+        description3: 'Los workshops que facilito son espacios vivenciales donde el cuerpo, la intuición y la conciencia se encuentran.',
+        description4: 'No buscan dar respuestas ni fórmulas, sino abrir experiencias que permitan sentir, explorar y descubrir desde la vivencia directa.',
+        description5: 'Están pensados tanto para personas en proceso personal como para quienes desean nutrir y ampliar su práctica, desde una mirada respetuosa, integradora y consciente.',
+        approachTitle: 'Un enfoque sensible e integrador',
+        approachDesc: 'Cada encuentro se construye desde una base clara de presencia y sostén, integrando diferentes herramientas y enfoques que acompañan la exploración interna de manera no invasiva y profundamente respetuosa.',
+        focusTitle: 'El trabajo se orienta a:',
+        focusList: [
+          'favorecer la conexión con el cuerpo',
+          'abrir espacios de escucha interna',
+          'permitir que emerja la intuición',
+          'acceder a comprensiones profundas sin análisis ni juicio'
         ],
-        suitableFor: 'Adecuado Para',
-        suitableForDesc: 'Nuestros talleres son adecuados para todos los grupos de edad y niveles de experiencia.',
-        suitableForList: [
-          'Principiantes absolutos',
-          'Personas creativas de todas las edades',
-          'Como actividad grupal',
-          'Para relajación y desaceleración'
+        notForced: 'Nada se fuerza.',
+        safePath: 'Cada persona recorre su propio camino dentro de un espacio cuidado y seguro.',
+        invitationTitle: 'Una invitación a soltar el control',
+        invitationDesc: 'Los workshops son una invitación a dejar por un momento la exigencia, el juicio y el rol del "adulto que sabe", para abrirse a una experiencia más libre, creativa y auténtica.',
+        invitationDesc2: 'A través del símbolo, el cuerpo y la experiencia directa, se habilitan procesos de integración que surgen de manera natural cuando se crea el espacio adecuado.',
+        forWhomTitle: '¿Para quiénes son estos espacios?',
+        forWhomDesc: 'Para personas que sienten el llamado a:',
+        forWhomList: [
+          'explorar su mundo interno',
+          'profundizar en su camino personal',
+          'abrir nuevas miradas desde la experiencia',
+          'nutrir su práctica desde un enfoque vivencial'
         ],
-        workshopInfo: 'Información del Taller',
-        schedule: 'Horario',
-        scheduleList: [
-          'Sábados 10:00-16:00',
-          'Domingos 10:00-16:00',
-          'Talleres nocturnos con cita previa'
-        ],
-        included: 'Incluido',
-        includedList: [
-          'Todos los materiales',
-          'Herramientas y ayudas',
-          'Bebidas y aperitivos',
-          'Instrucciones detalladas'
-        ],
-        special: 'Especial',
-        specialList: [
-          'Atmósfera relajada',
-          'Cuidado personal',
-          'Apoyo de seguimiento para preguntas',
-          'Talleres avanzados disponibles'
-        ]
+        noExperience: 'No se requiere experiencia previa.',
+        onlyOpenness: 'Solo apertura y curiosidad.',
+        finalInvitation: 'Si sientes curiosidad por explorar desde un lugar respetuoso, sensible y profundo, estos workshops pueden ser una puerta de entrada.',
+        ctaPrimary: 'Reservar cita',
+        ctaSecondary: 'Ver próximos workshops'
       }
     },
     contact: {

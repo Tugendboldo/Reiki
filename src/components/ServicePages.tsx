@@ -725,210 +725,126 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
   const common = translations[currentLanguage].common;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-purple-50 to-pink-50">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <button 
+        <button
           onClick={onBack}
           className="mb-8 text-purple-600 hover:text-purple-700 font-medium"
         >
           {common.backToServices}
         </button>
-        
+
         <div className="bg-white rounded-3xl p-8 shadow-sm">
           <div className="flex items-center space-x-4 mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center">
-              <Scissors className="w-8 h-8 text-white" />
+            <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-full flex items-center justify-center">
+              <Sparkles className="w-8 h-8 text-white" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">{t.title}</h1>
-              <p className="text-purple-600 font-medium">{t.subtitle}</p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.discoverArt}</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                {t.description1}
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                {t.description2}
-              </p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.highlights}</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <span className="font-medium">{t.relaxingAtmosphere}</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-pink-600" />
-                  </div>
-                  <span className="font-medium">{t.allMaterialsIncluded}</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Sparkles className="w-4 h-4 text-indigo-600" />
-                  </div>
-                  <span className="font-medium">{t.smallGroups}</span>
-                </div>
-              </div>
+              <p className="text-cyan-600 font-medium">{t.subtitle}</p>
             </div>
           </div>
 
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.workshopOffers}</h2>
-            <div className="space-y-6">
-              <div className="bg-purple-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-6 h-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.wallHanging.title}</h3>
-                    <p className="text-purple-600 font-medium">{t.wallHanging.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.wallHanging.whatYouLearn}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.wallHanging.learnList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.wallHanging.yourProject}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.wallHanging.projectList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-pink-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
-                    <Sparkles className="w-6 h-6 text-pink-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.plantHanger.title}</h3>
-                    <p className="text-pink-600 font-medium">{t.plantHanger.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.plantHanger.features}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.plantHanger.featuresList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.plantHanger.included}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.plantHanger.includedList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-indigo-50 rounded-2xl p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <Gem className="w-6 h-6 text-indigo-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900">{t.jewelry.title}</h3>
-                    <p className="text-indigo-600 font-medium">{t.jewelry.subtitle}</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.jewelry.projects}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.jewelry.projectsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">{t.jewelry.materials}</h4>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {t.jewelry.materialsList.map((item, index) => (
-                        <li key={index}>• {item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-gradient-to-br from-cyan-50 to-purple-50 rounded-2xl p-6 border border-cyan-100">
+              <p className="text-gray-700 leading-relaxed text-lg italic mb-4">
+                {t.intro}
+              </p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-purple-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.meditativeEffect}</h3>
-              <p className="text-gray-600 mb-4">
-                {t.meditativeEffectDesc}
+          <div className="mb-8">
+            <div className="space-y-4">
+              <p className="text-gray-700 leading-relaxed">
+                {t.description1}
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                {t.meditativeEffectList.map((item, index) => (
-                  <li key={index}>• {item}</li>
-                ))}
-              </ul>
-            </div>
-            
-            <div className="bg-pink-50 rounded-2xl p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t.suitableFor}</h3>
-              <p className="text-gray-600 mb-4">
-                {t.suitableForDesc}
+              <p className="text-gray-700 leading-relaxed">
+                {t.description2}
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                {t.suitableForList.map((item, index) => (
-                  <li key={index}>• {item}</li>
-                ))}
-              </ul>
+              <p className="text-gray-700 leading-relaxed">
+                {t.description3}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t.description4}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t.description5}
+              </p>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-            <h3 className="text-xl font-bold mb-4">{t.workshopInfo}</h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div>
-                <h4 className="font-semibold mb-2">{t.schedule}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.scheduleList.map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">{t.included}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.includedList.map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">{t.special}</h4>
-                <ul className="text-sm space-y-1">
-                  {t.specialList.map((item, index) => (
-                    <li key={index}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
+          <div className="mb-8">
+            <div className="bg-purple-50 rounded-2xl p-6 border border-purple-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Heart className="w-6 h-6 text-purple-600" />
+                {t.approachTitle}
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.approachDesc}
+              </p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">{t.focusTitle}</h3>
+              <ul className="space-y-2 text-gray-700 mb-4">
+                {t.focusList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-purple-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-900 font-semibold mb-2">{t.notForced}</p>
+              <p className="text-gray-700 leading-relaxed">{t.safePath}</p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-2xl p-6 border border-cyan-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Sparkles className="w-6 h-6 text-cyan-600" />
+                {t.invitationTitle}
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {t.invitationDesc}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t.invitationDesc2}
+              </p>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="bg-pink-50 rounded-2xl p-6 border border-pink-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.forWhomTitle}</h2>
+              <p className="text-gray-700 leading-relaxed mb-3">{t.forWhomDesc}</p>
+              <ul className="space-y-2 text-gray-700 mb-4">
+                {t.forWhomList.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-pink-600 font-bold mt-1">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-900 font-semibold mb-2">{t.noExperience}</p>
+              <p className="text-gray-700 leading-relaxed">{t.onlyOpenness}</p>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-8 border-2 border-purple-200">
+            <p className="text-gray-800 leading-relaxed text-lg mb-6 text-center">
+              {t.finalInvitation}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-gradient-to-r from-cyan-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:from-cyan-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
+              >
+                {t.ctaPrimary}
+              </button>
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-block bg-white text-purple-600 border-2 border-purple-600 px-8 py-4 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 text-center"
+              >
+                {t.ctaSecondary}
+              </button>
             </div>
           </div>
         </div>
