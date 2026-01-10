@@ -1071,8 +1071,8 @@ export const translations = {
       closing: 'Si has llegado hasta aquí, quizá tu cuerpo también esté pidiendo un espacio para descansar y reconectar consigo mismo. Será un placer acompañarte cuando lo sientas.'
     },
     about: {
-      badge: 'Acerca de mí',
-      title: 'Acerca de ',
+      badge: 'Sobre mí',
+      title: 'Sobre ',
       titleHighlight: 'mí',
       description1: 'Mi encuentro con el Reiki no fue casual ni puntual. Apareció en distintas etapas de mi vida, especialmente en momentos de transformación profunda y revisión interior.',
       description2: 'Desde hace más de 12 años, el Reiki forma parte de mi vida de manera natural, tanto en mi práctica personal como acompañando procesos y sesiones con otras personas. A lo largo de este camino, ha sido un compañero fiel al que siempre he podido volver: una presencia que sostiene, ordena y acompaña de forma amorosa, sutil y profunda.',
