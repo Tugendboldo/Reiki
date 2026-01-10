@@ -1256,14 +1256,14 @@ export const translations = {
 
         approachTitle: 'Cómo son las formaciones conmigo?',
         approachIntro: 'Las formaciones están diseñadas para que la experiencia preceda a la teoría. Trabajo con un enfoque vivencial, integrando la práctica del Reiki en la vida cotidiana desde la presencia, la respiración y el cuidado del cuerpo.',
-        approachIncludes: 'La formación incluye:',
+        approachIncludes: 'Cada formación incluye:',
         approachList: [
-          'práctica regular de dar y recibir Reiki',
+          'práctica constante de dar y recibir Reiki',
           'ejercicios de respiración, presencia y meditación del Reiki tradicional japonés',
-          'trabajo consciente con el cuerpo',
-          'espacio para integración y acompañamiento posterior'
+          'integración del Reiki como práctica viva',
+          'acompañamiento durante y después de la formación'
         ],
-        approachClosing: 'No se trata de acumular grados, sino de desarrollar una práctica de Reiki estable, auténtica y sostenible.',
+        approachClosing: 'No se trata de acumular niveles, sino de construir una práctica sólida y consciente.',
 
         formatsTitle: 'Formatos de Formación',
         formatsIntro: 'Las formaciones de Reiki se ofrecen tanto en presencia como en línea (en vivo). En ambos formatos, pongo gran énfasis en el acompañamiento personal, la estructura clara y la transmisión éticamente responsable.',
