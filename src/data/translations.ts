@@ -1308,20 +1308,20 @@ export const translations = {
             'acompañamiento de procesos y situaciones',
             'profundización de la propia práctica'
           ],
-          availability: 'Disponible en presencia y en línea.'
+          availability: 'Disponible en presencia y online.'
         },
 
         grade3: {
-          title: 'Reiki Grado III – Shinpiden',
+          title: 'Reiki Nivel III – Shinpiden',
           subtitle: 'Integración y Madurez Interior',
-          description: 'El tercer grado apoya la integración profunda de Reiki como camino personal. Está dirigido a personas que desean consolidar su práctica y profundizar Reiki como parte de su comprensión de la vida.',
-          supportsTitle: 'Este grado promueve:',
+          description: 'El Nivel III representa una etapa de integración profunda del Reiki como camino personal. Está orientado a personas que desean consolidar su práctica y profundizar en su proceso interior.',
+          supportsTitle: 'Este nivel acompaña:',
           supportsList: [
             'la maduración de la propia práctica',
-            'una alineación interior clara',
-            'la conexión de Reiki, vida cotidiana y conciencia'
+            'la coherencia entre vida y Reiki',
+            'una comprensión más profunda del camino espiritual'
           ],
-          availability: 'Disponible en presencia y en línea.'
+          availability: 'Disponible en presencia y online.'
         },
 
         mastery: {
