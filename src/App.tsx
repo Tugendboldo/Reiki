@@ -404,10 +404,19 @@ function App() {
                   {t.about.bookPersonalAppointment}
                 </button>
               </div>
+
+              {/* Mobile - Additional Image */}
+              <div className="mt-8 lg:hidden">
+                <img
+                  src="/erika-8 copy.jpg"
+                  alt="Peaceful healing moment"
+                  className="w-full rounded-2xl shadow-lg"
+                />
+              </div>
             </div>
 
             {/* Desktop Image - hidden on mobile */}
-            <div className="hidden lg:block relative lg:sticky lg:top-24">
+            <div className="hidden lg:block relative lg:sticky lg:top-24 space-y-8">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"></div>
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl mx-auto ring-8 ring-white/50">
@@ -417,6 +426,15 @@ function App() {
                     className="w-full h-full object-cover"
                   />
                 </div>
+              </div>
+
+              {/* Desktop - Additional Image */}
+              <div className="relative">
+                <img
+                  src="/erika-8 copy.jpg"
+                  alt="Peaceful healing moment"
+                  className="w-full rounded-2xl shadow-lg"
+                />
               </div>
             </div>
           </div>
