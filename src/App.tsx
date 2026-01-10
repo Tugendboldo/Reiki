@@ -341,6 +341,21 @@ function App() {
                   <User className="w-4 h-4" />
                   <span>{t.about.badge}</span>
                 </div>
+
+                {/* Mobile Image - shown between badge and title */}
+                <div className="lg:hidden mb-8">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"></div>
+                    <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-2xl mx-auto ring-8 ring-white/50">
+                      <img
+                        src="/photo_2025-11-26_17-00-03.jpg"
+                        alt="Erika - Certified Reiki Master and Natural Healing Practitioner"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
                   {t.about.title}
                   <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
@@ -381,7 +396,8 @@ function App() {
               </div>
             </div>
 
-            <div className="relative lg:sticky lg:top-24">
+            {/* Desktop Image - hidden on mobile */}
+            <div className="hidden lg:block relative lg:sticky lg:top-24">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"></div>
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl mx-auto ring-8 ring-white/50">
