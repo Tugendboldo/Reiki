@@ -123,7 +123,34 @@ export const translations = {
         approachText2: 'Ich stelle keine Diagnosen und ersetze keine medizinischen oder psychologischen Behandlungen. Die bioenergetische Massage wird als eine komplementäre Praxis des Wohlbefindens angeboten, die auf Ruhe, natürliche Regulation und bewusste Körperbegleitung ausgerichtet ist.',
         invitation: 'Einladung',
         invitationText: 'Wenn du das Bedürfnis verspürst, deinen Körper zu entspannen, das Tempo zu verlangsamen und dich mit deinem Wohlbefinden zu verbinden, kann die bioenergetische Massage ein Raum der Fürsorge und Präsenz für dich sein.',
-        bookButton: 'Sitzung für bioenergetische Massage buchen'
+        bookButton: 'Sitzung für bioenergetische Massage buchen',
+        pricesButton: 'Preise',
+        pricesModal: {
+          title: 'Preise · Bioenergetische Massage',
+          individualSessions: 'Einzelsitzungen',
+          individualSessionsSubtitle: '(inklusive Aromatherapie und integrativer Energiearbeit)',
+          session: 'Sitzung',
+          duration: 'Dauer',
+          price: 'Preis',
+          individualPrices: [
+            { name: 'Bioenergetische Massage', duration: '60 Min.', price: '80 €' },
+            { name: 'Bioenergetische Massage', duration: '75 Min.', price: '95 €' },
+            { name: 'Bioenergetische Massage', duration: '90 Min.', price: '110 €' }
+          ],
+          combinedSessions: 'Kombinierte Sitzungen',
+          combinedSessionsSubtitle: '(tiefere Körperarbeit mit Klangschalen oder Schröpfen, je nach Bedarf)',
+          combinedSession: 'Kombinierte Sitzung',
+          combinedPrices: [
+            { name: 'Kompletter Rücken · Beine · Kopf', duration: '75 Min.', price: '105 €' },
+            { name: 'Kompletter Rücken · Beine · Kopf', duration: '90 Min.', price: '125 €' },
+            { name: 'Vordere Körperhälfte (Brust, Bauch, Arme und Beine)', duration: '75 Min.', price: '105 €' },
+            { name: 'Vordere Körperhälfte (Brust, Bauch, Arme und Beine)', duration: '90 Min.', price: '125 €' }
+          ],
+          importantNote: 'Wichtiger Hinweis',
+          note1: 'Alle Sitzungen werden an die Bedürfnisse und den Moment jeder Person angepasst.',
+          note2: 'Die Behandlungen werden als komplementäre Wellness-Praktiken angeboten und ersetzen keine medizinischen oder physiotherapeutischen Behandlungen.',
+          close: 'Schließen'
+        }
       },
       reiki: {
         title: 'Reiki-Sitzungen',
@@ -541,7 +568,34 @@ export const translations = {
         approachText2: 'I do not make diagnoses or replace medical or psychological treatments. Bioenergetic massage is offered as a complementary well-being practice, oriented towards rest, natural regulation, and conscious body accompaniment.',
         invitation: 'Invitation',
         invitationText: 'If you feel the need to relax your body, slow down, and reconnect with your well-being, bioenergetic massage can be a space of care and presence for you.',
-        bookButton: 'Book bioenergetic massage session'
+        bookButton: 'Book bioenergetic massage session',
+        pricesButton: 'Prices',
+        pricesModal: {
+          title: 'Prices · Bioenergetic Massage',
+          individualSessions: 'Individual Sessions',
+          individualSessionsSubtitle: '(include aromatherapy and integrative energy work)',
+          session: 'Session',
+          duration: 'Duration',
+          price: 'Price',
+          individualPrices: [
+            { name: 'Bioenergetic Massage', duration: '60 min', price: '80 €' },
+            { name: 'Bioenergetic Massage', duration: '75 min', price: '95 €' },
+            { name: 'Bioenergetic Massage', duration: '90 min', price: '110 €' }
+          ],
+          combinedSessions: 'Combined Sessions',
+          combinedSessionsSubtitle: '(deeper bodywork with singing bowls or cupping, as needed)',
+          combinedSession: 'Combined Session',
+          combinedPrices: [
+            { name: 'Full back · Legs · Head', duration: '75 min', price: '105 €' },
+            { name: 'Full back · Legs · Head', duration: '90 min', price: '125 €' },
+            { name: 'Front half body (chest, abdomen, arms and legs)', duration: '75 min', price: '105 €' },
+            { name: 'Front half body (chest, abdomen, arms and legs)', duration: '90 min', price: '125 €' }
+          ],
+          importantNote: 'Important Note',
+          note1: 'All sessions are adapted to the needs and moment of each person.',
+          note2: 'The treatments are offered as complementary wellness practices and do not replace medical or physiotherapeutic treatments.',
+          close: 'Close'
+        }
       },
       reiki: {
         title: 'Reiki sessions',
@@ -959,7 +1013,34 @@ export const translations = {
         approachText2: 'No realizo diagnósticos ni sustituyo tratamientos médicos o psicológicos. El masaje bioenergético se ofrece como una práctica complementaria de bienestar, orientada al descanso, la regulación natural y el acompañamiento consciente del cuerpo.',
         invitation: 'Invitación',
         invitationText: 'Si sientes la necesidad de relajar tu cuerpo, bajar el ritmo y reconectar con tu bienestar, el masaje bioenergético puede ser un espacio de cuidado y presencia para ti.',
-        bookButton: 'Reservar sesión de masaje bioenergético'
+        bookButton: 'Reservar sesión de masaje bioenergético',
+        pricesButton: 'Precios',
+        pricesModal: {
+          title: 'Tarifas · Masaje Bioenergético',
+          individualSessions: 'Sesiones individuales',
+          individualSessionsSubtitle: '(incluyen aromaterapia y trabajo energético integrativo)',
+          session: 'Sesión',
+          duration: 'Duración',
+          price: 'Precio',
+          individualPrices: [
+            { name: 'Masaje Bioenergético', duration: '60 min', price: '80 €' },
+            { name: 'Masaje Bioenergético', duration: '75 min', price: '95 €' },
+            { name: 'Masaje Bioenergético', duration: '90 min', price: '110 €' }
+          ],
+          combinedSessions: 'Sesiones combinadas',
+          combinedSessionsSubtitle: '(trabajo corporal más profundo con cuencos o ventosas, según necesidad)',
+          combinedSession: 'Sesión combinada',
+          combinedPrices: [
+            { name: 'Espalda completa · Piernas · Cabeza', duration: '75 min', price: '105 €' },
+            { name: 'Espalda completa · Piernas · Cabeza', duration: '90 min', price: '125 €' },
+            { name: 'Medio cuerpo anterior (pecho, abdomen, brazos y piernas)', duration: '75 min', price: '105 €' },
+            { name: 'Medio cuerpo anterior (pecho, abdomen, brazos y piernas)', duration: '90 min', price: '125 €' }
+          ],
+          importantNote: 'Nota importante',
+          note1: 'Todas las sesiones se adaptan a las necesidades y al momento de cada persona.',
+          note2: 'Los tratamientos se ofrecen como prácticas complementarias de bienestar y no sustituyen tratamientos médicos ni fisioterapéuticos.',
+          close: 'Cerrar'
+        }
       },
       reiki: {
         title: 'Sesiones de Reiki ',

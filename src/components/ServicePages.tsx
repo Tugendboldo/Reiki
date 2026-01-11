@@ -1,5 +1,5 @@
-import React from 'react';
-import { Clock, Heart, Sparkles, Star, Zap, Gem, GraduationCap, Scissors, Users, Award } from 'lucide-react';
+import React, { useState } from 'react';
+import { Clock, Heart, Sparkles, Star, Zap, Gem, GraduationCap, Scissors, Users, Award, X } from 'lucide-react';
 import { Language } from '../types/translations';
 import { translations } from '../data/translations';
 
@@ -11,6 +11,7 @@ interface ServicePageProps {
 export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) => {
   const t = translations[currentLanguage].serviceDetails.bioenergetischeMassage;
   const common = translations[currentLanguage].common;
+  const [showPricesModal, setShowPricesModal] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
@@ -116,16 +117,108 @@ export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, cur
               <p className="text-white leading-relaxed text-lg mb-6">
                 {t.invitationText}
               </p>
-              <button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                {t.bookButton}
-              </button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  {t.bookButton}
+                </button>
+                <button
+                  onClick={() => setShowPricesModal(true)}
+                  className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  {t.pricesButton}
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      {showPricesModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4" onClick={() => setShowPricesModal(false)}>
+          <div className="bg-white rounded-3xl p-8 max-w-3xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-3xl font-bold text-gray-900">{t.pricesModal.title}</h2>
+              <button
+                onClick={() => setShowPricesModal(false)}
+                className="text-gray-500 hover:text-gray-700 transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-purple-600 mb-2">{t.pricesModal.individualSessions}</h3>
+              <p className="text-gray-600 mb-4">{t.pricesModal.individualSessionsSubtitle}</p>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="border-b-2 border-purple-200">
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.session}</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.duration}</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.price}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.pricesModal.individualPrices.map((item, index) => (
+                      <tr key={index} className="border-b border-gray-200 hover:bg-purple-50 transition-colors">
+                        <td className="py-3 px-4 text-gray-800">{item.name}</td>
+                        <td className="py-3 px-4 text-gray-800">{item.duration}</td>
+                        <td className="py-3 px-4 text-gray-800 font-semibold">{item.price}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold text-pink-600 mb-2">{t.pricesModal.combinedSessions}</h3>
+              <p className="text-gray-600 mb-4">{t.pricesModal.combinedSessionsSubtitle}</p>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="border-b-2 border-pink-200">
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.combinedSession}</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.duration}</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-700">{t.pricesModal.price}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.pricesModal.combinedPrices.map((item, index) => (
+                      <tr key={index} className="border-b border-gray-200 hover:bg-pink-50 transition-colors">
+                        <td className="py-3 px-4 text-gray-800">{item.name}</td>
+                        <td className="py-3 px-4 text-gray-800">{item.duration}</td>
+                        <td className="py-3 px-4 text-gray-800 font-semibold">{item.price}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                <span className="mr-2">ℹ️</span>
+                {t.pricesModal.importantNote}
+              </h4>
+              <p className="text-gray-700 leading-relaxed mb-2">{t.pricesModal.note1}</p>
+              <p className="text-gray-700 leading-relaxed">{t.pricesModal.note2}</p>
+            </div>
+
+            <div className="mt-6 text-center">
+              <button
+                onClick={() => setShowPricesModal(false)}
+                className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                {t.pricesModal.close}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
