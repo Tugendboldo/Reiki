@@ -764,12 +764,12 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
 
           <div className="mb-8 grid md:grid-cols-2 gap-6">
             <img
-              src="/11_(2).png"
+              src="/11_(3).png"
               alt="Workshop Moment 1"
               className="w-full h-auto rounded-2xl"
             />
             <img
-              src="/10_(2).png"
+              src="/10_(3).png"
               alt="Workshop Moment 2"
               className="w-full h-auto rounded-2xl"
             />
