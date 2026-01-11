@@ -147,24 +147,22 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div className="md:col-span-2">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.whatIsReiki}</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                {t.description1}
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                {t.description2}
-              </p>
-            </div>
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/8.png"
+              alt="Reiki Session"
+              className="max-w-md w-full h-auto rounded-2xl"
+            />
+          </div>
 
-            <div className="md:col-span-1">
-              <img
-                src="/reiki_foto_web.png"
-                alt={t.title}
-                className="w-full h-auto rounded-2xl sticky top-8"
-              />
-            </div>
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.whatIsReiki}</h2>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              {t.description1}
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              {t.description2}
+            </p>
           </div>
 
           <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200 mb-8">
