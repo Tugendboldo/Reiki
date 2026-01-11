@@ -544,8 +544,8 @@ export const translations = {
         bookButton: 'Book bioenergetic massage session'
       },
       reiki: {
-        title: 'Reiki sessions aimed at deep relaxation and natural self-regulation of the system',
-        subtitle: 'One-to-One support - for body and energy',
+        title: 'Reiki sessions',
+        subtitle: 'One-to-One support - aimed at deep relaxation and natural self-regulation of the system',
         whatIsReiki: 'What is Reiki?',
         description1: 'Reiki is understood as universal life energy that supports harmony and balance. It is less a technique than a practice of mindfulness and presence that can lead the body into a state of deep relaxation. When this calm occurs, natural regulatory processes can unfold.',
         description2: 'In sessions, I make myself available as a channel for this practice, always in respect of your personal rhythm and process. Healing is not forced – it is allowed to reveal itself.',
