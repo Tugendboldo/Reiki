@@ -723,46 +723,44 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
-              <div className="md:col-span-2 space-y-8">
-                <div className="bg-gradient-to-br from-cyan-50 to-purple-50 rounded-2xl p-6 border border-cyan-100">
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    {t.intro}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    {t.description1}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t.description2}
-                  </p>
-                </div>
+            <div className="mb-8 flex justify-center">
+              <img
+                src="/9_(2).png"
+                alt={t.title}
+                className="max-w-md w-full h-auto rounded-2xl"
+              />
+            </div>
 
-                <div className="bg-purple-50 rounded-2xl p-6 border border-purple-100">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <Heart className="w-6 h-6 text-purple-600" />
-                    {t.approachTitle}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    {t.approachDesc}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    {t.approachDesc2}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    {t.approachDesc3}
-                  </p>
-                  <p className="text-gray-700 leading-relaxed">
-                    {t.approachDesc4}
-                  </p>
-                </div>
+            <div className="space-y-8 mb-8">
+              <div className="bg-gradient-to-br from-cyan-50 to-purple-50 rounded-2xl p-6 border border-cyan-100">
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.intro}
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.description1}
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  {t.description2}
+                </p>
               </div>
 
-              <div className="md:col-span-1">
-                <img
-                  src="/9_(2).png"
-                  alt={t.title}
-                  className="w-full h-auto rounded-2xl sticky top-8"
-                />
+              <div className="bg-purple-50 rounded-2xl p-6 border border-purple-100">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <Heart className="w-6 h-6 text-purple-600" />
+                  {t.approachTitle}
+                </h2>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.approachDesc}
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.approachDesc2}
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  {t.approachDesc3}
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  {t.approachDesc4}
+                </p>
               </div>
             </div>
 
