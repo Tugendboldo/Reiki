@@ -799,6 +799,14 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
             </div>
           </div>
 
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/10.png"
+              alt="Workshops Moment"
+              className="max-w-md w-full h-auto rounded-2xl"
+            />
+          </div>
+
           <div className="mb-8">
             <div className="bg-pink-50 rounded-2xl p-6 border border-pink-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.forWhomTitle}</h2>
