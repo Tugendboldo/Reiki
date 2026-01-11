@@ -147,8 +147,8 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="md:col-span-2">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{t.whatIsReiki}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 {t.description1}
@@ -157,34 +157,42 @@ export const Reiki: React.FC<ServicePageProps> = ({ onBack, currentLanguage }) =
                 {t.description2}
               </p>
             </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t.sessionTitle}</h3>
-              <div className="space-y-4 mb-6">
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🕊</span>
-                  <span className="text-gray-700 font-medium">{t.sessionDuration}</span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🌿</span>
-                  <span className="text-gray-700 font-medium">{t.sessionContact}</span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🎶</span>
-                  <span className="text-gray-700 font-medium">{t.sessionMusic}</span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🌸</span>
-                  <span className="text-gray-700 font-medium">{t.sessionAroma}</span>
-                </div>
-              </div>
-              <button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                {t.sessionButton}
-              </button>
+
+            <div className="md:col-span-1">
+              <img
+                src="/reiki_foto_web.png"
+                alt={t.title}
+                className="w-full h-auto rounded-2xl sticky top-8"
+              />
             </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200 mb-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t.sessionTitle}</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-6">
+              <div className="flex items-start space-x-3">
+                <span className="text-2xl">🕊</span>
+                <span className="text-gray-700 font-medium">{t.sessionDuration}</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-2xl">🌿</span>
+                <span className="text-gray-700 font-medium">{t.sessionContact}</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-2xl">🎶</span>
+                <span className="text-gray-700 font-medium">{t.sessionMusic}</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-2xl">🌸</span>
+                <span className="text-gray-700 font-medium">{t.sessionAroma}</span>
+              </div>
+            </div>
+            <button
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
+              {t.sessionButton}
+            </button>
           </div>
 
           <div className="mb-8">
