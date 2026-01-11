@@ -962,8 +962,8 @@ export const translations = {
         bookButton: 'Reservar sesión de masaje bioenergético'
       },
       reiki: {
-        title: 'Sesiones de Reiki orientadas al descanso profundo y a la autorregulación natural del sistema',
-        subtitle: 'Acompañamiento desde la presencia, el cuerpo y la energía',
+        title: 'Sesiones de Reiki ',
+        subtitle: 'Acompañamiento desde la presencia, el cuerpo y la energía, orientadas al descanso profundo y a la autorregulación natural del sistema',
         whatIsReiki: '¿Qué es Reiki?',
         description1: 'Reiki es una energía universal de amor, armonía y sanación que impregna todo lo que existe. Más que una técnica, es una vibración que nos invita a recordar quiénes somos en esencia. Cuando permitimos que esta energía fluya, la mente se aquieta, el corazón se abre y el cuerpo recupera su capacidad natural de equilibrio.',
         description2: 'En cada sesión me convierto en un canal consciente para que esta vibración actúe allí donde más la necesitas, respetando tu ritmo y tu proceso. Porque la verdadera sanación no se impone: se revela.',
