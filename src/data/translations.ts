@@ -319,7 +319,7 @@ export const translations = {
         invitationClosing: 'Ich freue mich darauf, dich kennenzulernen.'
       },
       makrameeWorkshops: {
-        title: 'Räume der intuitiven Erforschung',
+        title: 'Workshops - Räume der intuitiven Erforschung',
         subtitle: 'Erlebnistreffen für inneres Lauschen, Körper und persönliche Prozesse',
         intro: 'Die Räume der intuitiven Erforschung sind Erlebnisworkshops, die geschaffen wurden, um persönliche Prozesse aus einer sensiblen, integrativen und zutiefst respektvollen Sichtweise zu begleiten.',
         description1: 'Es sind Begegnungen, in denen Körper, Intuition und Bewusstsein zusammentreffen und Erfahrungen entstehen, die nicht erklären oder korrigieren wollen, sondern aus direkter Erfahrung heraus fühlen, erforschen und integrieren.',
