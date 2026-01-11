@@ -1154,7 +1154,7 @@ export const translations = {
         invitationClosing: 'Espero conocerte.'
       },
       makrameeWorkshops: {
-        title: 'Espacios de exploración intuitiva',
+        title: 'Workshops - Espacios de exploración intuitiva',
         subtitle: 'Encuentros vivenciales para la escucha interna, el cuerpo y los procesos personales',
         intro: 'Los Espacios de exploración intuitiva son workshops vivenciales creados para acompañar procesos personales desde una mirada sensible, integradora y profundamente respetuosa.',
         description1: 'Son encuentros donde el cuerpo, la intuición y la conciencia se encuentran, dando lugar a experiencias que no buscan explicar ni corregir, sino sentir, explorar e integrar desde la vivencia directa.',
