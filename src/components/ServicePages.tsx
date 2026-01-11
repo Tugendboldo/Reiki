@@ -33,6 +33,14 @@ export const BioenergetischeMassage: React.FC<ServicePageProps> = ({ onBack, cur
             </div>
           </div>
 
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/11.png"
+              alt={t.title}
+              className="max-w-md w-full h-auto rounded-2xl"
+            />
+          </div>
+
           <div className="mb-8">
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
