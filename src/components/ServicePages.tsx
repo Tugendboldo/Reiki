@@ -762,6 +762,19 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
               </div>
             </div>
 
+          <div className="mb-8 grid md:grid-cols-2 gap-6">
+            <img
+              src="/11_(2).png"
+              alt="Workshop Moment 1"
+              className="w-full h-auto rounded-2xl"
+            />
+            <img
+              src="/10_(2).png"
+              alt="Workshop Moment 2"
+              className="w-full h-auto rounded-2xl"
+            />
+          </div>
+
           <div className="mb-8">
             <div className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-2xl p-6 border border-cyan-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
