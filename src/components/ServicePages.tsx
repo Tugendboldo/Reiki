@@ -759,7 +759,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
 
               <div className="md:col-span-1">
                 <img
-                  src="/workshops_web_bild.png"
+                  src="/9_(2).png"
                   alt={t.title}
                   className="w-full h-auto rounded-2xl sticky top-8"
                 />
