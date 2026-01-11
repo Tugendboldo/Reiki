@@ -723,7 +723,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
 
             <div className="mb-8 flex justify-center">
               <img
-                src="/9_(2).png"
+                src="/9_(4).png"
                 alt={t.title}
                 className="max-w-md w-full h-auto rounded-2xl"
               />
