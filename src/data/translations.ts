@@ -737,7 +737,7 @@ export const translations = {
         invitationClosing: 'I look forward to getting to know you.'
       },
       makrameeWorkshops: {
-        title: 'Spaces of Intuitive Exploration',
+        title: 'Workshops - Spaces of Intuitive Exploration',
         subtitle: 'Experiential gatherings for inner listening, the body, and personal processes',
         intro: 'The Spaces of Intuitive Exploration are experiential workshops created to accompany personal processes from a sensitive, integrative, and deeply respectful perspective.',
         description1: 'They are gatherings where body, intuition, and consciousness meet, giving rise to experiences that do not seek to explain or correct, but to feel, explore, and integrate from direct experience.',
