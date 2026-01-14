@@ -28,7 +28,7 @@ export const translations = {
         description: 'Monatliche Praxisräume und Workshops für bewusste Heilung.'
       },
       personalCare: {
-        title: 'Reiki-Bildungen',
+        title: 'Reiki-Ausbildungen',
         description: 'Reiki Usui Tibetano – Stufen I, II, III und Meisterschaft.'
       },
       bioenergeticMassage: {
