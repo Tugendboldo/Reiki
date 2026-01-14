@@ -465,8 +465,6 @@ function App() {
                   />
                 </div>
 
-                <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
-
                 <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
                   {t.services.learnMore}
                 </button>
