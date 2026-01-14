@@ -182,16 +182,16 @@ function App() {
             </p>
 
             <div className="relative z-10 mb-8 max-w-4xl mx-auto">
-              <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-6 border border-amber-100">
+              <div className="rounded-2xl p-6">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
-                    <p className="text-gray-900 font-semibold text-lg">{t.hero.spaceToHold}</p>
+                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.spaceToHold}</p>
                   </div>
                   <div>
-                    <p className="text-gray-900 font-semibold text-lg">{t.hero.timeToExplore}</p>
+                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.timeToExplore}</p>
                   </div>
                   <div>
-                    <p className="text-gray-900 font-semibold text-lg">{t.hero.pathToIntegrate}</p>
+                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.pathToIntegrate}</p>
                   </div>
                 </div>
               </div>
