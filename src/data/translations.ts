@@ -7,7 +7,8 @@ export const translations = {
       about: 'Über mich',
       approach: 'Mein Ansatz',
       services: 'Leistungen',
-      contact: 'Kontakt'
+      contact: 'Kontakt',
+      brandSubtitle: 'Reiki & ganzheitliche Begleitung'
     },
     hero: {
       badge: 'Zertifizierte Reiki-Meisterin',
@@ -452,7 +453,8 @@ export const translations = {
       about: 'About',
       approach: 'My Approach',
       services: 'Services',
-      contact: 'Contact'
+      contact: 'Contact',
+      brandSubtitle: 'Reiki & Holistic Support'
     },
     hero: {
       badge: 'Certified Reiki Master',
@@ -897,7 +899,8 @@ export const translations = {
       about: 'Sobre mi',
       approach: 'Mi Enfoque',
       services: 'Servicios',
-      contact: 'Contacto'
+      contact: 'Contacto',
+      brandSubtitle: 'Reiki & Acompañamiento Holístico'
     },
     hero: {
       badge: 'Maestra Reiki Certificada',

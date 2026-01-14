@@ -105,7 +105,7 @@ function App() {
                 <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                   Erika Natural Healing
                 </h1>
-                <p className="text-sm text-gray-600">Reiki Master & Wellness</p>
+                <p className="text-sm text-gray-600">{t.nav.brandSubtitle}</p>
               </div>
             </div>
             
@@ -627,7 +627,7 @@ function App() {
                 />
                 <div>
                   <h3 className="text-xl font-bold">Erika Natural Healing</h3>
-                  <p className="text-gray-400 text-sm">Reiki Master & Wellness</p>
+                  <p className="text-gray-400 text-sm">{t.nav.brandSubtitle}</p>
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed">
