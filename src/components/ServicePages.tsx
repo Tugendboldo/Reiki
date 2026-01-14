@@ -611,6 +611,14 @@ export const Fortbildungskurse: React.FC<ServicePageProps> = ({ onBack, currentL
             </div>
           </div>
 
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/photo_2026-01-14_18-27-26.jpg"
+              alt="Reiki Ausbildung"
+              className="max-w-md w-full h-auto rounded-2xl"
+            />
+          </div>
+
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
               <Users className="w-6 h-6 text-pink-600" />
