@@ -459,7 +459,7 @@ function App() {
                     )}
                   </div>
                   <img
-                    src="/Logo.JPG"
+                    src="/photo_2026-01-14_18-54-36.jpg"
                     alt="Service Icon"
                     className="w-12 h-12 rounded-full object-cover"
                   />
