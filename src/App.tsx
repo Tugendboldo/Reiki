@@ -180,6 +180,23 @@ function App() {
             <p className="relative z-10 text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               {t.hero.description}
             </p>
+
+            <div className="relative z-10 mb-8 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-6 border border-amber-100">
+                <div className="grid md:grid-cols-3 gap-6 text-center">
+                  <div>
+                    <p className="text-gray-900 font-semibold text-lg">{t.hero.spaceToHold}</p>
+                  </div>
+                  <div>
+                    <p className="text-gray-900 font-semibold text-lg">{t.hero.timeToExplore}</p>
+                  </div>
+                  <div>
+                    <p className="text-gray-900 font-semibold text-lg">{t.hero.pathToIntegrate}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="relative z-10 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-xl backdrop-blur-sm">
                 <div className="flex items-center space-x-2">

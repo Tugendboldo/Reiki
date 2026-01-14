@@ -16,6 +16,9 @@ export const translations = {
       titleHighlight: 'Erika Natural Healing',
       subtitle: 'Wenn der Körper zur Ruhe kommt, erinnert sich die Energie an ihre natürlich Harmonie.',
       description: 'Ein Raum für bewusste Heilung, in dem der Körper zur Ruhe kommen und die Energie ihr natürliches Gleichgewicht wiederfinden darf. Hier begleite ich persönliche Entwicklungsprozesse und Ausbildungen durch Reiki Usui Tibetano, Praktiken des traditionellen japanischen Reiki sowie durch erfahrungsbasierte Angebote, die dazu einladen, wieder in Kontakt mit dem Körper, der Präsenz und der inneren Wahrnehmung zu kommen. Alle Angebote entstehen aus dem Respekt vor dem individuellen Rhythmus. Es werden keine Prozesse erzwungen – vielmehr wird ein geschützter Raum geschaffen, in dem sich Heilung zeigen kann, wenn Ruhe, Offenheit und Vertrauen vorhanden sind.',
+      spaceToHold: 'Ein Raum zum Halten.',
+      timeToExplore: 'Zeit zum Erforschen.',
+      pathToIntegrate: 'Ein Weg zur Integration.',
       bookAppointment: 'Termin buchen',
       discoverServices: 'Leistungen entdecken'
     },
@@ -462,6 +465,9 @@ export const translations = {
       titleHighlight: 'Erika Natural Healing',
       subtitle: 'When the body comes to rest, energy remembers its natural harmony.',
       description: 'A space for conscious healing where the body can rest and energy can recover its natural balance. Here I accompany personal development processes and training through Reiki Usui Tibetano, traditional Japanese Reiki practices, and experiential offerings that invite you to reconnect with the body, presence, and inner perception. All offerings arise from respect for individual rhythm. No processes are forced – rather, a protected space is created where healing can reveal itself when there is rest, openness, and trust.',
+      spaceToHold: 'A space to hold.',
+      timeToExplore: 'Time to explore.',
+      pathToIntegrate: 'A path to integrate.',
       bookAppointment: 'Book Appointment',
       discoverServices: 'Discover Services'
     },
@@ -908,6 +914,9 @@ export const translations = {
       titleHighlight: 'Erika Natural Healing',
       subtitle: 'Cuando el cuerpo descansa, la energía recuerda su equilibrio natural.',
       description: 'un espacio de sanación consciente donde el cuerpo puede descansar y la energía recuperar su equilibrio natural. Aquí acompaño procesos personales y formativos a través del Reiki Usui Tibetano, prácticas de Reiki tradicional japonés y encuentros vivenciales que invitan a volver a la presencia, al cuerpo y a la escucha interna. Cada propuesta nace desde el respeto por el ritmo individual, sin forzar procesos, creando un espacio seguro donde la sanación se revela cuando hay descanso, apertura y confianza.',
+      spaceToHold: 'Un espacio para sostener.',
+      timeToExplore: 'Un tiempo para explorar.',
+      pathToIntegrate: 'Un proceso para integrar.',
       bookAppointment: 'Reservar Cita',
       discoverServices: 'Descubrir Servicios'
     },
