@@ -246,7 +246,7 @@ export const translations = {
         ctaSecondary: 'Mehr erfahren'
       },
       fortbildungskurse: {
-        title: 'Ausbildung im Usui-Tibetischen Reiki',
+        title: 'Bildungen im Usui-Tibetischen Reiki',
         subtitle: 'Ein Weg der persönlichen Entwicklung',
         mainDescription: 'Die Ausbildung im Usui-Tibetischen Reiki ist ein klar strukturierter und zugleich achtsamer Weg der persönlichen Entwicklung. Sie verbindet Praxis, Präsenz und Erfahrung und ermöglicht es, Reiki Schritt für Schritt in das eigene Leben zu integrieren.',
         description2: 'Jede Ausbildungsstufe vertieft den Zugang zu Reiki über den Körper, die bewusste Wahrnehmung und eine kontinuierliche Praxis – immer im Respekt vor dem individuellen Tempo und Prozess.',
