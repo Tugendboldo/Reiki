@@ -172,20 +172,6 @@ function App() {
             <p className="relative z-10 text-lg md:text-xl text-stone-200 mb-8 leading-relaxed drop-shadow-md font-light">
               {t.hero.subtitle}
             </p>
-            <div className="relative z-10 mb-8">
-              <div className="grid md:grid-cols-3 gap-6 text-left max-w-2xl">
-                <div>
-                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.spaceToHold}</p>
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.timeToExplore}</p>
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.pathToIntegrate}</p>
-                </div>
-              </div>
-            </div>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-start">
               <button className="relative z-10 px-6 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors">
                 <div className="flex items-center space-x-2">
@@ -200,6 +186,23 @@ function App() {
                 {t.hero.discoverServices}
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Tagline */}
+      <section className="py-10 px-6 sm:px-10 lg:px-16 bg-stone-50">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-8 text-center">
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+              {t.hero.spaceToHold}
+            </p>
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+              {t.hero.timeToExplore}
+            </p>
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+              {t.hero.pathToIntegrate}
+            </p>
           </div>
         </div>
       </section>
