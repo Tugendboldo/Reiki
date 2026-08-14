@@ -388,8 +388,8 @@ export const translations = {
     },
     contact: {
       badge: 'Kontakt',
-      title: 'Bereit, dir diesen ',
-      titleHighlight: 'Raum zu schenken?',
+      title: 'Bereit für Ihre ',
+      titleHighlight: 'Heilungsreise?',
       description: 'Kontaktieren Sie mich für ein persönliches Beratungsgespräch oder buchen Sie direkt Ihren Wunschtermin.',
       phone: 'Telefon',
       phoneDesc: 'Rufen Sie mich gerne an für eine persönliche Beratung',
