@@ -208,16 +208,25 @@ function App() {
             </div>
           </div>
           
-          {/* Features Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-stone-50">
+        <div className="max-w-7xl mx-auto">
+          <p className="text-center text-lg md:text-xl text-stone-600 font-light italic leading-relaxed max-w-4xl mx-auto mb-12">
+            {t.hero.featuresHeading}
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <button
               onClick={() => handleServiceClick('reiki')}
-              className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
+              className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-7 h-7 text-teal-700" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{t.features.holisticHealing.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.holisticHealing.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.holisticHealing.description}</p>
             </button>
 
@@ -228,34 +237,34 @@ function App() {
                   element.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
               }}
-              className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
+              className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Sparkles className="w-7 h-7 text-teal-700" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{t.features.crystalReiki.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.crystalReiki.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.crystalReiki.description}</p>
             </button>
 
             <button
               onClick={() => handleServiceClick('fortbildungskurse')}
-              className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
+              className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-7 h-7 text-teal-700" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{t.features.personalCare.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.personalCare.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.personalCare.description}</p>
             </button>
 
             <button
               onClick={() => handleServiceClick('bioenergetische-massage')}
-              className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
+              className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Activity className="w-7 h-7 text-teal-700" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{t.features.bioenergeticMassage.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.bioenergeticMassage.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.bioenergeticMassage.description}</p>
             </button>
           </div>

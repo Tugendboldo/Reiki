@@ -8,6 +8,7 @@ export interface Translations {
     approach: string;
     services: string;
     contact: string;
+    brandSubtitle: string;
   };
   
   // Hero Section
@@ -15,7 +16,12 @@ export interface Translations {
     badge: string;
     title: string;
     titleHighlight: string;
+    subtitle: string;
     description: string;
+    featuresHeading: string;
+    spaceToHold: string;
+    timeToExplore: string;
+    pathToIntegrate: string;
     bookAppointment: string;
     discoverServices: string;
   };
@@ -66,6 +72,10 @@ export interface Translations {
     titleHighlight: string;
     description1: string;
     description2: string;
+    description3: string;
+    description4: string;
+    description5: string;
+    closingText: string;
     certifiedTraining: string;
     reikiMasterCert: string;
     experience: string;
