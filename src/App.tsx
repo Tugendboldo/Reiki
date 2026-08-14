@@ -146,7 +146,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section id="home" className="relative min-h-[90vh] flex items-center px-6 sm:px-10 lg:px-16 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -155,12 +155,12 @@ function App() {
             className="w-full h-full object-cover"
           />
           {/* Overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-stone-900/70 via-stone-900/50 to-stone-900/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-stone-900/75 via-stone-900/55 to-stone-900/30"></div>
         </div>
         
         {/* Content */}
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+        <div className="relative z-10 w-full py-20">
+          <div className="text-left">
             <div className="relative z-10 inline-block px-4 py-1.5 rounded-full bg-teal-700/80 text-teal-50 text-xs tracking-widest uppercase mb-6">
               <Sparkles className="w-4 h-4 inline mr-1.5" />
               <span>{t.hero.badge}</span>
@@ -169,26 +169,24 @@ function App() {
               {t.hero.title}{' '}
               <span className="block text-teal-300 font-normal">{t.hero.titleHighlight}</span>
             </h1>
-            <p className="relative z-10 text-2xl md:text-3xl text-stone-300 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-light">
+            <p className="relative z-10 text-2xl md:text-3xl text-stone-200 mb-8 leading-relaxed drop-shadow-md font-light">
               {t.hero.subtitle}
             </p>
-            <div className="relative z-10 mb-8 max-w-4xl mx-auto">
-              <div className="rounded-2xl p-6">
-                <div className="grid md:grid-cols-3 gap-6 text-center">
-                  <div>
-                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.spaceToHold}</p>
-                  </div>
-                  <div>
-                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.timeToExplore}</p>
-                  </div>
-                  <div>
-                    <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.pathToIntegrate}</p>
-                  </div>
+            <div className="relative z-10 mb-8">
+              <div className="grid md:grid-cols-3 gap-6 text-left max-w-2xl">
+                <div>
+                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.spaceToHold}</p>
+                </div>
+                <div>
+                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.timeToExplore}</p>
+                </div>
+                <div>
+                  <p className="text-white font-semibold text-lg drop-shadow-md">{t.hero.pathToIntegrate}</p>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-start">
               <button className="relative z-10 px-6 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors">
                 <div className="flex items-center space-x-2">
                   <Calendar className="w-5 h-5" />
@@ -203,7 +201,6 @@ function App() {
               </button>
             </div>
           </div>
-          
         </div>
       </section>
 
