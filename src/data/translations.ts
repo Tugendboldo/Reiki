@@ -927,20 +927,20 @@ export const translations = {
     },
     features: {
       holisticHealing: {
-        title: 'Sesiones de Reiki',
-        description: 'Acompañamiento uno a uno desde la presencia y el cuerpo.'
+        title: 'Sesiones individuales de Reiki',
+        description: 'Un espacio solo para ti — acompañado de presencia y conciencia corporal.'
       },
       crystalReiki: {
         title: 'Encuentros Grupales',
-        description: 'Práctica mensual y workshops de sanación consciente.'
+        description: 'Llegar juntos a la calma: encuentros mensuales y talleres para una sanación consciente.'
       },
       personalCare: {
-        title: 'Formación en Reiki',
-        description: 'Niveles I, II, III y Maestría en Reiki Usui Tibetano.'
+        title: 'Formaciones en Reiki',
+        description: 'Reiki Usui Tibetano — Nivel I, II, III y Maestría, paso a paso.'
       },
       bioenergeticMassage: {
         title: 'Masaje Bioenergético',
-        description: 'Trabajo corporal consciente para liberar tensiones.'
+        description: 'Trabajo corporal consciente que libera tensión y fortalece tu equilibrio interior.'
       }
     },
     approach: {
