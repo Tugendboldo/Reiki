@@ -15,7 +15,7 @@ export const translations = {
       title: 'Willkommen bei ',
       titleHighlight: 'Erika Natural Healing',
       subtitle: 'Wenn der Körper zur Ruhe kommt, erinnert sich die Energie an ihre natürlich Harmonie.',
-      description: 'Hier findest du meine Angebote: persönliche Sitzungen und Ausbildungen in Reiki Usui Tibetano und traditionellem japanischem Reiki, sowie erfahrungsbasierte Räume, die dich sanft zurück zu deinem Körper, deiner Präsenz und deiner inneren Wahrnehmung führen. Schau dich in Ruhe um – und finde, was gerade zu dir passt..',
+      description: 'Hier findest du meine Angebote: persönliche Sitzungen und Ausbildungen in Reiki Usui Tibetano und traditionellem japanischem Reiki, sowie erfahrungsbasierte Räume, die dich sanft zurück zu deinem Körper, deiner Präsenz und deiner inneren Wahrnehmung führen. Schau dich in Ruhe um – und finde, was gerade zu dir passt.',
       featuresHeading: 'Alle Angebote entstehen aus dem Respekt vor dem individuellen Rhythmus. Es werden keine Prozesse erzwungen – vielmehr wird ein geschützter Raum geschaffen, in dem sich Heilung zeigen kann, wenn Ruhe, Offenheit und Vertrauen vorhanden sind.',
       spaceToHold: 'Ein Raum zum Halten.',
       timeToExplore: 'Zeit zum Erforschen.',
