@@ -263,16 +263,16 @@ function App() {
       </section>
 
       {/* Approach Section */}
-      <section id="approach" className="pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="approach" className="pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-100 to-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Compass className="w-4 h-4" />
               <span>{t.approach.badge}</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-light text-center mb-6">
-              {t.approach.title}{' '}
-              <span className="text-teal-700">{t.approach.titleHighlight}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              {t.approach.title}
+              <span className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent">{t.approach.titleHighlight}</span>
             </h2>
 
             <div className="mt-8 mb-12">
@@ -284,10 +284,10 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-stone-200">
+          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
             <div className="flex items-start gap-4 mb-6">
-              <div className="w-12 h-12 bg-teal-50 rounded-full flex items-center justify-center flex-shrink-0">
-                <Quote className="w-6 h-6 text-teal-700" />
+              <div className="w-12 h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+                <Quote className="w-6 h-6 text-cyan-600" />
               </div>
               <div>
                 <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
@@ -301,62 +301,62 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-stone-200">
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-cyan-100/50">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-teal-50 rounded-full flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-teal-700" />
+                <div className="w-10 h-10 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-cyan-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-stone-900">{t.approach.philosophyTitle}</h3>
+                <h3 className="text-xl font-semibold text-gray-900">{t.approach.philosophyTitle}</h3>
               </div>
-              <p className="text-stone-600 leading-relaxed">{t.approach.philosophy}</p>
+              <p className="text-gray-600 leading-relaxed">{t.approach.philosophy}</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-stone-200">
+            <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-purple-100/50">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-teal-50 rounded-full flex items-center justify-center">
-                  <Award className="w-5 h-5 text-teal-700" />
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
+                  <Award className="w-5 h-5 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-stone-900">{t.approach.credentialsTitle}</h3>
+                <h3 className="text-xl font-semibold text-gray-900">{t.approach.credentialsTitle}</h3>
               </div>
-              <p className="text-stone-600 leading-relaxed">{t.approach.credentials}</p>
+              <p className="text-gray-600 leading-relaxed">{t.approach.credentials}</p>
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12 border border-stone-200">
+          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12 border border-blue-100/50">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-teal-50 rounded-full flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-teal-700" />
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
+                <BookOpen className="w-5 h-5 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-stone-900">{t.approach.trainingTitle}</h3>
+              <h3 className="text-xl font-semibold text-gray-900">{t.approach.trainingTitle}</h3>
             </div>
-            <p className="text-stone-600 leading-relaxed">{t.approach.training}</p>
+            <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
           </div>
 
-          <div className="bg-stone-50 rounded-3xl p-8 md:p-12 mb-12 border border-stone-200">
+          <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-purple-200/50">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-teal-50 rounded-full flex items-center justify-center">
-                <Shield className="w-5 h-5 text-teal-700" />
+              <div className="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
+                <Shield className="w-5 h-5 text-purple-700" />
               </div>
-              <h3 className="text-2xl font-semibold text-stone-900">{t.approach.principlesTitle}</h3>
+              <h3 className="text-2xl font-semibold text-gray-900">{t.approach.principlesTitle}</h3>
             </div>
             <div className="space-y-4">
               {t.approach.principles.map((principle, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <div className="w-6 h-6 bg-teal-50 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-sm font-medium text-teal-700">{index + 1}</span>
+                  <div className="w-6 h-6 bg-purple-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-sm font-medium text-purple-700">{index + 1}</span>
                   </div>
-                  <p className="text-stone-700 leading-relaxed">{principle}</p>
+                  <p className="text-gray-700 leading-relaxed">{principle}</p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="text-center">
-            <p className="text-xl text-stone-700 leading-relaxed mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 leading-relaxed mb-8 max-w-3xl mx-auto">
               {t.approach.vision}
             </p>
-            <div className="bg-stone-50 rounded-2xl p-8 inline-block border border-stone-200">
-              <p className="text-lg text-teal-700 font-medium italic">
+            <div className="bg-gradient-to-r from-cyan-50 via-purple-50 to-pink-50 rounded-2xl p-8 inline-block border border-purple-200/50">
+              <p className="text-lg bg-gradient-to-r from-cyan-700 via-purple-700 to-pink-700 bg-clip-text text-transparent font-medium italic">
                 "{t.approach.closing}"
               </p>
             </div>
@@ -365,12 +365,12 @@ function App() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="pt-12 pb-10 px-4 sm:px-6 lg:px-8 bg-stone-50">
+      <section id="about" className="pt-12 pb-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-8">
               <div>
-                <div className="inline-flex items-center space-x-2 bg-white text-teal-700 px-4 py-2 rounded-full text-sm font-medium shadow-sm mb-6">
+                <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm text-purple-700 px-4 py-2 rounded-full text-sm font-medium shadow-sm mb-6">
                   <User className="w-4 h-4" />
                   <span>{t.about.badge}</span>
                 </div>
@@ -384,30 +384,30 @@ function App() {
                   />
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-light text-stone-900 mb-8">
-                  {t.about.title}{' '}
-                  <span className="text-teal-700">{t.about.titleHighlight}</span>
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+                  {t.about.title}
+                  <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.about.titleHighlight}</span>
                 </h2>
               </div>
 
               <div className="prose prose-lg max-w-none">
-                <p className="text-xl text-stone-800 leading-relaxed font-light mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-teal-700 first-letter:float-left first-letter:mr-3 first-letter:leading-none first-letter:mt-1">
+                <p className="text-xl text-gray-800 leading-relaxed font-light mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-purple-600 first-letter:float-left first-letter:mr-3 first-letter:leading-none first-letter:mt-1">
                   {t.about.description1}
                 </p>
 
                 <div className="space-y-5">
-                  <p className="text-lg text-stone-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed">
                     {t.about.description2}
                   </p>
-                  <p className="text-lg text-stone-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed">
                     {t.about.description3}
                   </p>
-                  <p className="text-lg text-stone-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed">
                     {t.about.description4}
                   </p>
 
-                  <div className="bg-white border-l-2 border-teal-700 pl-4 py-4 rounded-r-lg shadow-sm">
-                    <p className="text-lg text-stone-700 leading-relaxed font-medium italic">
+                  <div className="bg-white/60 backdrop-blur-sm border-l-4 border-purple-400 pl-6 py-4 rounded-r-lg shadow-sm">
+                    <p className="text-lg text-gray-800 leading-relaxed font-medium italic">
                       {t.about.description5}
                     </p>
                   </div>
@@ -417,7 +417,7 @@ function App() {
               <div className="pt-6">
                 <button
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="inline-block px-8 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors"
+                  className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   {t.about.bookPersonalAppointment}
                 </button>
@@ -439,18 +439,18 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="pt-10 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="services" className="pt-10 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Sparkles className="w-4 h-4" />
               <span>{t.services.badge}</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-light text-center mb-6">
-              {t.services.title}{' '}
-              <span className="text-teal-700">{t.services.titleHighlight}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              {t.services.title}
+              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.services.titleHighlight}</span>
             </h2>
-            <p className="text-xl text-stone-500 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               {t.services.description}
             </p>
           </div>
@@ -460,14 +460,14 @@ function App() {
               <div
                 key={index}
                 id={service.page === 'kristalltherapie' ? 'gruppenangebote' : undefined}
-                className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:transform hover:scale-105 cursor-pointer border border-stone-200"
+                className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:transform hover:scale-105 cursor-pointer"
                 onClick={() => handleServiceClick(service.page)}
               >
                 <div className="flex items-start justify-between mb-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-stone-900 mb-2">{service.title}</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{service.title}</h3>
                     {service.subtitle && (
-                      <p className="text-teal-700 font-medium">{service.subtitle}</p>
+                      <p className="text-purple-600 font-medium">{service.subtitle}</p>
                     )}
                   </div>
                   <img
@@ -477,7 +477,7 @@ function App() {
                   />
                 </div>
 
-                <button className="w-full px-6 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors">
+                <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
                   {t.services.learnMore}
                 </button>
               </div>
@@ -488,15 +488,15 @@ function App() {
           <div className="bg-white rounded-3xl p-8 shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t.services.personalConsultation}</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="p-6 bg-stone-50 rounded-2xl border border-stone-200">
-                <h4 className="text-xl font-bold text-stone-900 mb-3">{t.services.personalAppointments}</h4>
-                <p className="text-stone-600 mb-4">{t.services.personalAppointmentsDesc}</p>
-                <p className="text-sm text-stone-500">{t.services.personalAppointmentsNote}</p>
+              <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl">
+                <h4 className="text-xl font-bold text-gray-900 mb-3">{t.services.personalAppointments}</h4>
+                <p className="text-gray-600 mb-4">{t.services.personalAppointmentsDesc}</p>
+                <p className="text-sm text-gray-500">{t.services.personalAppointmentsNote}</p>
               </div>
-              <div className="p-6 bg-stone-50 rounded-2xl border border-stone-200">
-                <h4 className="text-xl font-bold text-stone-900 mb-3">{t.services.flexiblePackages}</h4>
-                <p className="text-stone-600 mb-4">{t.services.flexiblePackagesDesc}</p>
-                <p className="text-sm text-stone-500">{t.services.flexiblePackagesNote}</p>
+              <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl">
+                <h4 className="text-xl font-bold text-gray-900 mb-3">{t.services.flexiblePackages}</h4>
+                <p className="text-gray-600 mb-4">{t.services.flexiblePackagesDesc}</p>
+                <p className="text-sm text-gray-500">{t.services.flexiblePackagesNote}</p>
               </div>
             </div>
           </div>
@@ -504,26 +504,26 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-stone-50">
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Phone className="w-4 h-4" />
               <span>{t.contact.badge}</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-light text-center mb-6">
-              {t.contact.title}{' '}
-              <span className="text-teal-700">{t.contact.titleHighlight}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              {t.contact.title}
+              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.contact.titleHighlight}</span>
             </h2>
-            <p className="text-xl text-stone-500 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               {t.contact.description}
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <div className="bg-white rounded-3xl p-6 shadow-sm mb-8 border border-stone-200">
-                <h3 className="text-xl font-semibold mb-4 text-stone-900">Find Us</h3>
+              <div className="bg-white rounded-3xl p-6 shadow-sm mb-8">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">Find Us</h3>
                 <LeafletMap 
                   address="Musterstraße 123, 12345 Musterstadt, Deutschland"
                   className="h-64"
@@ -533,26 +533,26 @@ function App() {
             
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-teal-50 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-6 h-6 text-teal-700" />
+                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.contact.phone}</h3>
-                  <p className="text-stone-600 mb-2">{t.contact.phoneDesc}</p>
-                  <a href="tel:+491609946957" className="text-teal-700 font-semibold hover:text-teal-800 transition-colors">
+                  <p className="text-gray-600 mb-2">{t.contact.phoneDesc}</p>
+                  <a href="tel:+491609946957" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
                     +49 177 8970969
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-teal-50 rounded-full flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-teal-700" />
+                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.contact.location}</h3>
-                  <p className="text-stone-600 mb-2">{t.contact.locationDesc}</p>
-                  <div className="text-stone-700">
+                  <p className="text-gray-600 mb-2">{t.contact.locationDesc}</p>
+                  <div className="text-gray-700">
                     {t.contact.address.map((line, index) => (
                       <p key={index}>{line}</p>
                     ))}
@@ -561,13 +561,13 @@ function App() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-teal-50 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-teal-700" />
+                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-6 h-6 text-indigo-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{t.contact.hours}</h3>
-                  <p className="text-stone-600 mb-2">{t.contact.hoursDesc}</p>
-                  <div className="text-stone-700 space-y-1">
+                  <p className="text-gray-600 mb-2">{t.contact.hoursDesc}</p>
+                  <div className="text-gray-700 space-y-1">
                     {t.contact.schedule.map((time, index) => (
                       <p key={index}>{time}</p>
                     ))}
@@ -578,30 +578,30 @@ function App() {
           </div>
           
           <div className="mt-12">
-            <div className="bg-white rounded-3xl p-8 border border-stone-200">
-              <h3 className="text-2xl font-bold text-stone-900 mb-6">{t.contact.bookAppointment}</h3>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t.contact.bookAppointment}</h3>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-stone-700 mb-2">{t.contact.name}</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.contact.name}</label>
                   <input 
                     type="text" 
-                    className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                     placeholder={t.contact.namePlaceholder}
                   />
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-stone-700 mb-2">{t.contact.telephone}</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.contact.telephone}</label>
                   <input 
                     type="tel" 
-                    className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                     placeholder={t.contact.telephonePlaceholder}
                   />
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-stone-700 mb-2">{t.contact.desiredTreatment}</label>
-                  <select className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.contact.desiredTreatment}</label>
+                  <select className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent">
                     {t.contact.treatmentOptions.map((option, index) => (
                       <option key={index}>{option}</option>
                     ))}
@@ -609,15 +609,15 @@ function App() {
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-stone-700 mb-2">{t.contact.message}</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">{t.contact.message}</label>
                   <textarea 
                     rows={4}
-                    className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                     placeholder={t.contact.messagePlaceholder}
                   ></textarea>
                 </div>
                 
-                <button className="w-full px-6 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors">
+                <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
                   {t.contact.sendInquiry}
                 </button>
               </form>
@@ -627,7 +627,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-stone-900 text-stone-400 py-12 px-4 sm:px-6 lg:px-8">
+      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -638,18 +638,18 @@ function App() {
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
-                  <h3 className="text-xl font-bold text-white">Erika Natural Healing</h3>
-                  <p className="text-stone-500 text-sm">{t.nav.brandSubtitle}</p>
+                  <h3 className="text-xl font-bold">Erika Natural Healing</h3>
+                  <p className="text-gray-400 text-sm">{t.nav.brandSubtitle}</p>
                 </div>
               </div>
-              <p className="text-stone-500 leading-relaxed">
+              <p className="text-gray-400 leading-relaxed">
                 {t.footer.description}
               </p>
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 text-white">{t.footer.services}</h4>
-              <ul className="space-y-2 text-stone-500">
+              <h4 className="font-semibold mb-4">{t.footer.services}</h4>
+              <ul className="space-y-2 text-gray-400">
                 {t.footer.servicesList.map((service, index) => (
                   <li key={index}>{service}</li>
                 ))}
@@ -657,8 +657,8 @@ function App() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 text-white">{t.footer.contact}</h4>
-              <div className="space-y-3 text-stone-500">
+              <h4 className="font-semibold mb-4">{t.footer.contact}</h4>
+              <div className="space-y-3 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
                   <span>+49 177 8970969</span>
@@ -675,8 +675,8 @@ function App() {
             </div>
           </div>
           
-          <div className="border-t border-stone-800 pt-8 text-center">
-            <p className="text-stone-600">
+          <div className="border-t border-gray-800 pt-8 text-center">
+            <p className="text-gray-400">
               {t.footer.copyright}
             </p>
           </div>
