@@ -301,12 +301,11 @@ function App() {
                 <Quote className="w-6 h-6 text-cyan-600" />
               </div>
               <div>
-                <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                  <span className="text-2xl md:text-3xl font-light text-gray-800">{t.approach.intro}</span>{' '}
-                  {t.approach.introDescription}
+                <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
+                  {t.approach.intro}
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  {t.approach.introDescription2}
+                  {t.approach.introDescription}
                 </p>
               </div>
             </div>
