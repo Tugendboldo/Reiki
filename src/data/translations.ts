@@ -69,7 +69,7 @@ export const translations = {
       description1: 'Vielleicht kennst du das: einen Moment, in dem plötzlich alles stillsteht – und du spürst, dass sich etwas in dir verändern will. So war es auch bei mir mit Reiki. Es kam nie zufällig in mein Leben, sondern immer genau dann, wenn ich es am meisten brauchte – in Phasen tiefer innerer Transformation und persönlicher Neuausrichtung.',
       description2: 'Seit mehr als 12 Jahren begleitet mich Reiki nun schon: in meiner eigenen Praxis und in der Begleitung anderer Menschen. Es war für mich immer ein verlässlicher Begleiter – eine Präsenz, die trägt, ordnet und auf liebevolle, feine und zugleich tiefgehende Weise unterstützt.',
       description3: 'Mein Weg führte mich durch unterschiedliche Lehrer und Ansätze. Er hat mir gezeigt: Klarheit entsteht nicht als plötzliche Erleuchtung, sondern als ein langsamer, ehrlicher Prozess – ein Sich-selbst-Begegnen ohne Filter, um zu erkennen, welche Teile des eigenen Lebens der inneren Wahrheit entsprechen und welche nur äußeren Erwartungen folgen.',
-      description4: 'So begleite ich dich',
+      description4: 'So begleite ich dich:',
       description5: 'Ich schaffe Räume, in denen nichts bekämpft werden muss – sondern gehört werden darf. Räume für Pause, Stille und Präsenz, in denen sich das Wesentliche von selbst neu ordnet.',
       closingText: 'Wenn du spürst, dass es Zeit ist, innezuhalten und dich selbst wieder klarer zu sehen: Ich lade dich ein, diesen Moment für dich zu nutzen. Schreib mir einfach – ich freue mich, dich kennenzulernen.',
       certifiedTraining: 'Zertifizierte Ausbildung',
