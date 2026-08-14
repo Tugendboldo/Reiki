@@ -59,8 +59,8 @@ export const translations = {
         'Ich stelle keine Diagnosen und interpretiere keine gesundheitlichen Zustände.',
         'Meine Aufgabe ist es, einen sicheren Rahmen zu schaffen – für Selbstregulation und innere Balance.'
       ],
-      vision: 'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
-      closing: 'Wenn du bis hierher gelesen hast, bittet dein Körper vielleicht ebenfalls um einen Raum, um zu ruhen und sich wieder mit sich selbst zu verbinden. Es wird mir eine Freude sein, dich zu begleiten, wenn du es spürst.'
+      vision: 'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, getragen von Einfachheit, Ethik und Transparenz. Du begegnest ihm bei mir in Einzelsitzungen, Gruppenangeboten und Ausbildungen.',
+      closing: 'Hast du eine Frage zu meiner Arbeit oder möchtest wissen, welcher Weg zu dir passt? Schreib mir – ich melde mich persönlich bei dir zurück.'
     },
     about: {
       badge: 'Über mich',
