@@ -274,7 +274,7 @@ function App() {
       </section>
 
       {/* Approach Section */}
-      <section id="approach" className="pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
+      <section id="approach" className="pt-20 pb-4 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cyan-50 via-purple-50/30 to-pink-50/40">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-100 to-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -295,7 +295,7 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
+          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-8 border border-cyan-100/50">
             <div className="flex items-start gap-4 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <Quote className="w-6 h-6 text-cyan-600" />
@@ -311,7 +311,7 @@ function App() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-cyan-100/50">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center">
@@ -333,7 +333,7 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-sm mb-12 border border-blue-100/50">
+          <div className="bg-white rounded-2xl p-8 shadow-sm mb-8 border border-blue-100/50">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-blue-600" />
@@ -343,7 +343,7 @@ function App() {
             <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-purple-100/50">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 mb-8 shadow-xl border border-purple-100/50">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
                 <Shield className="w-5 h-5 text-purple-700" />
