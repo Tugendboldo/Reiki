@@ -21,12 +21,12 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleBackToHome = () => {
+  const handleBackToHome = (targetSection: string = 'about') => {
     setCurrentPage('home');
     setTimeout(() => {
-      const aboutSection = document.getElementById('about');
-      if (aboutSection) {
-        aboutSection.scrollIntoView({ behavior: 'smooth' });
+      const section = document.getElementById(targetSection);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
       }
     }, 100);
   };
@@ -40,19 +40,19 @@ function App() {
 
   // Render service pages
   if (currentPage === 'bioenergetische-massage') {
-    return <BioenergetischeMassage onBack={handleBackToHome} currentLanguage={currentLanguage} />;
+    return <BioenergetischeMassage onBack={() => handleBackToHome('features')} currentLanguage={currentLanguage} />;
   }
   if (currentPage === 'reiki') {
-    return <Reiki onBack={handleBackToHome} currentLanguage={currentLanguage} />;
+    return <Reiki onBack={() => handleBackToHome('features')} currentLanguage={currentLanguage} />;
   }
   if (currentPage === 'kristalltherapie') {
-    return <Kristalltherapie onBack={handleBackToHome} currentLanguage={currentLanguage} />;
+    return <Kristalltherapie onBack={() => handleBackToHome('features')} currentLanguage={currentLanguage} />;
   }
   if (currentPage === 'fortbildungskurse') {
-    return <Fortbildungskurse onBack={handleBackToHome} currentLanguage={currentLanguage} />;
+    return <Fortbildungskurse onBack={() => handleBackToHome('features')} currentLanguage={currentLanguage} />;
   }
   if (currentPage === 'makramee-workshops') {
-    return <MakrameeWorkshops onBack={handleBackToHome} currentLanguage={currentLanguage} />;
+    return <MakrameeWorkshops onBack={() => handleBackToHome('workshops')} currentLanguage={currentLanguage} />;
   }
 
   return (
@@ -420,7 +420,7 @@ function App() {
       </section>
 
       {/* Workshop Banner */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-50 via-cyan-50 to-purple-50/40">
+      <section id="workshops" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-50 via-cyan-50 to-purple-50/40">
         <div className="max-w-5xl mx-auto">
           <div className="relative overflow-hidden rounded-3xl shadow-xl group cursor-pointer"
             onClick={() => handleServiceClick('makramee-workshops')}

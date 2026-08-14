@@ -815,7 +815,7 @@ export const MakrameeWorkshops: React.FC<ServicePageProps> = ({ onBack, currentL
           onClick={onBack}
           className="mb-8 text-purple-600 hover:text-purple-700 font-medium"
         >
-          {common.backToServices}
+          {common.backToWorkshops}
         </button>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-sm">

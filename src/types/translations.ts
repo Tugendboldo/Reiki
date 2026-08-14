@@ -302,5 +302,6 @@ export interface Translations {
   // Common
   common: {
     backToServices: string;
+    backToWorkshops: string;
   };
 }

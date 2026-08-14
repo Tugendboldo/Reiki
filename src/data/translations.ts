@@ -442,7 +442,8 @@ export const translations = {
       copyright: '© 2024 Erika Natural Healing. Alle Rechte vorbehalten.'
     },
     common: {
-      backToServices: '← Zurück zu den Leistungen'
+      backToServices: '← Zurück zu den Leistungen',
+      backToWorkshops: '← Zurück zu den Workshops'
     }
   },
   en: {
@@ -886,7 +887,8 @@ export const translations = {
       copyright: '© 2024 Erika Natural Healing. All rights reserved.'
     },
     common: {
-      backToServices: '← Back to Services'
+      backToServices: '← Back to Services',
+      backToWorkshops: '← Back to Workshops'
     }
   },
   es: {
@@ -1329,7 +1331,8 @@ export const translations = {
       copyright: '© 2024 Erika Natural Healing. Todos los derechos reservados.'
     },
     common: {
-      backToServices: '← Volver a Servicios'
+      backToServices: '← Volver a Servicios',
+      backToWorkshops: '← Volver a Workshops'
     }
   }
 };
