@@ -85,20 +85,13 @@ export interface Translations {
     certifiedReikiMaster: string;
   };
   
-  // Services Section
-  services: {
+  // Workshop Banner
+  workshopBanner: {
     badge: string;
     title: string;
     titleHighlight: string;
     description: string;
-    learnMore: string;
-    personalConsultation: string;
-    personalAppointments: string;
-    personalAppointmentsDesc: string;
-    personalAppointmentsNote: string;
-    flexiblePackages: string;
-    flexiblePackagesDesc: string;
-    flexiblePackagesNote: string;
+    buttonText: string;
   };
   
   // Service Details

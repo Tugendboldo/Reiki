@@ -80,19 +80,12 @@ export const translations = {
       bookPersonalAppointment: 'Persönlichen Termin buchen',
       certifiedReikiMaster: 'Zertifizierte Reiki-Meisterin'
     },
-    services: {
-      badge: 'Leistungen',
-      title: 'Heilende ',
-      titleHighlight: 'Behandlungen',
-      description: 'Entdecken Sie unser umfassendes Angebot an ganzheitlichen Heilbehandlungen, die Körper, Geist und Seele in Einklang bringen.',
-      learnMore: 'Mehr erfahren',
-      personalConsultation: 'Persönliche Beratung',
-      personalAppointments: 'Individuelle Termine',
-      personalAppointmentsDesc: 'Alle Behandlungen werden individuell auf Ihre Bedürfnisse abgestimmt.',
-      personalAppointmentsNote: 'Termine nach Vereinbarung',
-      flexiblePackages: 'Flexible Pakete',
-      flexiblePackagesDesc: 'Kombinieren Sie verschiedene Behandlungen für optimale Ergebnisse.',
-      flexiblePackagesNote: 'Individuelle Preisgestaltung'
+    workshopBanner: {
+      badge: 'Erlebnisräume',
+      title: 'Workshops – Räume der ',
+      titleHighlight: 'intuitiven Erforschung',
+      description: 'Erlebnistreffen, die persönliche Prozesse aus einer sensiblen, integrativen und zutiefst respektvollen Sichtweise begleiten. Körper, Intuition und Bewusstsein kommen zusammen, um zu fühlen, zu erforschen und zu integrieren – ohne Analyse oder Interpretation.',
+      buttonText: 'Zu den Workshops'
     },
     serviceDetails: {
       bioenergetischeMassage: {
@@ -531,19 +524,12 @@ export const translations = {
       bookPersonalAppointment: 'Book Personal Appointment',
       certifiedReikiMaster: 'Certified Reiki Master'
     },
-    services: {
-      badge: 'Services',
-      title: 'Healing ',
-      titleHighlight: 'Treatments',
-      description: 'Discover our comprehensive range of holistic healing treatments that bring body, mind, and soul into harmony.',
-      learnMore: 'Learn More',
-      personalConsultation: 'Personal Consultation',
-      personalAppointments: 'Individual Appointments',
-      personalAppointmentsDesc: 'All treatments are individually tailored to your needs.',
-      personalAppointmentsNote: 'Appointments by arrangement',
-      flexiblePackages: 'Flexible Packages',
-      flexiblePackagesDesc: 'Combine different treatments for optimal results.',
-      flexiblePackagesNote: 'Individual pricing'
+    workshopBanner: {
+      badge: 'Experiential Spaces',
+      title: 'Workshops – Spaces of ',
+      titleHighlight: 'Intuitive Exploration',
+      description: 'Experiential gatherings that accompany personal processes from a sensitive, integrative, and deeply respectful perspective. Body, intuition, and consciousness come together to feel, explore, and integrate – without analysis or interpretation.',
+      buttonText: 'To the Workshops'
     },
     serviceDetails: {
       bioenergetischeMassage: {
@@ -982,19 +968,12 @@ export const translations = {
       bookPersonalAppointment: 'Reservar Cita Personal',
       certifiedReikiMaster: 'Maestra Reiki Certificada'
     },
-    services: {
-      badge: 'Servicios',
-      title: 'Tratamientos de ',
-      titleHighlight: 'Sanación',
-      description: 'Descubre nuestra gama completa de tratamientos de sanación holística que armonizan cuerpo, mente y alma.',
-      learnMore: 'Saber Más',
-      personalConsultation: 'Consulta Personal',
-      personalAppointments: 'Citas Individuales',
-      personalAppointmentsDesc: 'Todos los tratamientos se adaptan individualmente a tus necesidades.',
-      personalAppointmentsNote: 'Citas con cita previa',
-      flexiblePackages: 'Paquetes Flexibles',
-      flexiblePackagesDesc: 'Combina diferentes tratamientos para resultados óptimos.',
-      flexiblePackagesNote: 'Precios individuales'
+    workshopBanner: {
+      badge: 'Espacios Vivenciales',
+      title: 'Workshops – Espacios de ',
+      titleHighlight: 'Exploración Intuitiva',
+      description: 'Encuentros vivenciales que acompañan procesos personales desde una mirada sensible, integradora y profundamente respetuosa. Cuerpo, intuición y conciencia se encuentran para sentir, explorar e integrar – sin análisis ni interpretación.',
+      buttonText: 'A los Workshops'
     },
     serviceDetails: {
       bioenergetischeMassage: {

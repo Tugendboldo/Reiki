@@ -15,39 +15,6 @@ function App() {
   
   const t = translations[currentLanguage];
 
-  const services = [
-    {
-      title: t.serviceDetails.bioenergetischeMassage.title,
-      subtitle: t.serviceDetails.bioenergetischeMassage.subtitle,
-      description: t.serviceDetails.bioenergetischeMassage.description1,
-      page: 'bioenergetische-massage' as CurrentPage
-    },
-    {
-      title: t.serviceDetails.reiki.title,
-      subtitle: t.serviceDetails.reiki.subtitle, 
-      description: t.serviceDetails.reiki.description1,
-      page: 'reiki' as CurrentPage
-    },
-    {
-      title: t.serviceDetails.kristalltherapie.title,
-      subtitle: t.serviceDetails.kristalltherapie.subtitle,
-      description: t.serviceDetails.kristalltherapie.description1,
-      page: 'kristalltherapie' as CurrentPage
-    },
-    {
-      title: t.serviceDetails.fortbildungskurse.title,
-      subtitle: t.serviceDetails.fortbildungskurse.subtitle,
-      description: t.serviceDetails.fortbildungskurse.description1,
-      page: 'fortbildungskurse' as CurrentPage
-    },
-    {
-      title: t.serviceDetails.makrameeWorkshops.title,
-      subtitle: t.serviceDetails.makrameeWorkshops.subtitle,
-      description: t.serviceDetails.makrameeWorkshops.description1,
-      page: 'makramee-workshops' as CurrentPage
-    }
-  ];
-
   const handleServiceClick = (page: CurrentPage) => {
     setCurrentPage(page);
     // Scroll to top when entering a service page
@@ -56,11 +23,10 @@ function App() {
 
   const handleBackToHome = () => {
     setCurrentPage('home');
-    // Wait for the page to render, then scroll to services section
     setTimeout(() => {
-      const servicesSection = document.getElementById('services');
-      if (servicesSection) {
-        servicesSection.scrollIntoView({ behavior: 'smooth' });
+      const aboutSection = document.getElementById('about');
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
       }
     }, 100);
   };
@@ -110,7 +76,7 @@ function App() {
             <a href="#home" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.home}</a>
             <a href="#about" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.about}</a>
             <a href="#approach" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.approach}</a>
-            <a href="#services" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.services}</a>
+            <a href="#features" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.services}</a>
             <a href="#contact" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.contact}</a>
             <LanguageSelector
               currentLanguage={currentLanguage}
@@ -133,7 +99,7 @@ function App() {
             <a href="#home" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.home}</a>
             <a href="#about" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.about}</a>
             <a href="#approach" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.approach}</a>
-            <a href="#services" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.services}</a>
+            <a href="#features" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.services}</a>
             <a href="#contact" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.contact}</a>
             <div className="px-6 pt-3">
               <LanguageSelector
@@ -180,7 +146,7 @@ function App() {
                 </div>
               </button>
               <button 
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
                 className="relative z-10 px-6 py-3 border border-white/30 hover:border-white/60 text-white rounded-lg text-sm tracking-wide transition-colors"
               >
                 {t.hero.discoverServices}
@@ -208,7 +174,7 @@ function App() {
       </section>
 
       {/* Features Section */}
-      <section className="pt-6 pb-16 px-4 sm:px-6 lg:px-8 bg-stone-50">
+      <section id="features" className="pt-6 pb-16 px-4 sm:px-6 lg:px-8 bg-stone-50">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto mb-10 bg-white/70 backdrop-blur-sm border border-teal-100 rounded-2xl p-6 md:p-8 shadow-sm">
             <p className="text-center text-base md:text-lg text-stone-700 font-light leading-relaxed">
@@ -229,12 +195,7 @@ function App() {
             </button>
 
             <button
-              onClick={() => {
-                const element = document.getElementById('gruppenangebote');
-                if (element) {
-                  element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-              }}
+              onClick={() => handleServiceClick('kristalltherapie')}
               className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
               <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
@@ -458,66 +419,40 @@ function App() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="pt-10 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <Sparkles className="w-4 h-4" />
-              <span>{t.services.badge}</span>
+      {/* Workshop Banner */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-50 via-cyan-50 to-purple-50/40">
+        <div className="max-w-5xl mx-auto">
+          <div className="relative overflow-hidden rounded-3xl shadow-xl group cursor-pointer"
+            onClick={() => handleServiceClick('makramee-workshops')}
+          >
+            <div className="absolute inset-0 z-0">
+              <img
+                src="/workshops_web_bild.png"
+                alt="Workshops"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-teal-900/85 via-teal-900/70 to-teal-900/40"></div>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              {t.services.title}
-              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{t.services.titleHighlight}</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t.services.description}
-            </p>
-          </div>
 
-          <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-12">
-            {services.map((service, index) => (
-              <div
-                key={index}
-                id={service.page === 'kristalltherapie' ? 'gruppenangebote' : undefined}
-                className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-all duration-300 hover:transform hover:scale-105 cursor-pointer"
-                onClick={() => handleServiceClick(service.page)}
+            <div className="relative z-10 p-8 md:p-12 lg:p-16">
+              <div className="inline-flex items-center space-x-2 bg-teal-500/30 backdrop-blur-sm text-teal-50 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                <Sparkles className="w-4 h-4" />
+                <span>{t.workshopBanner.badge}</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-light text-white mb-6 leading-tight">
+                {t.workshopBanner.title}
+                <span className="block text-teal-300 font-normal">{t.workshopBanner.titleHighlight}</span>
+              </h2>
+              <p className="text-lg text-stone-200 mb-8 leading-relaxed max-w-2xl font-light">
+                {t.workshopBanner.description}
+              </p>
+              <button
+                onClick={(e) => { e.stopPropagation(); handleServiceClick('makramee-workshops'); }}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-lg text-sm tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
-                <div className="flex items-start justify-between mb-6">
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                    {service.subtitle && (
-                      <p className="text-purple-600 font-medium">{service.subtitle}</p>
-                    )}
-                  </div>
-                  <img
-                    src="/photo_2026-01-14_18-54-36.jpg"
-                    alt="Service Icon"
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                </div>
-
-                <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300">
-                  {t.services.learnMore}
-                </button>
-              </div>
-            ))}
-          </div>
-
-          {/* Special Packages */}
-          <div className="bg-white rounded-3xl p-8 shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">{t.services.personalConsultation}</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl">
-                <h4 className="text-xl font-bold text-gray-900 mb-3">{t.services.personalAppointments}</h4>
-                <p className="text-gray-600 mb-4">{t.services.personalAppointmentsDesc}</p>
-                <p className="text-sm text-gray-500">{t.services.personalAppointmentsNote}</p>
-              </div>
-              <div className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl">
-                <h4 className="text-xl font-bold text-gray-900 mb-3">{t.services.flexiblePackages}</h4>
-                <p className="text-gray-600 mb-4">{t.services.flexiblePackagesDesc}</p>
-                <p className="text-sm text-gray-500">{t.services.flexiblePackagesNote}</p>
-              </div>
+                <Sparkles className="w-5 h-5" />
+                <span>{t.workshopBanner.buttonText}</span>
+              </button>
             </div>
           </div>
         </div>
