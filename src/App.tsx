@@ -172,10 +172,6 @@ function App() {
             <p className="relative z-10 text-2xl md:text-3xl text-stone-300 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-light">
               {t.hero.subtitle}
             </p>
-            <p className="relative z-10 text-lg text-stone-300 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
-              {t.hero.description}
-            </p>
-
             <div className="relative z-10 mb-8 max-w-4xl mx-auto">
               <div className="rounded-2xl p-6">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -214,8 +210,8 @@ function App() {
       {/* Features Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-stone-50">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center text-lg md:text-xl text-stone-600 font-light italic leading-relaxed max-w-4xl mx-auto mb-12">
-            {t.hero.featuresHeading}
+          <p className="text-center text-lg md:text-xl text-stone-700 font-light leading-relaxed max-w-3xl mx-auto mb-14">
+            {t.hero.description}
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -268,6 +264,10 @@ function App() {
               <p className="text-gray-600 text-sm px-2">{t.features.bioenergeticMassage.description}</p>
             </button>
           </div>
+
+          <p className="text-center text-lg md:text-xl text-stone-600 font-light italic leading-relaxed max-w-3xl mx-auto mt-14">
+            {t.hero.featuresHeading}
+          </p>
         </div>
       </section>
 
