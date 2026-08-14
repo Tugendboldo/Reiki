@@ -495,7 +495,7 @@ export const translations = {
     approach: {
       badge: 'My Approach',
       title: ' ',
-      titleHighlight: 'Hello, I´m glad you're here.',
+      titleHighlight: 'Hello, I´m glad you´re here.',
       intro: 'I am Erika Yuliana Castro.',
       introDescription: 'I accompany people on their journey back to themselves – through Reiki, bodywork, and a deep listening to what the body and energy have to say. Because I believe healing can´t be forced. It reveals itself on its own – in the moment your body feels safe, held, and truly present.',
       philosophyTitle: 'My Philosophy',
