@@ -90,64 +90,59 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white">
+    <div className="font-serif min-h-screen text-stone-800 bg-stone-50">
       {/* Navigation */}
-      <nav className="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <img 
-                src="/photo_2025-11-26_18-12-23.jpg" 
-                alt="Erika Natural Healing Logo" 
-                className="w-12 h-12 rounded-full object-cover"
-              />
-              <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Erika Natural Healing
-                </h1>
-                <p className="text-sm text-gray-600">{t.nav.brandSubtitle}</p>
-              </div>
-            </div>
-            
-            {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.home}</a>
-              <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.about}</a>
-              <a href="#approach" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.approach}</a>
-              <a href="#services" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.services}</a>
-              <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">{t.nav.contact}</a>
+      <nav className="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
+        <div className="max-w-5xl mx-auto flex items-center justify-between px-5 h-16">
+          <button onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })} className="flex items-center gap-3">
+            <img 
+              src="/photo_2025-11-26_18-12-23.jpg" 
+              alt="Erika Natural Healing Logo" 
+              className="h-10 w-10 rounded-full object-cover"
+            />
+            <span className="hidden sm:block text-sm font-medium tracking-wide text-stone-700">
+              Erika Natural Healing
+            </span>
+          </button>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center gap-8">
+            <a href="#home" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.home}</a>
+            <a href="#about" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.about}</a>
+            <a href="#approach" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.approach}</a>
+            <a href="#services" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.services}</a>
+            <a href="#contact" className="text-sm text-stone-600 hover:text-teal-700 transition-colors">{t.nav.contact}</a>
+            <LanguageSelector
+              currentLanguage={currentLanguage}
+              onLanguageChange={changeLanguage}
+            />
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-stone-600"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="md:hidden bg-white border-t border-stone-200 pb-4">
+            <a href="#home" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.home}</a>
+            <a href="#about" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.about}</a>
+            <a href="#approach" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.approach}</a>
+            <a href="#services" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.services}</a>
+            <a href="#contact" className="block w-full text-left px-6 py-3 text-sm text-stone-600 hover:bg-stone-50">{t.nav.contact}</a>
+            <div className="px-6 pt-3">
               <LanguageSelector
                 currentLanguage={currentLanguage}
                 onLanguageChange={changeLanguage}
               />
             </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              className="md:hidden p-2"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
           </div>
-          
-          {/* Mobile Menu */}
-          {isMenuOpen && (
-            <div className="md:hidden pb-4 space-y-2">
-              <a href="#home" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.home}</a>
-              <a href="#about" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.about}</a>
-              <a href="#approach" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.approach}</a>
-              <a href="#services" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.services}</a>
-              <a href="#contact" className="block py-2 text-gray-700 hover:text-purple-600">{t.nav.contact}</a>
-              <div className="py-2">
-                <LanguageSelector
-                  currentLanguage={currentLanguage}
-                  onLanguageChange={changeLanguage}
-                />
-              </div>
-            </div>
-          )}
-        </div>
+        )}
       </nav>
 
       {/* Hero Section */}
@@ -160,24 +155,24 @@ function App() {
             className="w-full h-full object-cover"
           />
           {/* Overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/70 via-pink-900/60 to-white/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-stone-900/70 via-stone-900/50 to-stone-900/30"></div>
         </div>
         
         {/* Content */}
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="relative z-10 inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-lg">
-              <Sparkles className="w-4 h-4" />
+            <div className="relative z-10 inline-block px-4 py-1.5 rounded-full bg-teal-700/80 text-teal-50 text-xs tracking-widest uppercase mb-6">
+              <Sparkles className="w-4 h-4 inline mr-1.5" />
               <span>{t.hero.badge}</span>
             </div>
-            <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-              {t.hero.title}
-              <span className="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">{t.hero.titleHighlight}</span>
+            <h1 className="relative z-10 text-4xl md:text-6xl font-light text-white leading-tight mb-6 drop-shadow-lg">
+              {t.hero.title}{' '}
+              <span className="block text-teal-300 font-normal">{t.hero.titleHighlight}</span>
             </h1>
-            <p className="relative z-10 text-2xl md:text-3xl text-white/95 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-light">
+            <p className="relative z-10 text-2xl md:text-3xl text-stone-300 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-light">
               {t.hero.subtitle}
             </p>
-            <p className="relative z-10 text-lg text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
+            <p className="relative z-10 text-lg text-stone-300 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               {t.hero.description}
             </p>
 
@@ -198,7 +193,7 @@ function App() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="relative z-10 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-xl backdrop-blur-sm">
+              <button className="relative z-10 px-6 py-3 bg-teal-700 hover:bg-teal-800 text-white rounded-lg text-sm tracking-wide transition-colors">
                 <div className="flex items-center space-x-2">
                   <Calendar className="w-5 h-5" />
                   <span>{t.hero.bookAppointment}</span>
@@ -206,7 +201,7 @@ function App() {
               </button>
               <button 
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="relative z-10 border-2 border-white/80 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 hover:border-white transition-all duration-300 backdrop-blur-sm shadow-lg"
+                className="relative z-10 px-6 py-3 border border-white/30 hover:border-white/60 text-white rounded-lg text-sm tracking-wide transition-colors"
               >
                 {t.hero.discoverServices}
               </button>
@@ -219,8 +214,8 @@ function App() {
               onClick={() => handleServiceClick('reiki')}
               className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Heart className="w-7 h-7 text-purple-600" />
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Heart className="w-7 h-7 text-teal-700" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{t.features.holisticHealing.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.holisticHealing.description}</p>
@@ -235,8 +230,8 @@ function App() {
               }}
               className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Sparkles className="w-7 h-7 text-pink-600" />
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Sparkles className="w-7 h-7 text-teal-700" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{t.features.crystalReiki.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.crystalReiki.description}</p>
@@ -246,8 +241,8 @@ function App() {
               onClick={() => handleServiceClick('fortbildungskurse')}
               className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                <User className="w-7 h-7 text-teal-600" />
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                <User className="w-7 h-7 text-teal-700" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{t.features.personalCare.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.personalCare.description}</p>
@@ -257,8 +252,8 @@ function App() {
               onClick={() => handleServiceClick('bioenergetische-massage')}
               className="relative z-10 text-center p-6 bg-white/95 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 w-64 h-64 mx-auto flex flex-col justify-center cursor-pointer"
             >
-              <div className="w-14 h-14 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Activity className="w-7 h-7 text-rose-600" />
+              <div className="w-14 h-14 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Activity className="w-7 h-7 text-teal-700" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{t.features.bioenergeticMassage.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.bioenergeticMassage.description}</p>
