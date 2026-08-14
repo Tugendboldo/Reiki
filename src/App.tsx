@@ -221,8 +221,8 @@ function App() {
               onClick={() => handleServiceClick('reiki')}
               className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
-              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-7 h-7 text-teal-700" />
+              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Heart className="w-7 h-7 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.holisticHealing.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.holisticHealing.description}</p>
@@ -237,8 +237,8 @@ function App() {
               }}
               className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
-              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="w-7 h-7 text-teal-700" />
+              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Sparkles className="w-7 h-7 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.crystalReiki.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.crystalReiki.description}</p>
@@ -248,8 +248,8 @@ function App() {
               onClick={() => handleServiceClick('fortbildungskurse')}
               className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
-              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <User className="w-7 h-7 text-teal-700" />
+              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <User className="w-7 h-7 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.personalCare.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.personalCare.description}</p>
@@ -259,8 +259,8 @@ function App() {
               onClick={() => handleServiceClick('bioenergetische-massage')}
               className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
-              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Activity className="w-7 h-7 text-teal-700" />
+              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
+                <Activity className="w-7 h-7 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-stone-800">{t.features.bioenergeticMassage.title}</h3>
               <p className="text-gray-600 text-sm px-2">{t.features.bioenergeticMassage.description}</p>
