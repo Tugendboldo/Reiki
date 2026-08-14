@@ -296,7 +296,7 @@ function App() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
-            <div className="flex items-start gap-4 mb-6">
+            <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <Quote className="w-6 h-6 text-cyan-600" />
               </div>
