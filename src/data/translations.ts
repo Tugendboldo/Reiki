@@ -44,8 +44,8 @@ export const translations = {
     approach: {
       badge: 'Mein Ansatz',
       title: ' ',
-      titleHighlight: ' Mein Ansatz',
-      intro: 'Hallo und herzlich willkommen. Ich bin Erika Yuliana Castro.',
+      titleHighlight: 'Hallo, schön dass du hier bist.',
+      intro: 'Ich bin Erika Yuliana Castro.',
       introDescription: 'Ich begleite Heilungsprozesse durch Reiki, Körperarbeit und ein tiefes Lauschen auf Körper und Energie. Ich glaube an eine Form der Heilung, die nicht erzwungen wird, sondern sich zeigt, wenn der Körper sich sicher, gehalten und präsent fühlt.',
       philosophyTitle: 'Meine Philosophie',
       philosophy: 'Meine Arbeit basiert auf Reiki Usui Tibetano sowie auf dem traditionellen japanischen Reiki und folgt einem integrativen Verständnis von Körper, Energie und emotionalen Prozessen. Ich verstehe Heilung als einen natürlichen Vorgang, der nicht erzwungen werden kann, sondern sich entfaltet, wenn der Körper Sicherheit, Ruhe und Präsenz erfährt.',
