@@ -390,7 +390,7 @@ export const translations = {
       badge: 'Kontakt',
       title: 'Bereit für Ihre ',
       titleHighlight: 'Heilungsreise?',
-      description: 'Kontaktieren Sie mich für ein persönliches Beratungsgespräch oder buchen Sie direkt Ihren Wunschtermin.',
+      description: 'Schreib mir für ein persönliches Gespräch, oder buche direkt deinen Wunschtermin. Ich freue mich, von dir zu hören.',
       phone: 'Telefon',
       phoneDesc: 'Rufen Sie mich gerne an für eine persönliche Beratung',
       location: 'Standort',
