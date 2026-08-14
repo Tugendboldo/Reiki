@@ -169,7 +169,7 @@ function App() {
               {t.hero.title}{' '}
               <span className="block text-teal-300 font-normal">{t.hero.titleHighlight}</span>
             </h1>
-            <p className="relative z-10 text-2xl md:text-3xl text-stone-200 mb-8 leading-relaxed drop-shadow-md font-light">
+            <p className="relative z-10 text-lg md:text-xl text-stone-200 mb-8 leading-relaxed drop-shadow-md font-light">
               {t.hero.subtitle}
             </p>
             <div className="relative z-10 mb-8">
