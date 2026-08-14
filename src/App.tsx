@@ -431,19 +431,19 @@ function App() {
                 alt="Workshops"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-teal-900/85 via-teal-900/70 to-teal-900/40"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-teal-100/70 via-teal-100/50 to-teal-100/25"></div>
             </div>
 
             <div className="relative z-10 p-8 md:p-12 lg:p-16">
-              <div className="inline-flex items-center space-x-2 bg-teal-500/30 backdrop-blur-sm text-teal-50 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <div className="inline-flex items-center space-x-2 bg-teal-600/20 backdrop-blur-sm text-teal-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Sparkles className="w-4 h-4" />
                 <span>{t.workshopBanner.badge}</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-light text-white mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-light text-black mb-6 leading-tight">
                 {t.workshopBanner.title}
-                <span className="block text-teal-300 font-normal">{t.workshopBanner.titleHighlight}</span>
+                <span className="block text-teal-700 font-normal">{t.workshopBanner.titleHighlight}</span>
               </h2>
-              <p className="text-lg text-stone-200 mb-8 leading-relaxed max-w-2xl font-light">
+              <p className="text-lg text-black mb-8 leading-relaxed max-w-2xl font-light">
                 {t.workshopBanner.description}
               </p>
               <button
