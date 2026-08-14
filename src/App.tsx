@@ -304,8 +304,11 @@ function App() {
                 <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
                   {t.approach.intro}
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <p className="text-lg text-gray-600 leading-relaxed mb-4">
                   {t.approach.introDescription}
+                </p>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  {t.approach.introDescription2}
                 </p>
               </div>
             </div>

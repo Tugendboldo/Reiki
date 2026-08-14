@@ -53,6 +53,7 @@ export interface Translations {
     titleHighlight: string;
     intro: string;
     introDescription: string;
+    introDescription2: string;
     philosophyTitle: string;
     philosophy: string;
     credentialsTitle: string;
