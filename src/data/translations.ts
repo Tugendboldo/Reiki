@@ -950,19 +950,19 @@ export const translations = {
       intro: 'Soy Erika Yuliana Castro.',
       introDescription: 'Acompaño a las personas en su camino de regreso a sí mismas – a través del Reiki, el trabajo corporal y una escucha profunda de lo que el cuerpo y la energía tienen que decir. Porque creo que la sanación no se puede forzar. Se manifiesta por sí sola – en el momento en que tu cuerpo se siente seguro, sostenido y verdaderamente presente.',
       philosophyTitle: 'Mi Filosofía',
-      philosophy: 'Mi trabajo se fundamenta en el Reiki Usui Tibetano y en el Reiki tradicional japonés, desde una comprensión integrativa del cuerpo, la energía y los procesos emocionales. Concibo la sanación como un proceso natural que no se fuerza, sino que se facilita cuando el cuerpo encuentra descanso, seguridad y presencia.',
-      credentialsTitle: 'Credenciales',
-      credentials: 'Soy Maestra de Reiki Usui Tibetano, federada por la Asociación Española de Reiki, y estoy autorizada a impartir formación, certificar los distintos niveles de Reiki y formar a nuevos maestros, respetando la tradición, la ética profesional y el ritmo individual de cada proceso.',
-      trainingTitle: 'Formación Complementaria',
-      training: 'Mi recorrido profesional incluye también la formación y práctica en Reiki tradicional japonés (Gendai Reiki Ho) y en otras disciplinas complementarias, como técnicas de psicología femenina integrativa y prácticas holísticas orientadas al trabajo corporal, energético y emocional. Estas herramientas se integran de manera consciente y respetuosa en los espacios grupales y vivenciales, sin carácter formativo ni certificante.',
-      principlesTitle: 'Mis Principios',
+      philosophy: 'Tal vez te preguntes en qué se basa realmente mi trabajo. Aquí una respuesta honesta: Mi práctica se fundamenta en el Reiki Usui Tibetano y en el Reiki tradicional japonés. Para mí, la sanación no es una meta que se pueda alcanzar o forzar — es un proceso natural que se despliega en el momento en que tu cuerpo experimenta seguridad, calma y presencia. Por eso nunca separo el cuerpo, la energía y los procesos emocionales: siempre los entiendo como un todo.',
+      credentialsTitle: 'Mis cualificaciones',
+      credentials: 'Soy Maestra de Reiki Usui Tibetano, reconocida y federada por la Asociación Española de Reiki. Esto significa, en concreto, que estoy autorizada para impartir formaciones de Reiki en todos sus niveles, certificarlas y formar a nuevos Maestros y Maestras de Reiki — siempre en coherencia con la tradición, la ética profesional y el ritmo individual de cada persona.',
+      trainingTitle: 'Mi formación continua',
+      training: 'Mi aprendizaje no termina aquí. Me he formado también en Reiki tradicional japonés (Gendai Reiki Ho), así como en enfoques complementarios como la psicología integrativa femenina y el trabajo corporal y emocional. Estos elementos se integran con cuidado en mis espacios grupales y vivenciales — sin carácter formativo ni certificador.',
+      principlesTitle: 'Qué puedes esperar de mí',
       principles: [
-        'Acompaño desde la escucha, la presencia y el respeto profundo por cada persona.',
-        'No realizo diagnósticos ni interpretaciones sobre la condición de nadie.',
-        'Mi labor consiste en crear un espacio seguro y contenido donde el sistema pueda autorregularse y recuperar su equilibrio de forma natural.'
+        'Te acompaño desde la presencia, la escucha y el respeto.',
+        'No realizo diagnósticos ni interpreto estados de salud.',
+        'Mi labor es crear un espacio seguro — para la autorregulación y el equilibrio interior.'
       ],
-      vision: 'El Reiki, para mí, es una práctica viva y un camino de coherencia, que se expresa tanto en las sesiones individuales como en los encuentros grupales y las formaciones, siempre desde la simplicidad, la ética y la claridad.',
-      closing: 'Si has llegado hasta aquí, quizá tu cuerpo también esté pidiendo un espacio para descansar y reconectar consigo mismo. Será un placer acompañarte cuando lo sientas.'
+      vision: 'Para mí, el Reiki es una práctica viva y un camino de claridad interior, sostenido por la sencillez, la ética y la transparencia. Lo encuentras en mis sesiones individuales, espacios grupales y formaciones.',
+      closing: '¿Tienes alguna pregunta sobre mi trabajo o quieres saber qué camino es el adecuado para ti? Escríbeme — te responderé personalmente.'
     },
     about: {
       badge: 'Sobre mí',
