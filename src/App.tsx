@@ -423,8 +423,8 @@ function App() {
                     </p>
                   </div>
 
-                  <div className="bg-gradient-to-br from-purple-200 to-pink-200 border border-purple-300/60 rounded-2xl p-6 shadow-md mt-2">
-                    <p className="text-base md:text-lg text-purple-900 leading-relaxed font-light italic mb-4">
+                  <div className="bg-gradient-to-br from-purple-200 to-pink-200 border border-purple-300/60 rounded-2xl px-6 pt-6 pb-5 shadow-md mt-2">
+                    <p className="text-base md:text-lg text-purple-900 leading-relaxed font-light italic mb-5">
                       {t.about.closingText}
                     </p>
                     <p className="text-base md:text-lg text-purple-900 leading-relaxed font-medium italic">
