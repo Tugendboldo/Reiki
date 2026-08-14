@@ -427,7 +427,7 @@ function App() {
           >
             <div className="absolute inset-0 z-0">
               <img
-                src="/photo_2026-08-14_17-06-37.jpg"
+                src="/photo_2026-08-14_17-09-53.jpg"
                 alt="Workshops"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
