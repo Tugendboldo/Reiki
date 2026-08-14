@@ -211,7 +211,7 @@ function App() {
       <section className="pt-6 pb-16 px-4 sm:px-6 lg:px-8 bg-stone-50">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto mb-10 bg-white/70 backdrop-blur-sm border border-teal-100 rounded-2xl p-6 md:p-8 shadow-sm">
-            <p className="text-center text-lg md:text-xl text-stone-700 font-light leading-relaxed">
+            <p className="text-center text-base md:text-lg text-stone-700 font-light leading-relaxed">
               {t.hero.description}
             </p>
           </div>
@@ -219,7 +219,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <button
               onClick={() => handleServiceClick('reiki')}
-              className="text-center p-8 bg-teal-50/60 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-teal-100/50"
+              className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
               <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-7 h-7 text-teal-700" />
@@ -235,7 +235,7 @@ function App() {
                   element.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
               }}
-              className="text-center p-8 bg-teal-50/60 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-teal-100/50"
+              className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
               <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Sparkles className="w-7 h-7 text-teal-700" />
@@ -246,7 +246,7 @@ function App() {
 
             <button
               onClick={() => handleServiceClick('fortbildungskurse')}
-              className="text-center p-8 bg-teal-50/60 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-teal-100/50"
+              className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
               <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-7 h-7 text-teal-700" />
@@ -257,7 +257,7 @@ function App() {
 
             <button
               onClick={() => handleServiceClick('bioenergetische-massage')}
-              className="text-center p-8 bg-teal-50/60 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-teal-100/50"
+              className="text-center p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col justify-center cursor-pointer border border-purple-100/50"
             >
               <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Activity className="w-7 h-7 text-teal-700" />
