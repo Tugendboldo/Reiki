@@ -431,7 +431,7 @@ function App() {
                 alt="Workshops"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              {/* <div className="absolute inset-0 bg-gradient-to-r from-teal-900/85 via-teal-900/70 to-teal-900/40"></div> */}
+              <div className="absolute inset-0 bg-gradient-to-r from-teal-900/85 via-teal-900/70 to-teal-900/40"></div>
             </div>
 
             <div className="relative z-10 p-8 md:p-12 lg:p-16">
