@@ -343,7 +343,7 @@ function App() {
             <p className="text-gray-600 leading-relaxed">{t.approach.training}</p>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-purple-200/50">
+          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-purple-100/50">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
                 <Shield className="w-5 h-5 text-purple-700" />
