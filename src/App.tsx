@@ -431,10 +431,11 @@ function App() {
                 alt="Workshops"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-teal-100/70 via-teal-100/50 to-teal-100/25"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/20 to-transparent"></div>
             </div>
 
             <div className="relative z-10 p-8 md:p-12 lg:p-16">
+              <div className="inline-block bg-white/80 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-lg">
               <div className="inline-flex items-center space-x-2 bg-teal-600/20 backdrop-blur-sm text-teal-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
                 <Sparkles className="w-4 h-4" />
                 <span>{t.workshopBanner.badge}</span>
@@ -453,6 +454,7 @@ function App() {
                 <Sparkles className="w-5 h-5" />
                 <span>{t.workshopBanner.buttonText}</span>
               </button>
+              </div>
             </div>
           </div>
         </div>
