@@ -26,19 +26,19 @@ export const translations = {
     features: {
       holisticHealing: {
         title: 'Reiki-Einzelsitzungen',
-        description: 'Individuelle Begleitung aus Präsenz und Körperbewusstsein.'
+        description: 'Ein Raum nur für dich – begleitet von Präsenz und Körperbewusstsein.'
       },
       crystalReiki: {
         title: 'Gruppenangebote',
-        description: 'Monatliche Praxisräume und Workshops für bewusste Heilung.'
+        description: 'Gemeinsam zur Ruhe kommen: monatliche Praxisräume und Workshops für bewusste Heilung.'
       },
       personalCare: {
         title: 'Reiki-Ausbildungen',
-        description: 'Reiki Usui Tibetano – Stufen I, II, III und Meisterschaft.'
+        description: 'Reiki Usui Tibetano – Stufe I, II, III und Meisterschaft, Schritt für Schritt.'
       },
       bioenergeticMassage: {
         title: 'Bioenergetische Massage',
-        description: 'Bewusste Körperarbeit zur Entspannung und Regulation.'
+        description: 'Bewusste Körperarbeit, die Anspannung löst und deine innere Balance stärkt.'
       }
     },
     approach: {
@@ -476,20 +476,20 @@ export const translations = {
     },
     features: {
       holisticHealing: {
-        title: 'Reiki Sessions',
-        description: 'One-to-one support rooted in presence and embodied awarenesse.'
+        title: 'Reiki One-on-One Sessions',
+        description: 'A space just for you — held by presence and body awareness.'
       },
       crystalReiki: {
         title: 'Group Gatherings',
-        description: 'Monthly practice and conscious healing workshops.'
+        description: 'Finding stillness together: monthly practice circles and workshops for conscious healing.'
       },
       personalCare: {
         title: 'Reiki Training',
-        description: 'Levels I, II, III and Usui Tibetan Reiki Mastery.'
+        description: 'Usui Tibetan Reiki — Level I, II, III, and Mastery, step by step.'
       },
       bioenergeticMassage: {
         title: 'Bioenergetic Massage',
-        description: 'Conscious bodywork to release tnesion and restore flow.'
+        description: 'Conscious bodywork that releases tension and strengthens your inner balance.'
       }
     },
     approach: {
