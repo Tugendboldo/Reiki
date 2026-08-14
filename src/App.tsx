@@ -295,19 +295,19 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12 border border-cyan-100/50">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                <Quote className="w-6 h-6 text-cyan-600" />
+          <div className="bg-white rounded-3xl shadow-lg px-6 py-5 md:px-8 md:py-6 lg:px-10 lg:py-8 mb-12 border border-cyan-100/50 w-fit max-w-full mx-auto">
+            <div className="flex items-start gap-3 md:gap-4">
+              <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <Quote className="w-5 h-5 md:w-6 md:h-6 text-cyan-600" />
               </div>
               <div>
-                <p className="text-2xl md:text-3xl font-light text-gray-800 mb-4 leading-relaxed">
+                <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-800 mb-3 leading-relaxed">
                   {t.approach.intro}
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                <p className="text-base md:text-lg text-gray-600 leading-relaxed mb-3">
                   {t.approach.introDescription}
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-600 leading-relaxed">
                   {t.approach.introDescription2}
                 </p>
               </div>
