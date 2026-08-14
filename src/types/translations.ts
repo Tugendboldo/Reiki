@@ -76,6 +76,7 @@ export interface Translations {
     description4: string;
     description5: string;
     closingText: string;
+    closingText2: string;
     certifiedTraining: string;
     reikiMasterCert: string;
     experience: string;
