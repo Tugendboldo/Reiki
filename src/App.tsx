@@ -194,13 +194,13 @@ function App() {
       <section className="py-10 px-6 sm:px-10 lg:px-16 bg-stone-50">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-3 gap-4 md:gap-8 text-center">
-            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-rose-400 to-pink-500 bg-clip-text text-transparent">
               {t.hero.spaceToHold}
             </p>
-            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-rose-400 to-pink-500 bg-clip-text text-transparent">
               {t.hero.timeToExplore}
             </p>
-            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
+            <p className="text-lg md:text-xl font-medium bg-gradient-to-r from-teal-400 via-rose-400 to-pink-500 bg-clip-text text-transparent">
               {t.hero.pathToIntegrate}
             </p>
           </div>
