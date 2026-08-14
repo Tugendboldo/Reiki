@@ -437,7 +437,7 @@ function App() {
               <div className="pt-6">
                 <button
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="inline-block bg-[#9caf6c] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#8a9a5b] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                  className="inline-block bg-gradient-to-r from-cyan-700 via-purple-700 to-pink-700 text-white px-8 py-4 rounded-full font-semibold hover:from-cyan-800 hover:via-purple-800 hover:to-pink-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   {t.about.bookPersonalAppointment}
                 </button>
@@ -637,7 +637,7 @@ function App() {
                   ></textarea>
                 </div>
                 
-                <button className="w-full bg-[#9caf6c] text-white py-4 rounded-full font-semibold hover:bg-[#8a9a5b] transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <button className="w-full bg-gradient-to-r from-cyan-700 via-purple-700 to-pink-700 text-white py-4 rounded-full font-semibold hover:from-cyan-800 hover:via-purple-800 hover:to-pink-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
                   {t.contact.sendInquiry}
                 </button>
               </form>
