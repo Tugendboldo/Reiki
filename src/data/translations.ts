@@ -49,9 +49,9 @@ export const translations = {
       introDescription: 'Ich begleite Menschen auf ihrem Weg zurück zu sich selbst – durch Reiki, Körperarbeit und ein tiefes Lauschen auf das, was Körper und Energie zu sagen haben. Denn ich glaube: Heilung lässt sich nicht erzwingen. Sie zeigt sich von selbst – in dem Moment, in dem sich dein Körper sicher, gehalten und wirklich präsent fühlt.',
       philosophyTitle: 'Meine Philosophie',
       philosophy: 'Vielleicht fragst du dich, worauf meine Arbeit eigentlich basiert. Hier eine ehrliche Antwort: Meine Praxis gründet auf dem Usui-Tibetischen Reiki sowie dem traditionellen japanischen Reiki. Für mich ist Heilung kein Ziel, das man erreichen oder erzwingen kann – sie ist ein natürlicher Vorgang, der sich entfaltet, sobald dein Körper Sicherheit, Ruhe und Präsenz erfährt. Deshalb betrachte ich Körper, Energie und emotionale Prozesse nie getrennt, sondern immer als ein Ganzes.',
-      credentialsTitle: 'Qualifikationen',
+      credentialsTitle: 'Meine Qualifikationen',
       credentials: 'Ich bin Reiki-Meisterin im Usui-Tibetischen Reiki, anerkannt und federiert bei der Asociación Española de Reiki. Das bedeutet konkret: Ich bin berechtigt, Reiki-Ausbildungen in allen Stufen anzubieten, zu zertifizieren und selbst neue Reiki-Meister:innen auszubilden – immer im Einklang mit der Tradition, professioneller Ethik und dem individuellen Tempo jedes Menschen.',
-      trainingTitle: 'Weiterbildung',
+      trainingTitle: 'Meine Weiterbildung',
       training: 'Mein Lernen endet hier nicht. Ich habe mich zusätzlich im traditionellen japanischen Reiki (Gendai Reiki Ho) weitergebildet, sowie in ergänzenden Ansätzen wie integrativer Frauenpsychologie und körper- und emotionsorientierter Arbeit. Diese Elemente fließen achtsam in meine Gruppen- und Erfahrungsräume ein – ohne ausbildenden oder zertifizierenden Charakter.',
       principlesTitle: 'Was du bei mir erwarten kannst',
       principles: [
@@ -500,9 +500,9 @@ export const translations = {
       introDescription: 'I accompany people on their journey back to themselves – through Reiki, bodywork, and a deep listening to what the body and energy have to say. Because I believe healing can´t be forced. It reveals itself on its own – in the moment your body feels safe, held, and truly present.',
       philosophyTitle: 'My Philosophy',
       philosophy: 'You might be wondering what my work is actually built on. Here´s an honest answer: My practice is grounded in Usui Tibetan Reiki and traditional Japanese Reiki. To me, healing isn´t a goal to be reached or forced — it´s a natural process that unfolds the moment your body experiences safety, calm, and presence. That´s why I never separate body, energy, and emotional processes; I always see them as one whole.',
-      credentialsTitle: 'Credentials',
+      credentialsTitle: 'My Qualifications',
       credentials: 'I am a Reiki Master in Usui Tibetan Reiki, recognized and federated by the Asociación Española de Reiki. In practice, this means I´m authorized to offer Reiki training at every level, certify it, and train new Reiki Masters myself — always in alignment with tradition, professional ethics, and each person´s individual pace.',
-      trainingTitle: 'Further Training',
+      trainingTitle: 'Continuing Education',
       training: 'My learning doesn´t stop there. I´ve also trained in traditional Japanese Reiki (Gendai Reiki Ho), as well as complementary approaches such as integrative women´s psychology and body- and emotion-focused work. These elements are mindfully woven into my group and experiential spaces — without a training or certifying function.',
       principlesTitle: 'What You Can Expect From Me',
       principles: [
