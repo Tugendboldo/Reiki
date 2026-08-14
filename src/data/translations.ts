@@ -53,11 +53,11 @@ export const translations = {
       credentials: 'Ich bin Reiki-Meisterin im Usui-Tibetischen Reiki, anerkannt und federiert bei der Asociación Española de Reiki. Das bedeutet konkret: Ich bin berechtigt, Reiki-Ausbildungen in allen Stufen anzubieten, zu zertifizieren und selbst neue Reiki-Meister:innen auszubilden – immer im Einklang mit der Tradition, professioneller Ethik und dem individuellen Tempo jedes Menschen.',
       trainingTitle: 'Weiterbildung',
       training: 'Mein Lernen endet hier nicht. Ich habe mich zusätzlich im traditionellen japanischen Reiki (Gendai Reiki Ho) weitergebildet, sowie in ergänzenden Ansätzen wie integrativer Frauenpsychologie und körper- und emotionsorientierter Arbeit. Diese Elemente fließen achtsam in meine Gruppen- und Erfahrungsräume ein – ohne ausbildenden oder zertifizierenden Charakter.',
-      principlesTitle: 'Meine Grundsätze',
+      principlesTitle: 'Was du bei mir erwarten kannst',
       principles: [
-        'Ich begleite aus Präsenz, Zuhören und Respekt.',
-        'Es werden keine Diagnosen gestellt und keine gesundheitlichen Zustände interpretiert.',
-        'Meine Aufgabe besteht darin, einen sicheren Rahmen zu schaffen, in dem Selbstregulation und innere Balance möglich werden.'
+        'Ich begleite dich mit Präsenz, Zuhören und Respekt.',
+        'Ich stelle keine Diagnosen und interpretiere keine gesundheitlichen Zustände.',
+        'Meine Aufgabe ist es, einen sicheren Rahmen zu schaffen – für Selbstregulation und innere Balance.'
       ],
       vision: 'Für mich ist Reiki eine lebendige Praxis und ein Weg innerer Klarheit, der sich in Einzelsitzungen, Gruppenangeboten und Ausbildungen ausdrückt – getragen von Einfachheit, Ethik und Transparenz.',
       closing: 'Wenn du bis hierher gelesen hast, bittet dein Körper vielleicht ebenfalls um einen Raum, um zu ruhen und sich wieder mit sich selbst zu verbinden. Es wird mir eine Freude sein, dich zu begleiten, wenn du es spürst.'
