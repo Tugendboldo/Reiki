@@ -480,7 +480,7 @@ function App() {
               <div className="bg-white rounded-3xl p-6 shadow-sm mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">Find Us</h3>
                 <LeafletMap 
-                  address="Musterstraße 123, 12345 Musterstadt, Deutschland"
+                  address="Fössestraße 77 L, 30451 Hannover, Germany"
                   className="h-64"
                 />
               </div>

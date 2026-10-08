@@ -396,10 +396,9 @@ export const translations = {
       location: 'Standort',
       locationDesc: 'Besuchen Sie mich in meiner Praxis in Hannover',
       address: [
-        'Lister Hof-Oase',
-        'Bronsartstr. 5',
-        'Hinterhaus',
-        '30161 Hannover'
+        'Moving Bones',
+        'Fössestraße 77 L',
+        '30451 Hannover'
       ],
       hours: 'Öffnungszeiten',
       hoursDesc: 'Termine nach Vereinbarung',
@@ -841,10 +840,9 @@ export const translations = {
       location: 'Location',
       locationDesc: 'Visit me at my practice in Hannover',
       address: [
-        'Lister Hof-Oase',
-        'Bronsartstr. 5',
-        'Backyard building',
-        '30161 Hannover'
+        'Moving Bones',
+        'Fössestraße 77 L',
+        '30451 Hannover'
       ],
       hours: 'Opening Hours',
       hoursDesc: 'Appointments by arrangement',
@@ -1285,10 +1283,9 @@ export const translations = {
       location: 'Ubicación',
       locationDesc: 'Visítame en mi consulta en Hannover',
       address: [
-        'Lister Hof-Oase',
-        'Bronsartstr. 5',
-        'Edificio del patio trasero',
-        '30161 Hannover'
+        'Moving Bones',
+        'Fössestraße 77 L',
+        '30451 Hannover'
       ],
       hours: 'Horarios de Atención',
       hoursDesc: 'Citas con cita previa',

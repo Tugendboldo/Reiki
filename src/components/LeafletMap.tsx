@@ -52,7 +52,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
         }
 
         // More specific search query for better results
-        const searchQuery = 'Bronsartstraße 5, 30161 Hannover, Germany';
+        const searchQuery = 'Fössestraße 77 L, 30451 Hannover, Germany';
         const response = await fetch(
           `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(searchQuery)}&limit=1&countrycodes=de&addressdetails=1`
         );
@@ -121,11 +121,11 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
                 Erika Natural Healing
               </h3>
               <p style="margin: 0 0 4px 0; color: #374151; font-size: 14px; font-weight: 500;">
-                Lister Hof-Oase
+                Moving Bones
               </p>
               <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 13px; line-height: 1.4;">
-                Bronsartstr. 5 (Backyard building)<br>
-                30161 Hannover, Germany
+                Fössestraße 77 L<br>
+                30451 Hannover, Germany
               </p>
               <div style="display: flex; gap: 8px; margin-top: 12px;">
                 <a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}" 
@@ -179,7 +179,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
             <div style="font-family: system-ui, -apple-system, sans-serif;">
               <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
               <p style="margin: 0; color: #6b7280; font-size: 14px;">
-                Bronsartstr. 5, 30161 Hannover<br>
+                Fössestraße 77 L, 30451 Hannover<br>
                 <small>Exact location being resolved...</small>
               </p>
             </div>
@@ -196,8 +196,8 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({ address, className = '' 
           <div style="font-family: system-ui, -apple-system, sans-serif;">
             <h3 style="margin: 0 0 8px 0; color: #9333ea;">Erika Natural Healing</h3>
             <p style="margin: 0; color: #6b7280; font-size: 14px;">
-              Lister Hof-Oase<br>
-              Bronsartstr. 5, 30161 Hannover
+              Moving Bones<br>
+              Fössestraße 77 L, 30451 Hannover
             </p>
           </div>
         `);
