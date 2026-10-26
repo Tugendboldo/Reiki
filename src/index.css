@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
-}
-
 /* Leaflet map custom styles */
 .leaflet-container {
-  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
 }
 
 .custom-popup .leaflet-popup-content-wrapper {
